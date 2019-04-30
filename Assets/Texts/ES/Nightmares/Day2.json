@@ -1,0 +1,185 @@
+{
+	"intro":{
+		"root": {
+			"type": "dialog",
+			"next": "fade",
+			"fragments": [{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Bueno... ¿ya lo hemos solucionado no?"
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "¿Sabes dónde sentarte?"
+			},
+			{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Quizá deberías evitar, golpeando, que los chicles caigan en la silla o tendrás que sentarte en un chicle."
+			}]
+		},
+		"fade": {
+			"type": "event",
+			"event": {
+				"name": "little move",
+				"key": "shadow"
+			}
+		}
+	},
+	"portal":{
+		"root":{
+			"type": "dialog",
+			"fragments": [{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Tendrás que sentarte en un chicle."
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Jajajaja, adelante, siéntate."
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Venga ¿a qué esperas?"
+			},{
+				"tag": "Voz desde el portal",
+				"msn": "Ven, yo te ayudaré."
+			}, {
+				"tag": "Voz desde el portal",
+				"msn": "Atraviesa el portal."
+			}, {
+				"tag": "Voz desde el portal",
+				"msn": "Corre, antes de que despiertes."
+			}]
+		}
+	},
+	"cross": {
+		"root": {
+			"type": "options",
+			"questionId": "portalDay2",
+			"options": [{
+				"next": "node1",
+				"msn": "Pasar a través del portal"
+			}]
+		},
+		"node1": {
+			"type": "dialog",
+			"next": "variable",
+			"fragments": [{
+				"tag": "Tú",
+				"msn": "Pasaré."
+			}, {
+				"tag": "Tú",
+				"msn": "Da un poco de miedo."
+			}, {
+				"tag": "Tú",
+				"msn": "Pero es sólo un sueño."
+			}]
+		},
+		"variable": {
+			"type": "event",
+			"next": "repeatDay",
+			"event": {
+				"name": "change variable",
+				"var": "Day",
+				"value": 1,
+			}
+		},
+		"repeatDay": {
+			"type": "event",
+			"next": "changeHour",
+			"event": {
+				"name": "change variable",
+				"var": "Repeated",
+				"value": true,
+			}
+		},
+		"changeHour": {
+			"type": "event",
+			"next" : "loadMobile",
+			"event":{
+				"name": "change variable",
+				"var": "hour",
+				"value": "7:30",
+			}
+		},
+		"loadMobile": {
+			"type": "event",
+			"next": "nextScene",
+			"event": {
+				"name": "mobile message",
+				"other": "load"
+			}
+		},
+		"nextScene": {
+			"type": "event",
+			"event": {
+				"name": "change scene",
+				"var": "scene",
+				"value": 2
+			}
+		}
+	},
+	"finishNightmare":{
+		"root": {
+			"type": "dialog",
+			"next": "changeDay",
+			"fragments": [{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Tendrás que sentarte en un chicle."
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Jajajaja, adelante, siéntate"
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Venga ¿a qué esperas?"
+			}]
+		},
+		"changeDay": {
+			"type": "event",
+			"next": "noRepeatDay",
+			"event": {
+				"name": "change variable",
+				"var": "Day",
+				"value": 2,
+			}
+		},
+		"noRepeatDay": {
+			"type": "event",
+			"next": "changeHour",
+			"event": {
+				"name": "change variable",
+				"var": "Repeated",
+				"value": false,
+			}
+		},
+		"changeHour": {
+			"type": "event",
+			"next" : "saveMobile",
+			"event":{
+				"name": "change variable",
+				"var": "hour",
+				"value": "7:30",
+			}
+		},
+		"saveMobile": {
+			"type": "event",
+			"next": "nextScene",
+			"event": {
+				"name": "mobile message",
+				"other": "save"
+			}
+		},
+		"nextScene": {
+			"type": "event",
+			"event": {
+				"name": "change scene",
+				"var": "scene",
+				"value": 2
+			}
+		}
+	}
+}

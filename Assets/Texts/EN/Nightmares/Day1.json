@@ -1,0 +1,103 @@
+{
+	"intro":{
+		"root": {
+			"type": "dialog",
+			"next": "fade",
+			"fragments": [{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Tu primer día de clase ¿Por qué no te sientas?"
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Escoge el sitio que más te guste"
+			}]
+		},
+		"fade": {
+			"type": "event",
+			"event": {
+				"name": "little move",
+				"key": "shadow"
+			}
+		}
+	},
+	"finishNightmare":{
+		"root": {
+			"type": "dialog",
+			"next": "variable",
+			"fragments": [{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Me parece que te has quedado sin sitio"
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "¿Ni siquiera sabes sentarte?"
+			}, {
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "¿Acaso no sirves para nada?"
+			},
+			{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "¿Cómo esperas hacer así amigos?"
+			}]
+		},
+		"variable": {
+			"type": "event",
+			"next": "changeHour",
+			"event": {
+				"name": "change variable",
+				"var": "Day",
+				"value": 1,
+			}
+		},
+		"changeHour": {
+			"type": "event",
+			"next" : "saveMobile",
+			"event":{
+				"name": "change variable",
+				"var": "hour",
+				"value": "7:30",
+			}
+		},
+		"saveMobile": {
+			"type": "event",
+			"next": "nextScene",
+			"event": {
+				"name": "mobile message",
+				"other": "save"
+			}
+		},
+		"nextScene": {
+			"type": "event",
+			"event": {
+				"name": "change scene",
+				"var": "scene",
+				"value": 2
+			}
+		}
+	},
+	"sit" : {
+		"root": {
+			"type": "dialog",
+			"fragments": [{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Veo que has encontrado un sitio, pero... "
+			},
+			{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Ese sitio es mio, tendrás que escoger otro"
+			},
+			{
+				"tag": "Sombra",
+				"character": "Shadow",
+				"msn": "Puedes sentarte donde quieras menos ahí"
+			}]
+		}
+	}
+
+}

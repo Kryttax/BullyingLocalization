@@ -1,0 +1,307 @@
+{
+	"alison":{
+		"root": {
+			"type": "fork",
+			"options": [{
+				"next": "alisonBoard",
+				"condition": "varObject('global', 'AlisonFSNonStatic') > 60"
+			},
+			{
+				"next": "ignore",
+				"condition": "true"
+			}]
+		},	
+		"ignore": {
+			"type": "dialog",
+			"fragments": [{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "..."
+			},
+			{
+				"tag": "Tú",
+				"msn": "También me está ignorando... ¿Qué les he hecho?"
+			}]
+		}, 
+		"alisonBoard": {
+			"type": "event",
+			"next": "node0",
+			"event": {
+				"name": "change variable",
+				"var": "AlisonBoard",
+				"value": true,
+			}
+		},
+		"node0": {
+			"type": "fork",
+			"options": [{
+				"next": "nodeRepeat",
+				"condition": "spoken == true"
+			},
+			{
+				"next": "node1",
+				"condition": "true"
+			}]
+		},
+		"nodeRepeat": {
+			"type": "dialog",
+			"fragments": [{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "Ignora lo del tablón."
+			}]
+		}, 
+		"node1": {
+			"type": "dialog",
+			"next": "options",
+			"fragments": [{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "Estaba mirando el tablón."
+			},
+			{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "Y... Será mejor que no lo mires, ignóralo hoy."
+			}]
+		},
+		"options": {
+			"type": "options",
+			"questionId": "AlisonNoticeBoard",
+			"options": [{
+				"next": "node1A",
+				"msn": "Ya lo he visto"
+			},
+			{
+				"next": "node1B",
+				"msn": "¿Por qué? ¿Qué hay?"
+			}]
+		},
+		"node1A": {
+			"type": "dialog",
+			"next": "setter",
+			"fragments": [{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "Lo siento, Álex está llegando demasiado lejos."
+			},
+			{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "Igual deberias hablar con el profesor o a la directora."
+			}]
+		},
+		"node1B": {
+			"type": "dialog",
+			"next": "setter",
+			"fragments": [{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "Alguien ha puesto una foto tuya en los tablones de todo el colegio."
+			},
+			{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "En el patio también estaba."
+			},
+			{
+				"tag": "Alison",
+				"character": "Alison",
+				"msn": "Creo que deberías hablar con algún profesor."
+			}]
+		},
+		"setter":{
+			"type": "setter",
+			"set": {
+				"var": "spoken",
+				"value": true
+			}
+		},
+	},
+	"board":{
+		"root": {
+			"type": "event",
+			"next": "forkNode",
+			"event": {
+				"name": "change variable",
+				"var": "BoardQuest",
+				"value": 1,
+			}
+		},
+		"forkNode": {
+			"type": "fork",
+			"options": [{
+				"next": "gum",
+				"condition": "varObject('global', 'GumQuestNonStatic') == 0"
+			},
+			{
+				"next": "washed",
+				"condition": "varObject('global', 'GumQuestNonStatic') == 1"
+			},
+			{
+				"next": "nogum",
+				"condition": "varObject('global', 'GumQuestNonStatic') == 2"
+			}]
+		},
+		"gum": {
+			"type": "event",
+			"next": "gumDialog",
+			"event": {
+				"name": "active object",
+				"time": 0,
+				"other": "photoGum"
+			}
+		},
+		"gumDialog": {
+			"type": "dialog",
+			"next": "deactive",
+			"fragments": [{
+				"tag": "Tú",
+				"msn": "Hay una foto de mí, y la han retocado para que parezca que cago chicles."
+			},
+			{
+				"tag": "Tú",
+				"msn": "¿Quién quiere ridiculizarme de esta manera?"
+			}]
+		},
+		"deactive": {
+			"type": "event",
+			"event": {
+				"name": "deactive object",
+				"time": 0
+			}
+		},
+		"washed": {
+			"type": "event",
+			"next": "washedDialog",
+			"event": {
+				"name": "active object",
+				"time": 0,
+				"other": "photoGumWhased"
+			}
+		},
+		"washedDialog": {
+			"type": "dialog",
+			"next": "deactive",
+			"fragments": [{
+				"tag": "Tú",
+				"msn": "Hay una foto mía de ayer después de haberme quitado el chicle."
+			},
+			{
+				"tag": "Tú",
+				"msn": "Con una frase muy original... \"Un bebé ha llegado a clase\" "
+			}]
+		},
+		"nogum": {
+			"type": "event",
+			"next": "nogumDialog",
+			"event": {
+				"name": "active object",
+				"time": 0,
+				"other": "photoDog"
+			}
+		},
+		"nogumDialog": {
+			"type": "dialog",
+			"next": "deactive",
+			"fragments": [{
+				"tag": "Tú",
+				"msn": "Es una foto de mi cara sobre el cuerpo de un perro y con la lengua fuera."
+			},
+			{
+				"tag": "Tú",
+				"msn": "¿Por qué? ¿Quién la ha puesto?"
+			}]
+		},
+	},
+	"maleBathroom": {
+		"root": {
+			"type": "fork",
+			"options": [{
+				"next": "male",
+				"condition": "varObject('global', 'MaleSexNonStatic') == true"
+			},
+			{
+				"next": "female",
+				"condition": "varObject('global', 'MaleSexNonStatic') == false"
+			}]
+		},
+		"male": {
+			"type": "event",
+			"event": {
+				"name": "move camera",
+				"key": "bathroom"
+			}
+		},
+		"female": {
+			"type": "dialog",
+			"fragments": [{
+				"tag": "Tú",
+				"msn": "No puedo entrar ahí, es el baño de chicos."
+			}]
+		}
+	},
+	"femaleBathroom": {
+		"root": {
+			"type": "fork",
+			"options": [{
+				"next": "male",
+				"condition": "varObject('global', 'MaleSexNonStatic') == true"
+			},
+			{
+				"next": "female",
+				"condition": "varObject('global', 'MaleSexNonStatic') == false"
+			}]
+		},
+		"female": {
+			"type": "event",
+			"event": {
+				"name": "move camera",
+				"key": "bathroom"
+			}
+		},
+		"male": {
+			"type": "dialog",
+			"fragments": [{
+				"tag": "Tú",
+				"msn": "No puedo entrar ahí, es el baño de chicas."
+			}]
+		}
+	},
+	"doorToStairs": {
+		"root": {
+			"type": "event",
+			"event": {
+				"name": "move camera",
+				"key": "stairs"
+			}
+		}
+	},
+	"classDoor": {
+		"root": {
+			"type": "fork",
+			"options": [{
+				"next": "speak",
+				"condition": "varObject('global', 'AlisonFSNonStatic') > 60 &&  varObject('state', 'AlisonBoard') == false"
+			},
+			{
+				"next": "move",
+				"condition": "true"
+			},]
+		},
+		"move": {
+			"type": "event",
+			"event": {
+				"name": "move camera",
+				"key": "classBack"
+			}
+		},
+		"speak": {
+			"type": "dialog",
+			"fragments": [{
+				"tag": "Tú",
+				"msn": "Debería hablar con Alison antes de entrar en clase, está rara."
+			}]
+		}
+	}
+}
