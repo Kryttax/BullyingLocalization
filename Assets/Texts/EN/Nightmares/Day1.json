@@ -6,11 +6,11 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Tu primer día de clase ¿Por qué no te sientas?"
+				"msn": "Your first day of school. Why don't you take a seat?"			
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Escoge el sitio que más te guste"
+				"msn": "Pick the spot you like the most"
 			}]
 		},
 		"fade": {
@@ -28,20 +28,20 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Me parece que te has quedado sin sitio"
+				"msn": "I think you missed your spot"
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "¿Ni siquiera sabes sentarte?"
+				"msn": "Don't you even know how to sit?"
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "¿Acaso no sirves para nada?"
+				"msn": "Are you even worth anything?"
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "¿Cómo esperas hacer así amigos?"
+				"msn": "How do you expect making friends being like this?"
 			}]
 		},
 		"variable": {
@@ -85,17 +85,17 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Veo que has encontrado un sitio, pero... "
+				"msn": "I can see you've found a seat, but... "
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Ese sitio es mio, tendrás que escoger otro"
+				"msn": "That seat is mine, you will have to take another one"
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Puedes sentarte donde quieras menos ahí"
+				"msn": "You can sit wherever you like but in that one"
 			}]
 		}
 	}

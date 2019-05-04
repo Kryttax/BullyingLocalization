@@ -119,11 +119,11 @@
 			"type": "options",
 			"options": [{
 				"next": "who",
-				"msn": "¿Quién eres?"
+				"msn": "Who are you?"
 			},
 			{
 				"next": "stop",
-				"msn": "Deja de decir estupideces y desaparece."
+				"msn": "Cut the crap and go away."
 			}]
 		},
 		"who": {
@@ -131,7 +131,7 @@
 			"next": "end",
 			"fragments": [{
 				"tag": "Voz desde el portal",
-				"msn": "Me temo que eso no puedo decirtelo."
+				"msn": "I'm afraid a can't tell you that."
 			},
 			{
 				"tag": "Voz desde el portal",

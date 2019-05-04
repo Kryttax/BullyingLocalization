@@ -6,21 +6,24 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "¿No te gustan las nuevas fotos que hemos publicado?"
+				
+				"msn": "Don't you love the new photos we just published?"
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Puedes intentar borrarlas..."
+				"msn": "You can try deleting them..."
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Vas a tener que hacer algo más a parte de borrarlas o denuncialas."
+				
+				"msn": "You're gonna have to do more than just deleting or reporting them."
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Venga, prueba a ver... pero todos tenemos una copia ya."
+				
+				"msn": "Go on, try... all of us have a copy already."
 			}]
 		},
 		"fade": {
@@ -37,28 +40,28 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "No has conseguido nada."
+				"msn": "You didn't accomplish anything."
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Jajaja"
+				"msn": "Hahaha"
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Las fotos siguen ahí."
+				"msn": "Photos' still there."
 			},{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Una vez en Internet cualquiera podemos hacer una copia."
+				"msn": "Once online everyone can make a copy."
 			},{
 				"tag": "",
 				"msn": "..."
 			}, {
 				"tag": "Voz desde el portal",
-				"msn": "No es tú culpa, ven, pasa por el portal del nuevo."
+				"msn": "It's not your fault. Come, go trough the portal again."
 			}, {
 				"tag": "Voz desde el portal",
-				"msn": "Intenta cambiar las cosas."
+				"msn": "Try changing things."
 			}]
 		}
 	},
@@ -68,11 +71,11 @@
 			"questionId": "portalDay4",
 			"options": [{
 				"next": "node1",
-				"msn": "Cruzar el portal."
+				"msn": "Go trough the portal."
 			},
 			{
 				"next": "node2",
-				"msn": "No, esta vez no."
+				"msn": "No, not this time."
 			}]
 		},
 		"node1": {
@@ -80,11 +83,12 @@
 			"next": "variable",
 			"fragments": [{
 				"tag": "Tú",
-				"msn": "No sé si esto está bien, no quiero repetir más días malos."
+				
+				"msn": "I don't know if this is alright, I don't wanna repeat any more bad days."
 			},
 			{
 				"tag": "Tú",
-				"msn": "Me fiaré de la voz extraña... sí... voy a cruzar."
+				"msn": "I'm gonna trust the weird voice... yes... I'll go trough."
 			}]
 		},
 		"node2":{
@@ -92,20 +96,22 @@
 			"next": "variable2",
 			"fragments": [{
 				"tag": "Tú",
-				"msn": "No voy a cruzar si no me dices qúién eres."
+				"msn": "I'm not gonna go across if you don't tell me who you are."
 			}, {
 				"tag": "Voz desde el portal",
-				"msn": "No puedo, tienes que confiar en mí, te estoy dando la oportunidad de cambiar las cosas."
+				
+				"msn": "I can't, you have to trust me, I'm giving you the chance of changing things."
 			}, {
 				"tag": "Tú",
-				"msn": "¿Cambiar qué?"
+				"msn": "Changing what?"
 			}, {
 				"tag": "Voz desde el portal",
-				"msn": "Noooo!, se acaba el tiempo, estás  apunto de despertar..."
+				
+				"msn": "No! Time's running out, you're about to wake up..."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Ya es tarde... te deseo suerte."
+				"msn": "It's too late now... I wish you good luck."
 			}]
 		},
 		"variable": {
@@ -194,19 +200,20 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "No has conseguido nada."
+				
+				"msn": "You didn't accomplish anything."
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Jajaja"
+				"msn": "Hahaha"
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Las fotos siguen ahí."
+				"msn": "Photos' still there."
 			},{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Una vez en Internet, cualquiera podemos hacer una copia."
+				"msn": "Once online everyone can make a copy."
 			}]
 		},
 		"variable": {

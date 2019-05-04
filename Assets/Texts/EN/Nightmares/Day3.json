@@ -10,12 +10,12 @@
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Puedes decir lo que quieras, pero no conseguirás nada."
+				"msn": "You can do whatever you want, but you won't accomplish anything."
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Adelante, habla con la gente de clase, a ver si consigues que te hablen."
+				"msn": "Go on, talk to people in class, let's see if you get them to talk to you."
 			}]
 		},
 		"fade": {
@@ -41,20 +41,21 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Me parece que te has quedado solo."
+				"msn": "I think you are alone."
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "¿Qué tal sienta que todos te ignoren?"
+				"msn": "How does it feel to be ignored by everyone?"
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "¿No te parece divertido que nadie te haga caso?"
+				
+				"msn": "Isn't it funny that no one pays attention to you?"
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Porque yo me estoy partiendo de solo verte."
+				"msn": "Because I'm laughing my ass off by just looking at you."
 			}]
 		},
 		"variable": {
@@ -116,15 +117,15 @@
 			"questionId": "nightmare3Jose",
 			"options": [{
 				"next": "fade",
-				"msn": "¿Vas a ignorarme sin motivo? ¿Sólo porque te han dicho que lo hagas?"
+				"msn": "Are you gonna ignore me without reason? Just because you were told to do so?"
 			},
 			{
 				"next": "fade",
-				"msn": "Podemos ser amigos."
+				"msn": "We can be friends."
 			},
 			{
 				"next": "fade",
-				"msn": "¿Tienes 3 años? Dime algo."
+				"msn": "How old are you? Three? Talk to me."
 			}]
 		},
 		"fade": {
@@ -159,15 +160,15 @@
 			"questionId": "nightmare3Guille",
 			"options": [{
 				"next": "fade",
-				"msn": "Tú eres mi amigo, ¿no?"
+				"msn": "You are my friend, right?"
 			},
 			{
 				"next": "fade",
-				"msn": "Guille, tú no eres como los demás."
+				"msn": "Guille, you are not like the others."
 			},
 			{
 				"next": "fade",
-				"msn": "No dejes que te amenacen."
+				"msn": "Don't let them threaten you."
 			}]
 		},
 		"fade": {
@@ -202,15 +203,15 @@
 			"questionId": "nightmare3Alison",
 			"options": [{
 				"next": "fade",
-				"msn": "Eres mi amiga, ¿no?"
+				"msn": "You are my friend, right?"
 			},
 			{
 				"next": "fade",
-				"msn": "Eres maja, no me vas a dejar de hablar ¿verdad?."
+				"msn": "You seem nice, you won't start ignoring me, right?"
 			},
 			{
 				"next": "fade",
-				"msn": "Por favor, dime algo."
+				"msn": "Please, talk to me."
 			}]
 		},
 		"fade": {
@@ -245,15 +246,15 @@
 			"questionId": "nightmare3Maria",
 			"options": [{
 				"next": "fade",
-				"msn": "¿Tú también me vas a ignorar?"
+				"msn": "Are you gonna ignore me too?"
 			},
 			{
 				"next": "fade",
-				"msn": "¿No te habían hecho lo mismo? No me ignores, sabes lo que es."
+				"msn": "Didn't they do the same to you? Don't ignore me, you know how it feels like."
 			},
 			{
 				"next": "fade",
-				"msn": "Tú me entiendes, ¿verdad?."
+				"msn": "You get me, right?"
 			}]
 		},
 		"fade": {
@@ -288,15 +289,15 @@
 			"questionId": "nightmare3Ana",
 			"options": [{
 				"next": "fade",
-				"msn": "¿Qué te he hecho? ¿Por qué vas a por mi también?"
+				"msn": "What have I done to you? Why are you coming after me too?"
 			},
 			{
 				"next": "fade",
-				"msn": "¿Si Álex se tira de un puente también lo harás tú?."
+				"msn": "What if Alex jumps off a bridge? Would you do the same?"
 			},
 			{
 				"next": "fade",
-				"msn": "¿No podemos llevarnos bien?"
+				"msn": "Can't we just get along?"
 			}]
 		},
 		"fade": {
