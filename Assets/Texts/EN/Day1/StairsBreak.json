@@ -3,8 +3,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Nota",
-				"msn": "Despacho del Director."
+				"tag": "Note",
+				"msn": "Principal's office."
 			}]
 		}
 	},
@@ -12,8 +12,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Parece que no hay nadie dentro."
+				"tag": "You",
+				"msn": "Looks like nobody's there..."
 			}]
 		}
 	},

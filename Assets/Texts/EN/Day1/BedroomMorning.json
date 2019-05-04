@@ -4,7 +4,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I hate my bed"
+				"msn": "Now that i am already up i should not lay down again."
 			}]
 		}		
 	},
@@ -12,8 +12,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No hay nada útil dentro."
+				"tag": "You",
+				"msn": "There is nothing usefull."
 			}]
 		}		
 	},
@@ -21,8 +21,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "En algún momento tendré que ordenar todo esto, pero ahora tengo que irme a clase."
+				"tag": "You",
+				"msn": "I have to organize all this eventually, but now i have to go to school."
 			}]
 		}		
 	},
@@ -31,16 +31,16 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Creo que tengo todo preparado..."
+				"tag": "You",
+				"msn": "I think i got everything prepared..."
 			}]
 		},
 		"node1": {
 			"type": "dialog",
 			"next": "node2",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Sí, lo llevo todo, será mejor que coja la mochila y me marche ya."
+				"tag": "You",
+				"msn": "Aye, i got everything, better take the backpack and leave now."
 			}]
 		},
 		"node2": {
@@ -57,16 +57,16 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Si lo enciendo ahora seguro que se me hace tarde."
+				"tag": "You",
+				"msn": "If i turn it on now, i will be late for sure."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Será mejor que me espere a por la tarde."
+				"tag": "You",
+				"msn": "Better to wait for the afternoon."
 			},
 			{
 				"tag": "PC",
-				"msn": "¿Quieres encender el ordenador?"
+				"msn": "Do you want to turn on the computer?"
 			}]
 		},		
 		"node1": {
@@ -74,7 +74,7 @@
 			"questionId": "turnOnPC",
 			"options": [{
 				"next": "node1a",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
@@ -107,8 +107,8 @@
 		"node1b": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Lo mejor será que me vaya."
+				"tag": "You",
+				"msn": "I'd better leave now"
 			}]
 		}		
 	},
@@ -117,8 +117,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Dejo el móvil cargando?"
+				"tag": "You",
+				"msn": "Do i leave the mobile charging?"
 			}]
 		},		
 		"node1": {

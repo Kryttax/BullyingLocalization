@@ -18,38 +18,38 @@
 			"type": "dialog",
 			"next": "node2",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $> ¿verdad?"
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $> right?"
 			},{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Llegar tarde tu primer día, no es una buena manera de empezar."
+				"msn": "Getting late on your first day, not the best way to start."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Clase, este es <$ if(varObject('global', 'MaleSexNonStatic')==true, 'vuestro nuevo compañero', 'vuestra nueva compañera') $>, por favor, ayudadle en sus primeros días."
+				"msn": "Class, this is <$ if(varObject('global', 'MaleSexNonStatic')==true, 'your new classmate', 'your new classmate') $>, please, help <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> during the first days."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $>, yo soy vuestro tutor, cualquier cosa que necesites dímelo."
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $>, i am your tutor, anything you need just let me know."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Por favor, <$ varObject('global', 'UserNameNonStatic') $> siéntate al lado de Alison."
+				"msn": "Please, <$ varObject('global', 'UserNameNonStatic') $> sit next to Alison."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Alison, haz el favor de resolver todas las dudas que tenga <$ varObject('global', 'UserNameNonStatic') $> sobre el colegio."
+				"msn": "Alison, do me a favour and solve any doubts <$ varObject('global', 'UserNameNonStatic') $> might have about school."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Continuemos con la clase."
+				"msn": "Let's continue the class."
 			}]
 		},
 		"node2": {
@@ -59,7 +59,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Te diriges entre todas las miradas a tu sitio y te sientas."
+				"value": "You go and sit in your place while everyone is looking at you."
 			}
 		},
 		"node3": {
@@ -77,7 +77,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Me parece que te has equivocado de clase."
+				"msn": "I think you got into the wrong classroom."
 			}]
 		},
 		"quest": {
@@ -94,11 +94,11 @@
 			"questionId": "meetAna",
 			"options": [{
 				"next": "node1a",
-				"msn": "No, es que hoy es mi primer día, soy <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "No, it's just my first day, i am <$ varObject('global', 'UserNameNonStatic') $>"
 			},
 			{
 				"next": "node1b",
-				"msn": "¿Y tú quién eres? ¿La marimacho de clase?"
+				"msn": "And who you are? The butch woman of the class?"
 			}]
 		},
 		"node1a": {
@@ -107,12 +107,12 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Oh, así que tú eres <$ if(varObject('global', 'MaleSexNonStatic')==true, 'el nuevo', 'la nueva') $>."
+				"msn": "Oh, so you are <$ if(varObject('global', 'MaleSexNonStatic')==true, 'the newcomer', 'the newcomer') $>."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Yo soy Ana, también estoy en esta clase."
+				"msn": "I am Ana, i'm in this class too."
 			}]
 		},
 		"node1b": {
@@ -121,7 +121,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Imbécil de mierda..."
+				"msn": "You're a twat..."
 			}]
 		},
 		"nodeFS":{
@@ -138,16 +138,16 @@
 			"next": "nodeTeacher",
 			"fragments": [{
 				"tag": "",
-				"msn": "(Ruidos de fondo, parece que tu nuevo profesor ha llegado)"
+				"msn": "(Knocks on the back, it seems like your new teacher has arrived)"
 			}]
 		},
 		"nodeTeacher": {
 			"type": "dialog",
 			"next": "nodeSit",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Vamos a empezar la clase, venga, pasad todos y sentaos."
+				"msn": "C'mon everyone, class is about to start, come in and sit."
 			}]
 		},
 		"nodeSit": {
@@ -155,11 +155,11 @@
 			"questionId": "sitFirstDay",
 			"options": [{
 				"next": "node3a",
-				"msn": "(Sentarse en última fila)"
+				"msn": "(Sit in the last row)"
 			},
 			{
 				"next": "node3b",
-				"msn": "(Preguntar dónde puedes sentarte)"
+				"msn": "(Ask where you can sit)"
 			}]
 		},
 		"node3a": {
@@ -169,7 +169,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Os sentáis todos y empieza la clase."
+				"value": "Everyone sits down and the class starts."
 			}
 		},
 		"node4": {
@@ -183,14 +183,14 @@
 			"type": "dialog",
 			"next": "node3a",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Siéntate al lado de Alison."
+				"msn": "Sit next to Alison.."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Alison, haz el favor de resolver todas las dudas que tenga <$ varObject('global', 'UserNameNonStatic') $> sobre el colegio."
+				"msn": "Alison, do me a favour and solve any doubts <$ varObject('global', 'UserNameNonStatic') $> might have about school."
 			}]
 		},
 	}

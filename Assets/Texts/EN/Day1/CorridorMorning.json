@@ -16,17 +16,17 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Veo que has encontrado la clase sin problemas."
+				"msn": "Looks like you were able to find the classroom."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "La chica pelirroja que está al lado de la puerta es María, también va a nuestra clase. Es bastante tímida pero buena gente."
+				"msn": "The redhair girl next to the door is María, she's in our class too. She's a bit shy but good guy."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Y al lado del tablón de anuncios está Guille, al que ya conoces."
+				"msn": "And next to the bulletin board is Guille, you already know him."
 			}]
 		},
 		"node2": {
@@ -34,7 +34,7 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Perdona,  tengo prisa, si no entro ya a clase voy a llegar tarde."
+				"msn": "Sorry,  i'm in a hurry, i'll be late if i don't get in."
 			}]
 		}			
 	},
@@ -47,8 +47,8 @@
 				"msn": "..."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Parece incómoda, mejor dejarla en paz por ahora."
+				"tag": "You",
+				"msn": "She seems uncomfortable, better leave her in peace for now."
 			}]
 		}		
 	},
@@ -69,7 +69,7 @@
 			"fragments": [{
 				"tag": "Guillermo",
 				"character": "Guille",
-				"msn": "Acuérdate de mirar los corchos, a veces se encuentran cosas interesantes."
+				"msn": "Remember to look at the boards, sometimes intresting things can be found."
 			}]
 		},		
 		"node2": {
@@ -78,22 +78,22 @@
 			"fragments": [{
 				"tag": "Guillermo",
 				"character": "Guille",
-				"msn": "Buenas, estaba leyendo los anuncios del corcho."
+				"msn": "Hi, i was reading the bulletin board."
 			},
 			{
 				"tag": "Guillermo",
 				"character": "Guille",
-				"msn": "A veces hay cosas interesantes, y últimamente alguien va dejando cromos, mensajes y adivinanzas."
+				"msn": "There're intresting stuff sometimes, and someone is leaving messages, stickers and riddles lately."
 			},
 			{
 				"tag": "Guillermo",
 				"character": "Guille",
-				"msn": "Acostúmbrate a mirarlo una vez al día."
+				"msn": "Have a look at it at least once a day, get used to it."
 			},
 			{
 				"tag": "Guillermo",
 				"character": "Guille",
-				"msn": "¿Entramos a clase?"
+				"msn": "Shall we get in?"
 			}]
 		},	
 		"quest": {
@@ -135,8 +135,8 @@
 		"female": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicos."
+				"tag": "You",
+				"msn": "I cannot go there, it's the boys' toilet."
 			}]
 		}
 	},
@@ -162,8 +162,8 @@
 		"male": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicas."
+				"tag": "You",
+				"msn": "I cannot go there, it's the girls' toilet.."
 			}]
 		}
 	},

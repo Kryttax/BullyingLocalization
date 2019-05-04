@@ -4,23 +4,23 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "La semana pasada, si recordáis, terminamos de ver como hacer el análisis morfológico de una frase."
+				"msn": "Last week, if you recall, we were learning how to do a morphologic analysis of a sentence."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Ahora toca ver como hacer el análisis sintáctico."
+				"msn": "Now it's syntax analysis time."
 			},
 			{
-				"tag": "Ruidos en la puerta",
-				"msn": "(Alguien está llamando a la puerta)"
+				"tag": "Knocks on the door",
+				"msn": "(Someone is knocking at the door)"
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Pasa"
+				"msn": "Come in"
 			}]
 		},
 		"node1": {
@@ -35,19 +35,19 @@
 			"type": "dialog",
 			"next": "friendship",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Alejandro, llegas tarde, por favor siéntate."
+				"msn": "Alejandro, you're late, please have a sit."
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'El nuevo', 'La nueva') $> está en mi sitio."
+				"msn": "The newcomer is in my spot."
 			},
 			{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Su nombre es <$ varObject('global', 'UserNameNonStatic') $>. Siéntate por ahora en otro lugar, he pedido a Alison que le ayude en sus primeros días."
+				"msn": "The name is <$ varObject('global', 'UserNameNonStatic') $>. Sit in another desk for now, i've asked Alison to help <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> during the first days."
 			}]
 		},
 		"friendship": {
@@ -66,7 +66,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Suena la campana, es la hora del recreo. Tu oportunidad para hacer amigos."
+				"value": "The bell rings, it is break time. Your opportunity of making friends."
 			}
 		},
 		"changeHour": {

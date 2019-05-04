@@ -16,7 +16,7 @@
 			"fragments": [{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "¿Qué miras? largo, ya hemos hablado todo lo que teniamos que hablar."
+				"msn": "What at you looking at? go away, we've talked everything we needed to talk."
 			}]
 		},
 		"setter":{
@@ -33,17 +33,17 @@
 			"fragments": [{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Eh, <$ if(varObject('global', 'MaleSexNonStatic')==true, 'nuevo', 'nueva')$>, hablemos un momento!!"
+				"msn": "Hey, newcomer, let's talk for a sec!!"
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Hoy estabas <$ if(varObject('global', 'MaleSexNonStatic')==true, 'sentado', 'sentada') $> en mi sitio, no quiero que te vuelvas a sentar ahí."
+				"msn": "Today you were sat in my spot, i don't want you to sit there again."
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "A partir de mañana siéntate en la otra mesa del final que está vacía."
+				"msn": "From tomorrow you will sit in the other empty desk at the back."
 			}]
 		},
 		"node1": {
@@ -51,15 +51,15 @@
 			"questionId": "AlexFirstDayThreat",
 			"options": [{
 				"next": "quest2a",
-				"msn": "Vale, perdona, no volverá a pasar."
+				"msn": "Sure, sorry, it won't happen again."
 			},
 			{
 				"next": "quest2b",
-				"msn": "Es sólo un sitio."
+				"msn": "It's just a spot."
 			},
 			{
 				"next": "quest2c",
-				"msn": "¿Y quién se supone que eres para decirme dónde no puedo sentarme?"
+				"msn": "And who is supposed to tell me where i can not sit?"
 			}]
 		},
 		"quest2a": {
@@ -77,21 +77,21 @@
 			"fragments": [{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Así me gusta, obediente."
+				"msn": "That's right, obedient."
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Y ya que estamos, para compensar, dame ese bocadillo que llevas, que tengo hambre."
+				"msn": "And by the way, in compensation, gimme that sandwich, i'm hungry."
 			},
 			{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "(Le das el bocadillo)"
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Venga, fuera de mi vista."
+				"msn": "C'mon, get out of my sight."
 			}]
 		},
 		"quest2b": {
@@ -109,27 +109,27 @@
 			"fragments": [{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Así es, es sólo un sitio, como todos los demás, pero es mi sitio."
+				"msn": "That's it, it's just a spot, as everyone else, but it's my spot."
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Así que búscate otro."
+				"msn": "So look for another one."
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "(Con tono amenazador) Sino tendré que ayudarte yo a buscarlo."
+				"msn": "(In a threatening tone) Or i'll have to help you find it."
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Y el último al que le ayudé a elegir otro sitio lo que encontró fue un moratón en su cara."
+				"msn": "And the last one i helped finding a free spot...well, he found a bruise in his face."
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Y ahora lárgate."
+				"msn": "Now get away."
 			}]
 		},
 		"nodeFS10":{
@@ -156,20 +156,20 @@
 			"fragments": [{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "¿Vas de <$ if(varObject('global', 'MaleSexNonStatic')==true, 'listo', 'lista') $>?"
+				"msn": "You are a smartass, aren't you?"
 			},
 			{
 				"tag": "",
-				"msn": "(Recibes un empujón)"
+				"msn": "(You are pushed)"
 			},
 			{
 				"tag": "Alejandro",
 				"character": "Alex",
-				"msn": "Que así sea, <$ if(varObject('global', 'MaleSexNonStatic')==true, 'capullo', 'estúpida') $>"
+				"msn": "So be it, prat."
 			},
 			{
 				"tag": "",
-				"msn": "(Alejandro se va)"
+				"msn": "(Alejandro leaves)"
 			}]
 		},
 		"nodeFS20":{
@@ -218,27 +218,27 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Veo que has encontrado el pendiente."
+				"msn": "I see you found the earing."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Muchas gracias."
+				"msn": "Thank you very much."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Eres genial, te debo una."
+				"msn": "You are great, i owe you one."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "El recreo se va a acabar ya, deberíamos ir entrando a clase."
+				"msn": "The recess is about to end, we should be walking into class."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Nos vemos dentro."
+				"msn": "See you inside."
 			}]
 		},
 		"quest": {
@@ -271,12 +271,12 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "¿Aún no has encontrado nada?"
+				"msn": "Haven't you found anything yet?"
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Sigue buscando por favor."
+				"msn": "Please, keep searching."
 			}]
 		},
 		"first": {
@@ -285,17 +285,17 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Dónde lo habré perdido..."
+				"msn": "Where did i lose it..."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Perdona <$ varObject('global', 'UserNameNonStatic') $>, no te había visto."
+				"msn": "Sorry <$ varObject('global', 'UserNameNonStatic') $>, i did not see you."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Estoy buscando un pendiente, no sé dónde lo he podido perder."
+				"msn": "I'm looking for a earing, i don't know where i could lose it."
 			}]
 		},
 		"earing": {
@@ -314,15 +314,15 @@
 			"questionId": "AlisonEaringAsk",
 			"options": [{
 				"next": "node2a",
-				"msn": "¿Has mirado en el pasillo?"
+				"msn": "Have you looked in the corridor?"
 			},
 			{
 				"next": "node2a",
-				"msn": "¿Has buscado en el patio?"
+				"msn": "¿Have you looked in the playground?"
 			},
 			{
 				"next": "node2b",
-				"msn": "Quizá lo hayas dejado en casa..."
+				"msn": "Perhaps you left it at home..."
 			}]
 		},
 		"node2a": {
@@ -331,17 +331,17 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "No he mirado aún."
+				"msn": "I haven't looked yet."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "¿Puedes ir tú? Mientras termino de buscar en clase..."
+				"msn": "Can you go there? While i finish searching in the classroom..."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Me harías un gran favor."
+				"msn": "You would do me a big favour."
 			}]
 		},
 		"node2b": {
@@ -350,21 +350,21 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "No puede ser, esta mañana los llevaba."
+				"msn": "It can´t be, i was wearing them this morning."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "So- so- son nuevos, un re... regalo."
+				"msn": "Th- th- they are new, a gi... gift."
 			},
 			{
 				"tag": "",
-				"msn": "(Notas que está muy preocupada y a punto de llorar)"
+				"msn": "(You noticed she is very worried and about to start crying)"
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Por favor, *snif* , *snif* ¿puedes ayudarme a encontrarlos?"
+				"msn": "Please, *sniff* , *sniff* can you help me find them?"
 			}]
 		},
 		"node3": {
@@ -372,11 +372,11 @@
 			"questionId": "AlisonEaringQuest",
 			"options": [{
 				"next": "node4",
-				"msn": "De acuerdo, echaré un vistazo."
+				"msn": "Alright, i'll take a look."
 			},
 			{
 				"next": "node4",
-				"msn": "Si (Iré a disfrutar del recreo y luego le digo que no he encontrado nada)."
+				"msn": "Yes (I will enjoy the break and tell her i have not found anything)."
 			}]
 		},
 		"node4": {
@@ -384,16 +384,16 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Muchas gracias."
+				"msn": "Thank you very much."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Además toma mi número, así podemos escribirnos."
+				"msn": "Also here is my phone number, so we can text each other."
 			},
 			{
 				"tag": "",
-				"msn": "(También le das tu número)"
+				"msn": "(You also give her your number)"
 			}]
 		}
 	},
@@ -412,12 +412,12 @@
 		"alison": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Alison parece preocupada."
+				"tag": "You",
+				"msn": "Alison seems worried."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Debería hablar con ella para ver que pasa."
+				"tag": "You",
+				"msn": "I should talk to her to see what happens."
 			}]
 		},
 		"corridor": {

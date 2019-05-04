@@ -16,7 +16,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Parece que has encontrado el pendiente de Alison."
+				"msn": "Looks like you've found Alison's earing."
 			}]
 		},
 		"node1": {
@@ -24,12 +24,12 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Hay algo raro cerca de la canasta."
+				"msn": "There's something strange near the basket."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Veo algo brillar desde aquí."
+				"msn": "I see something shiny from here."
 			}]
 		}
 	},
@@ -39,12 +39,12 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Nuestro tutor es bastante majo."
+				"msn": "Our tutor is pretty nice."
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Si tienes cualquier problema habla con él."
+				"msn": "If you have any trouble just talk to him."
 			}]
 		}
 	},
@@ -53,12 +53,12 @@
 			"type": "dialog",
 			"next": "take",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Parece que es el pendiente de Alison."
+				"tag": "You",
+				"msn": "Looks like Alison's earing."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Será mejor que me lo lleve."
+				"tag": "You",
+				"msn": "I'll better take it to her."
 			}]
 		},
 		"take": {
@@ -93,8 +93,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Es la hora del recreo, aún me quedan clases antes de poder irme."
+				"tag": "You",
+				"msn": "It is break time, there are still some classes before i can go home."
 			}]
 		}
 	}
