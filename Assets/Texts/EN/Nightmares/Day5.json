@@ -20,35 +20,43 @@
 			"next": "opt",
 			"fragments": [{
 				"tag": "Voz desde el portal",
-				"msn": "Al final todo ha acabado igual, no se puede decir que no lo haya intentado."
+				
+				"msn": "In the end, everything has ended the same, can't say I haven't tried."
 			}, 
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Supongo que ya es tarde, has desaprovechado la oportunidad que te he dado."
+				
+				"msn": "I suppose it's too late now, you have wasted the opportunity I've given you."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Álex y Ana seguirán haciendo la vida imposible a otros compañeros. Tú no has sido su primera víctima, ni la última."
+				
+				"msn": "Álex and Ana will continue to make life impossible to the other classmates. You haven't been their first victim, nor the last."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Tan difícil es pedir ayuda cuando uno la necesita. Olvidarse de nuestro ego. Uno no siempre tiene la culpa de lo que le pasa ni se lo merece."
+				
+				"msn": "Is it too hard asking for help when one needs it? Forget our ego. One is not to blame for what happens to him nor deserves it."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "¿Por qué ese miedo a compartir lo que te sucede, lo que uno siente?"
+				
+				"msn": "Why that fear of sharing what is going on with yourself? What one feels?"
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "¿Por qué dejamos que las personas sufran? ¿Por qué pensamos que es mejor permanecer callado, que el tiempo todo lo cura?"
+				
+				"msn": "Why do we let people suffer? Why do we think it's best to remain quiet, to let time heal everything?"
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Es fácil reírse de los demás, pero qué pasa cuando el afectado eres tú."
+				
+				"msn": "It's easy to laugh at others, but what happens when they laugh at you."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Por qué es mejor sufrir o ver a los demás pasarlo mal que pedir ayuda, ¿acaso pedir ayuda es chivarse? ¿Es chivarse evitar que alguién lo pase mal?."
+				
+				"msn": "Why is it best to suffer or see other suffer than ask for help? Is it asking for help sneak up? Is sneaking up avoiding someone to have a rough time?"
 			}]
 		},
 		"final2": {
@@ -56,31 +64,38 @@
 			"next": "opt",
 			"fragments": [{
 				"tag": "Voz desde el portal",
-				"msn": "Parece que al final no he conseguido mi propósito, pero al menos han mejorado un poco las cosas."
+				
+				"msn": "It appears I haven't made my purpose at the end, but at least I improved things a little."
 			}, 
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Álex ahora estará vigilado y al menos os dejará a todos un poco más en paz."
+				
+				"msn": "Álex will be watched and will at least leave you all be at peace."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Hay que pedir ayuda cuando uno la necesita. Olvidarse de nuestro ego. Uno no siempre tiene la culpa de lo que le pasa o se lo merece."
+				
+				"msn": "You must ask for help when you need. Forget our ego.  One is not to blame for what happens to him nor deserves it."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "El tiempo no va a solucionar las cosas si sufres, no hay que dejarlo pasar."
+				
+				"msn": "Time is not gonna fix things if you suffer, you must not let it go."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Todos necesitamos ayuda alguna vez y espero que al menos ahora seas consciente de que al igual que hay personas que te ayudan otros necesitan que tú les ayudes a ellos"
+				
+				"msn": "We all need help once in a while and I hope now you are aware that as there are people who help you, others need you to help them."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Acaso es mejor sufrir o ver a los demás pasarlo mal que pedir ayuda, ¿acaso pedir ayuda es chivarse? ¿Es chivarse evitar que alguién lo pase mal?."
+				
+				"msn": "Maybe it's best to suffer or see other suffer than ask for help, Is it asking for help sneak up? Is sneaking up avoiding someone to have a rough time?"
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Espero que con lo que has vicido pierdas ese miedo a contar las cosas malas que te pasan a tí y a tus compañeros."
+				
+				"msn": "I hope that, having passed what you have gone through, you lose that fear of telling what bad thing happens to you and your classmates."
 			}]
 		},
 		"final3": {
@@ -88,15 +103,18 @@
 			"next": "opt",
 			"fragments": [{
 				"tag": "Voz desde el portal",
-				"msn": "Bien, hemos conseguido cambiar las cosas."
+				
+				"msn": "Good, we've managed to change things."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Aún no lo sabes, pero hemos conseguido que Álex deje en paz a sus compañeros y a ti."
+				
+				"msn": "You don't know yet, but we've managed Álex to stop bullying you and your classmates."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Si nadie le hubiera parado los pies tu no hubieras sido la última persona en sufrir su acoso."
+				
+				"msn": "If no one had stopped him, you wouldn't have been the last person to suffer his bullying."
 			},
 			{
 				"tag": "Voz desde el portal",
@@ -104,15 +122,18 @@
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Habrá gente que diga que te chivaste a tu profesor, a tus compañeros o a tus padres. Yo opino que has sido un héroe."
+				
+				"msn": "There will be people saying you sneak up to your professor, to your classmates or to your parents. I think you've been a hero."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Espero que nunca más te quedes callado si alguien necesita ayuda o sufre. Que le des tu apoyo en vez de seguir al matón de turno."
+				
+				"msn": "I hope you never keep quiet again if someone needs help or is suffering. That you show them your support instead of following the bully."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Es fácil no hacer nada, pero has pensado que tu puedes ser su siguiente víctima como ha pasado ahora."
+				
+				"msn": "It's easy to do nothing, but you've learned that you can be his next victim as it's happened now."
 			}]
 		},
 		"opt": {
@@ -135,15 +156,18 @@
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Piensa en mí como alguién que está conectado a ti por todo aquello que tenemos en común."
+				
+				"msn": "Think of me as someone who is conected to you by all the things we have in common."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Quizá una voz de la conciencia."
+				
+				"msn": "Maybe... a voice of conscience."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Pero poco importa quién sea. Lo importante es que lo que has vivido te haya hecho reflexionar y ser mejor persona."
+				
+				"msn": "But it doesn't matter who I am. What matters is that what you've lived made you think and be a better person."
 			}]
 		},
 		"stop": {
@@ -151,11 +175,13 @@
 			"next": "end",
 			"fragments": [{
 				"tag": "Voz desde el portal",
-				"msn": "Siento que mi presencia no te resulte cómoda."
+				
+				"msn": "I'm sorry my presence doesn't make you comfortable."
 			},
 			{
 				"tag": "Voz desde el portal",
-				"msn": "Y que quizá esto no haya servido para nada..."
+				
+				"msn": "And that maybe this was for nothing..."
 			}]
 		},
 		"end": {
