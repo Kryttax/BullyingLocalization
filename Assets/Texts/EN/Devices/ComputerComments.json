@@ -4,7 +4,8 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "Tú",
-				"msn": "No tengo nada que comentar por ahora, tengo mejores cosas que hacer"
+				
+				"msn": "I don't have anything to post right now, I have better things to do."
 			}]
 		}
 	},
@@ -14,7 +15,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "earing",
-				"value": "De nada Alison",
+				"value": "You're welcome, Allison",
 				"key": "Tú",
 				"other" : "empty",
 				"time": 0
@@ -27,22 +28,22 @@
 			"questionId": "insultPostOptions",
 			"options": [{
 				"next": "node1a",
-				"msn": "(Denunciar publicación)"
+				"msn": "(Report Post)"
 			},
 			{
 				"next": "node1b",
-				"msn": "Sois estúpidos"
+				"msn": "You are an asshole"
 			},
 			{
 				"next": "node1c",
-				"msn": "Voy a acabar hablando con nuestro tutor"
+				"msn": "I'm gonna end up having a word with your tutor"
 			}]
 		},
 		"node1a": {
 			"type": "dialog",
 			"fragments": [{
 				"tag": "Tú",
-				"msn": "Voy a denunciar en mensaje, a ver si lo eliminan por su contenido"
+				"msn": "I'm gonna report the message, see if they delete it because of its content."
 			}]
 		},
 		"node1b": {
@@ -51,7 +52,8 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "Sois etupidos, iros todos a tomar por culo. Pareceis niños de 3 años",
+				
+				"value": "You're all assholes, fuck off. You act like three year olds.",
 				"key": "Tú",
 				"other" : "empty",
 				"time": 0
@@ -62,7 +64,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "Seguro que quién se mea encima por las noches eres tú jaja",
+				"value": "I'm sure you are the one who pissed himself at night, hahaha",
 				"key": "Ana",
 				"other" : "empty",
 				"time": 1
@@ -73,7 +75,8 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "Estoy hasta las narices de todos. Mañana hablaré con el tutor",
+				
+				"value": "I'm sick of them. Tomorrow I'll speak to the tutor.",
 				"key": "Tú",
 				"other" : "empty",
 				"time": 0
@@ -84,7 +87,8 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "Mirad, también podemos ponerle quejica o <$ if(varObject('global', 'MaleSexNonStatic')==true, 'lloron', 'llorona') $>",
+				
+				"value": "Look, we can also post <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him crybaby', 'her crybaby') $>",
 				"key": "Ana",
 				"other" : "empty",
 				"time": 1
@@ -97,14 +101,14 @@
 			"questionId": "trollPostOptions",
 			"options": [{
 				"next": "node1a",
-				"msn": "(Borrar publicación)"
+				"msn": "(Delete Post)"
 			},
 			{
 				"next": "node1b",
-				"msn": "Alison... para esto querias intercambiar contraseñas"
+				"msn": "Alison... this is why you wanted to exchange passwords."
 			},
 			{
-				"msn": "(No decir nada)"
+				"msn": "(Remain silent)"
 			}]
 		},
 		"node1a": {
@@ -112,7 +116,7 @@
 			"next": "loadPub",
 			"fragments": [{
 				"tag": "Tú",
-				"msn": "Voy a borrar el post"
+				"msn": "I'm gonna delete the post"
 			}]
 		},
 		"loadPub": {
@@ -128,7 +132,8 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Alex",
-				"value": "He visto que has borrado tu publicacion con tu nº de telefono, pero no pasa nada, tengo pantallazo y puevo resubirlo jajaja",
+				
+				"value": "I've seen you have deleted your post with your phone numbre, but don't worry, I made and screenshot and I can upload it again hahaha",
 				"key": "Alex",
 				"other": "empty",
 				"time": 0
@@ -139,7 +144,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "troll",
-				"value": "Alison... para esto querias intercambiar contraseñas, eres de lo peor",
+				"value": "Alison... this is why you wanted to exchange passwords, you are the worst.",
 				"key": "Tú",
 				"other" : "empty",
 				"time": 0

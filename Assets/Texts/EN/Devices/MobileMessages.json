@@ -3,8 +3,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No tengo nada que contestar"
+				"tag": "You",
+				"msn": "I have nothing to answer"
 			}]
 		}
 	},
@@ -14,10 +14,10 @@
 			"questionId": "AlisonEaringMobileTy",
 			"options": [{
 				"next": "node1",
-				"msn": "No es nada"
+				"msn": "It's nothing"
 			},
 			{
-				"msn": "(No contestar, ya la veré luego)"
+				"msn": "(Don't answer, I'll see what I respond later)"
 			}]
 		},
 		"node1": {
@@ -25,7 +25,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Alison Clase",
-				"value": "No es nada",
+				"value": "It's nothing",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -38,14 +38,14 @@
 			"questionId": "AlisonFriendRequestMobile",
 			"options": [{
 				"next": "node1",
-				"msn": "Sí, ahora te acepto"
+				"msn": "Yes, I accept you now"
 			},
 			{
 				"next": "node2",
-				"msn": "Cuando pueda lo miro"
+				"msn": "I'll look into it when I can"
 			},
 			{
-				"msn": "(Es un poco pesada, paso de contestar nada)"
+				"msn": "(She's very boring, I won't answer)"
 			}]
 		},
 		"node1": {
@@ -53,7 +53,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Alison Clase",
-				"value": "Sí, ahora te acepto la invitación :)",
+				"value": "Yes, I accept your invitation now :)",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -64,7 +64,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Alison Clase",
-				"value": "Cuando pueda lo miro, ahora mismo estoy <$ if(varObject('global', 'MaleSexNonStatic')==true, 'ocupado', 'ocupada') $>",
+				"value": "I'll look into it when I can, I'm <$ if(varObject('global', 'MaleSexNonStatic')==true, 'busy', 'busy') $> right know",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -77,12 +77,12 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Gracias :)",
+				"value": "Thank you :)",
 				"key": "",
 				"other": "empty",
 				"time": 0 
 			}
-		},
+		}
 	},
 	"kickClass":{
 		"root": {
@@ -90,15 +90,15 @@
 			"questionId": "mobileKickMessages",
 			"options": [{
 				"next": "messageA",
-				"msn": "Me sienta mal que me tratéis así"
+				"msn": "You treat me awful, It makes me feel bad"
 			},
 			{
 				"next": "messageB",
-				"msn": "Madurad"
+				"msn": "Grow up"
 			},
 			{
 				"next": "messageC",
-				"msn": "¿Qué os he hecho?"
+				"msn": "What have I done to you?"
 			}]
 		},
 		"messageA": {
@@ -107,7 +107,8 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Acabo de llegar al colegio, y de verdad me sienta fatal que la mitad de la clase me trateís como a una mierda",
+				
+				"value": "I just get to school and It really feels like awful that you guys treat me like shit.",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -119,7 +120,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "No digo que os caiga bien a todos, pero lo mínimo es tratarme con respeto",
+				"value": "I'm not saying you all must like me, but all you could do is treat me with some respect.",
 				"key": "",
 				"time": 0.2
 			}
@@ -130,7 +131,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Madurad, teneís 2años o qué os pasa",
+				"value": "Grow up, how old are you?",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -142,7 +143,8 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "No lo entiendo, ¿Qué os he hecho para que me insulteís, gasteís bromas pesadas, me ignoreís y margineís?",
+				
+				"value": "I don't understand, What have I done to you to insult, ignore and make jokes about of me?",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -154,7 +156,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "¿Qué problema teneís con <$ varObject('global', 'UserNameNonStatic') $>?",
+				"value": "What's your problem with <$ varObject('global', 'UserNameNonStatic') $>?",
 				"key": "Alison",
 				"time": 2 
 			}
@@ -165,7 +167,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Os estais pasando",
+				"value": "You're crossing the line",
 				"key": "Guille",
 				"time": 4 
 			}
@@ -180,7 +182,7 @@
 				"other": "kickClass2",
 				"time": 8 
 			}
-		},
+		}
 	},
 	"kickClass2":{
 		"root": {
@@ -188,15 +190,15 @@
 			"questionId": "mobileKickOptions",
 			"options": [{
 				"next": "messageA",
-				"msn": "Ya me salgo yo del grupo"
+				"msn": "Don't worry, I'm leaving"
 			},
 			{
 				"next": "messageB",
-				"msn": "Espero que Jose tenga más cerebro"
+				"msn": "I hope Jose is more intelligent."
 			},
 			{
 				"next": "messageC",
-				"msn": "Alex, para"
+				"msn": "Alex, stop"
 			}]
 		},
 		"messageA": {
@@ -205,7 +207,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Si que esté en el grupo va a ser un problema me voy yo",
+				"value": "If me being in this group chat is a problem, I'm leaving",
 				"key": "",
 				"time": 0 
 			}
@@ -216,7 +218,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Espero que Jorge no sea tan estúpido como tú cuando lea el chat",
+				"value": "I hope Jorge is not as stupid as you are when he reads the chat",
 				"key": "",
 				"time": 0 
 			}
@@ -227,7 +229,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Para, no te he hecho nada como para que te portes así conmigo",
+				"value": "Stop, I haven't done anything to you that justifies the way you're treating me",
 				"key": "",
 				"time": 0 
 			}
@@ -237,7 +239,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Me voy a dormir, os veo mañana",
+				"value": "I'm going to bed, see you tomorrow",
 				"key": "",
 				"other": "empty",
 				"time": 1 
@@ -250,14 +252,14 @@
 			"questionId": "mobileTrollMariaChat",
 			"options": [{
 				"next": "nodeA",
-				"msn": "Yo no he escrito nada"
+				"msn": "I haven't written anything"
 			},
 			{
 				"next": "nodeB",
-				"msn": "Si, he sido yo"
+				"msn": "Yes, It was me"
 			},
 			{
-				"msn": "(No contestar)"
+				"msn": "(Don't answer)"
 			}]
 		},
 		"nodeB": {
@@ -267,7 +269,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Maria",
-				"value": "si, lo escribí yo, mañana nos vemos guapa",
+				"value": "Yes, I wrote it, see you tomorrow <3",
 				"key": "",
 				"other": "empty",
 				"time": 0
@@ -278,7 +280,7 @@
 			"event": {
 				"name": "change friendship",
 				"var": "MariaFS",
-				"value": -80,
+				"value": -80
 			}
 		},
 		"nodeA": {
@@ -287,7 +289,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Maria",
-				"value": "perdona María, no te he escrito yo, debieron escribirte cuando me quitaron el móvil",
+				"value": "Sorry María, I didn't write it, they might write you when they stole my phone",
 				"key": "",
 				"other": "empty",
 				"time": 0
@@ -299,7 +301,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Maria",
-				"value": "lo siento mucho, de verdad",
+				"value": "i'm so sorry, really",
 				"key": "",
 				"other": "empty",
 				"time": 0.2
@@ -310,7 +312,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Maria",
-				"value": "te creo, <$ if(varObject('global', 'MaleSexNonStatic')==true, 'tranquilo', 'tranquila') $>, descansa",
+				"value": "i believe u, relax, get some rest",
 				"key": "Maria",
 				"other": "empty",
 				"time": 4
@@ -323,15 +325,15 @@
 			"questionId": "mobileTrollClassChat",
 			"options": [{
 				"next": "nodeA",
-				"msn": "Yo no he escrito nada"
+				"msn": "I didn't write anything"
 			},
 			{
 				"next": "nodeB",
-				"msn": "Alex, Ana, que os den"
+				"msn": "Alex, Ana, fuck you"
 			},
 			{
 				"next": "nodeC",
-				"msn": "Como oís, me encanta"
+				"msn": "As you heard, I love it"
 			}]
 		},
 		"nodeA": {
@@ -340,7 +342,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "alguien ha usado mi móvil para escribir eso",
+				"value": "someone's used my phone to write this",
 				"key": "",
 				"other": "empty",
 				"time": 0
@@ -352,7 +354,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "ya tenemos fotos de lo que has dicho, vamos a compartirselas a todas las clases jajaja",
+				"value": "We have photos of what u said, we're gonna share them with all the other classrooms, hahaha",
 				"key": "Ana",
 				"time": 2
 			}
@@ -362,7 +364,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "jajaja ya es tarde para negar nada :P",
+				"value": "hahaha it's too late now to deny anything :P",
 				"key": "Alex",
 				"time": 4
 			}
@@ -373,7 +375,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Álex, Ana, que os den, sé que es cosa vuestra",
+				"value": "Álex, Ana, fuck you both, I know it's your thing",
 				"key": "",
 				"other": "empty",
 				"time": 0
@@ -385,7 +387,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "quiza lo sea, y q? ya tenemos fotos de la conversacion",
+				"value": "maybe it is, so? we already have photos of the conversation",
 				"key": "Ana",
 				"time": 2
 			}
@@ -395,7 +397,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "mañana sabra todo el mundo tus gustos jajaja",
+				"value": "tomorrow everyone will know about your personal tastes hahaha",
 				"key": "Alex",
 				"time": 2
 			}
@@ -406,7 +408,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Como oís, me encanta, algún problema? ENVIDIOSOS!!",
+				"value": "Yes, I love it, problem? Como oís, me encanta, algún problema? YOU ARE JEALOUS!!",
 				"key": "",
 				"other": "empty",
 				"time": 0
@@ -417,7 +419,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "mañana sabra todo el mundo tus gustos jajaja",
+				"value": "tomorrow everyone will know about your personal tastes hahaha",
 				"key": "Alex",
 				"time": 2
 			}
