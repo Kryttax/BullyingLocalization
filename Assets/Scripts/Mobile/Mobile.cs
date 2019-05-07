@@ -12,6 +12,8 @@ public class Mobile : MonoBehaviour {
 	public Text alarm;
 	public Text day;
 
+
+
 	public GameObject wakeUpPanel;
 	public BoxCollider2D selector;
 
@@ -89,7 +91,7 @@ public class Mobile : MonoBehaviour {
 	{
 		if(!stop && (GlobalState.Hour >= 8 || GlobalState.Day == 4))
 		{
-			wakeUpPanel.GetComponentInChildren<Text>().text = "Eres incapaz de volver a dormirte. Mejor que te levantes ya";
+			wakeUpPanel.GetComponentInChildren<Text>().text = days[7];
 			wakeUpPanel.SetActive(true);
 		} else
 		{
@@ -126,8 +128,9 @@ public class Mobile : MonoBehaviour {
 
 	public void updateHour()
 	{
+        alarm.text = days[6];
 		setHour(GlobalState.Hour, GlobalState.Minute);
-		this.day.text = days[GlobalState.Day] + ", " + days[days.Length - 1] + " " + (GlobalState.Day+1).ToString();
+		this.day.text = days[GlobalState.Day] + ", " + days[5] + " " + (GlobalState.Day+1).ToString();
 	}
 
 	private void OnValidate()
