@@ -4,8 +4,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿mmm, Debería irme ya a dormir?"
+				"tag": "You",
+				"msn": "¿Mmm, should i go to sleep?"
 			}]
 		},
 		"node1": {
@@ -13,7 +13,7 @@
 			"questionId": "goTosleep",
 			"options": [{
 				"next": "sleep",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"msn": "No"
@@ -33,8 +33,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No hay nada útil dentro."
+				"tag": "You",
+				"msn": "There's noting useful."
 			}]
 		}		
 	},
@@ -42,8 +42,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hoy tampoco me da tiempo a ordenar el armario."
+				"tag": "You",
+				"msn": "Today i don't have time to organize all this."
 			}]
 		}		
 	},
@@ -51,8 +51,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No necesito nada de la mochila.",
+				"tag": "You",
+				"msn": "I don't need anything from this.",
 			}]
 		}
 	},
@@ -62,7 +62,7 @@
 			"next": "node1",
 			"fragments": [{
 				"tag": "PC",
-				"msn": "¿Quieres encender el ordenador?"
+				"msn": "Do you want to turn on the computer?"
 			}]
 		},		
 		"node1": {
@@ -70,7 +70,7 @@
 			"questionId": "turnOnPC",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
@@ -94,8 +94,8 @@
 		"node1b": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Lo mejor será que me vaya."
+				"tag": "You",
+				"msn": "I'll better get going."
 			}]
 		}		
 	},
@@ -104,8 +104,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Dejo el móvil cargando?"
+				"tag": "You",
+				"msn": "Should i leave the mobile charging?"
 			}]
 		},		
 		"node1": {
@@ -113,7 +113,7 @@
 			"questionId": "plugInMobile",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",

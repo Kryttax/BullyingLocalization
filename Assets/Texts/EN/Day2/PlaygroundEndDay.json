@@ -3,12 +3,11 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Ya no tengo más clases por hoy y no queda nadie."
-			},
+				"tag": "You",
+				"msn": "There are no more classes today and there is nobody left."			},
 			{
-				"tag": "Tú",
-				"msn": "Será mejor que me vaya a casa."
+				"tag": "You",
+				"msn": "I'll better go gome."
 			}]
 		}
 	},
@@ -18,7 +17,7 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "No les hagas caso y vete a casa, mañana será otro día."
+				"msn": "Don't listen to them and go home, tomorrow will be another day."
 			}]
 		},
 	},
@@ -26,8 +25,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Voces",
-				"msn": "Jajajajaja"
+				"tag": "Voices",
+				"msn": "Hahahahaha"
 			}]
 		},
 	},
@@ -57,27 +56,27 @@
 		"wash": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Voces",
-				"msn": "Jajajajaja."
+				"tag": "Voices",
+				"msn": "Hahahahaha."
 			},
 			{
-				"tag": "Voces",
-				"msn": "Menuda mancha <$ varObject('global', 'UserNameNonStatic') $>, parece que te hayas cagado encima."
+				"tag": "Voices",
+				"msn": "What a stain <$ varObject('global', 'UserNameNonStatic') $>, looks like you've shat yourself."
 			}]
 		},
 		"notWash": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Voces",
-				"msn": "Jajajajaja."
+				"tag": "Voices",
+				"msn": "Hahahahaha."
 			},
 			{
-				"tag": "Voces",
-				"msn": "A ver si lavas."
+				"tag": "Voices",
+				"msn": "Let's see if you wash."
 			},
 			{
-				"tag": "Voces",
-				"msn": "Por mucho tiempo que lleves el chicle en el culo no vas a conseguir ponerlo de moda."
+				"tag": "Voices",
+				"msn": "No matter how much you wear that gum, it's not going to become fashion."
 			}]
 		}
 	},

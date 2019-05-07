@@ -20,7 +20,7 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Está leyendo, como siempre, mejor no la molesto."
+				"msn": "She's reading as usual, better not bother her."
 			}]
 		},
 		"node0": {
@@ -28,12 +28,12 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "No sé si te has fijado, pero llevas un chicle pegado en el culo."
+				"msn": "Probably you haven't noticed, but there's a gum stucked on your ass."
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Puedes pasar por el baño a verlo en el espejo."
+				"msn": "You can go to the toilet and see it in the mirror."
 			}]
 		},
 		"whased": {
@@ -41,12 +41,12 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "¿Qué has hecho? menuda mancha."
+				"msn": "What have you done? What a stain."
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Pfff, parece que te hayas meado encima, o incluso cagado."
+				"msn": "Oh mate, looks like you've wet yourself, o even shat."
 			}]
 		}
 	},
@@ -98,8 +98,8 @@
 		"female": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicos."
+				"tag": "You",
+				"msn": "I cannot go there, it's the boys' toilet."
 			}]
 		}
 	},
@@ -125,8 +125,8 @@
 		"male": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicas."
+				"tag": "You",
+				"msn": "I cannot go there, it's the girls' toilet."
 			}]
 		}
 	},
@@ -135,8 +135,8 @@
 			"type": "dialog",
 			"next": "options",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Si entro y aparece el profesor ya no podré salir."
+				"tag": "You",
+				"msn": "If i get in and the teacher shows up i won't be able to come out."
 			}]
 		},
 		"options": {
@@ -144,10 +144,10 @@
 			"questionId": "endBreak",
 			"options": [{
 				"next": "black",
-				"msn": "(Entrar de todas formas)"
+				"msn": "(Get in anyway)"
 			},
 			{
-				"msn": "Mejor, voy a dar otra vuelta por el edificio."
+				"msn": "I'll have another walk instead."
 			}]
 		},
 		"black": {
@@ -157,7 +157,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Al entrar suena la campana y aparece el profesor. La mañana termina sin darte cuenta, es hora de volver a casa..."
+				"value": "As soon as you get in, the bell rings and the teacher appears. You did not notice but the morning is over, it's time to go home..."
 			}
 		},
 		"changeHour": {

@@ -48,16 +48,16 @@
 			"type": "dialog",
 			"next": "exit",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Parece que papá y mamá se han ido ya a trabajar."
+				"tag": "You",
+				"msn": "Looks like mom and dad have already gone to work."
 			}]
 		},
 		"exitNodeRepeat": {
 			"type": "dialog",
 			"next": "exit",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Parece que papá y mamá hoy han vuelto a irse pronto."
+				"tag": "You",
+				"msn": "Looks like mom and dad have left soon today."
 			}]
 		},
 		"exit": {
@@ -71,8 +71,8 @@
 		"dialogNode": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Me dejo la mochila. Será mejor que pases por mi habitación a recogerla antes de irme."
+				"tag": "You",
+				"msn": "I forgot the backpack. I'll better go to my room and take it before i leave."
 			}]
 		}
 	},

@@ -3,8 +3,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Ya tendré tiempo de dormir cuando vuelva de clase."
+				"tag": "You",
+				"msn": "I'll sleep later once i come back from school."
 			}]
 		}		
 	},
@@ -19,12 +19,12 @@
 		"node0": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Soy yo... o el móvil me marcaba la fecha de ayer ¿¿??"
+				"tag": "You",
+				"msn": "Is it me... or was the phone showing yesterdays' date????"
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Se me habrá roto?"
+				"tag": "You",
+				"msn": "Is it broken or something?"
 			}]
 		}
 	},
@@ -32,8 +32,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Por ahora no necesito nada que pueda estar ahí dentro."
+				"tag": "You",
+				"msn": "I don't need anything from this right now."
 			}]
 		}		
 	},
@@ -41,8 +41,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Tengo que irme ya a clase y aún no he ordenado esto. Tendré que buscar otro momento"
+				"tag": "You",
+				"msn": "I've to go to class now and haven't organized this yet. I'll need to find another time."
 			}]
 		}		
 	},
@@ -51,8 +51,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Todo listo, vámonos."
+				"tag": "You",
+				"msn": "Everything's ready, let's go."
 			}]
 		},
 		"node1": {
@@ -69,12 +69,12 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Debería esperar a esta tarde o se me hará tarde."
+				"tag": "You",
+				"msn": "I should wait for the afternoon or i´ll be late."
 			},
 			{
 				"tag": "PC",
-				"msn": "¿Quieres encender el ordenador?"
+				"msn": "Do you want to turn on the computer?"
 			}]
 		},		
 		"node1": {
@@ -82,7 +82,7 @@
 			"questionId": "plugInMobile",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
@@ -115,8 +115,8 @@
 		"node1b": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Lo mejor será que me vaya."
+				"tag": "You",
+				"msn": "I'd better leave."
 			}]
 		}		
 	},
@@ -125,8 +125,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Dejo el móvil cargando?"
+				"tag": "You",
+				"msn": "Do i leave the mobile charging?"
 			}]
 		},		
 		"node1": {
@@ -134,7 +134,7 @@
 
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",

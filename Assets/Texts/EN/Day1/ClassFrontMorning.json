@@ -15,12 +15,12 @@
 			},
 			{
 				"tag": "Knocks on the door",
-				"msn": "(Someone is knocking at the door)"
+				"msn": "(Someone knocks at the door)"
 			},
 			{
 				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Come in"
+				"msn": "Come in."
 			}]
 		},
 		"node1": {
@@ -47,7 +47,12 @@
 			{
 				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "The name is <$ varObject('global', 'UserNameNonStatic') $>. Sit in another desk for now, i've asked Alison to help <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> during the first days."
+				"msn": "The name is <$ varObject('global', 'UserNameNonStatic') $>."
+			},
+			{
+				"tag": "Teacher",
+				"character": "Teacher",
+				"msn": "Sit in another desk for now, i've asked Alison to help <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> during the first days."
 			}]
 		},
 		"friendship": {

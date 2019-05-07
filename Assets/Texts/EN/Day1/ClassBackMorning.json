@@ -29,7 +29,7 @@
 			{
 				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Class, this is <$ if(varObject('global', 'MaleSexNonStatic')==true, 'your new classmate', 'your new classmate') $>, please, help <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> during the first days."
+				"msn": "Class, this is your new classmate, please, help <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> during the first days."
 			},
 			{
 				"tag": "Teacher",

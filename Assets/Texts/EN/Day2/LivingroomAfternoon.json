@@ -10,16 +10,16 @@
 		"nodeRepeat": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Prácticamente todo ha sido como ayer."
+				"tag": "You",
+				"msn": "Mostly everything was like yesterday."
 			}, 
 			{
-				"tag": "Tú",
-				"msn": "El chicle en la silla, las clases..."
+				"tag": "You",
+				"msn": "The gum in the chair, the classes..."
 			},
 			{
-				"tag": "Tú",
-				"msn": "No entiendo nada."
+				"tag": "You",
+				"msn": "I don't get it."
 			}]
 		},
 	},
@@ -95,9 +95,9 @@
 			"type": "dialog",
 			"next": "gumObv",
 			"fragments": [{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Veo que ya has llegado, <$ varObject('global', 'UserNameNonStatic') $>."
+				"msn": "You're already here, <$ varObject('global', 'UserNameNonStatic') $>."
 			}]
 		},
 		"gumObv":{
@@ -115,37 +115,37 @@
 			"type": "dialog",
 			"next": "setter",
 			"fragments": [{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "¿Te has fijado en el chicle que llevas en el culo?"
+				"msn": "Have you noticed the gum on your ass?"
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "A ver si tienes más cuidado, como tú no lavas..."
+				"msn": "You have to be more careful, really surprising you don't wash your clothes..."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Bueno, ¿qué tal el día?"
+				"msn": "Well, how was your day?"
 			}]
 		},
 		"gum1": {
 			"type": "dialog",
 			"next": "setter",
 			"fragments": [{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "¿Cómo te ha ido el día?"
+				"msn": "How was your day?"
 			}]
 		},
 		"node2": {
 			"type": "dialog",
 			"next": "parentsFS",
 			"fragments": [{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "¿Quieres hablar de algo más?"
+				"msn": "Do you want to talk about anything else?"
 			}]
 		},
 		"parentsFS": {
@@ -169,32 +169,32 @@
 			"type": "options",
 			"questionId": "parentsAfternoonSecondDay",
 			"options": [{
-				"msn": "Como siempre",
+				"msn": "As usual",
 				"condition": "page == 1"
 			},
 			{
 				"next": "guille",
-				"msn": "Guille me ha dicho de ir a su casa el sábado.",
+				"msn": "Guille told me about going to his place this saturday.",
 				"condition": "page == 1 && aboutGuille == true && varObject('global', 'GuillermoQuestNonStatic') > 0"
 			},
 			{
 				"next": "page2",
-				"msn": "(Hablar de otros compañeros)",
+				"msn": "(Talk about other classmates)",
 				"condition": "page == 1"
 			},
 			{
 				"next": "alison",
-				"msn": "Sobre Alison...",
+				"msn": "About Alison...",
 				"condition": "page == 2 && aboutAlison == true && varObject('global', 'AlisonQuestNonStatic') > 0"
 			},
 			{
 				"next": "gum",
-				"msn": "(Contarle lo del chicle)",
+				"msn": "(Tell them about the gum)",
 				"condition": "page == 2 && aboutGum == true"
 			},
 			{
 				"next": "page3",
-				"msn": "(Hablar de otros compañeros)",
+				"msn": "(Talk about other classmates)",
 				"condition": "page == 2"
 			},
 			{
@@ -204,21 +204,21 @@
 			},
 			{
 				"next": "alex",
-				"msn": "El estúpido de Alex...",
+				"msn": "The stupid Alex...",
 				"condition": "page == 3 && aboutAlex == true && varObject('global', 'AlexQuestNonStatic') > 0"
 			},
 			{
 				"next": "page4",
-				"msn": "(Hablar del colegio)",
+				"msn": "(Talk about school)",
 				"condition": "page == 3"
 			},
 			{
 				"next": "school",
-				"msn": "El instituto...",
+				"msn": "High school...",
 				"condition": "page == 4 && aboutSchool == true "
 			},
 			{
-				"msn": "Me voy a la habitación, tengo cosas que hacer.",
+				"msn": "I'm going to my room, there're some stuff needed to be done.",
 				"condition": "page == 4"
 			}]
 		},
@@ -265,32 +265,32 @@
 			"type": "dialog",
 			"next": "guilleUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Le he dicho que iré, así que el sábado por la tarde no estaré en casa."
+				"tag": "You",
+				"msn": "I've told him i'll go, so i wont't be home on saturaday afternoon."
 			}]
 		},
 		"guilleNoGo": {
 			"type": "dialog",
 			"next": "guilleUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Le he dicho que no, demasiada gente con la que no tengo confianza."
+				"tag": "You",
+				"msn": "I've told him no, too many people i don't trust."
 			}]
 		},
 		"guilleQuest": {
 			"type": "dialog",
 			"next": "guilleUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Le he dicho que tenia que preguntar en casa."
+				"tag": "You",
+				"msn": "I've told him i needed to ask you first."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Te importa que vaya?"
+				"tag": "You",
+				"msn": "Do you mind if go?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "En principio puedes ir, se lo comentaré a tu madre por si acaso."
+				"tag": "You",
+				"msn": "You are allowed to go, i'll ask your mother just in case."
 			}]
 		},
 		"guilleUpParentsFS": {
@@ -325,24 +325,24 @@
 			"type": "dialog",
 			"next": "alisonUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Alison es muy maja."
+				"tag": "You",
+				"msn": "Alison is very nice."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Me ha advertido de que Alex iba a gastarme una broma."
+				"tag": "You",
+				"msn": "She warned me about Alex playing me a joke."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Aunque de poco ha servido."
+				"tag": "You",
+				"msn": "Although it was useless."
 			}]
 		},
 		"normal": {
 			"type": "dialog",
 			"next": "alisonUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hoy he hablado poco con ella."
+				"tag": "You",
+				"msn": "I've spoken with her today."
 			}]
 		},
 		"alisonUpParentsFS": {
@@ -381,50 +381,50 @@
 			"type": "dialog",
 			"next": "gumUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Lo del chicle... no sé cómo ha sido."
+				"tag": "You",
+				"msn": "About the gum... i don't know how it happened."
 			},
 			{
-				"tag": "Tú",
-				"msn": "La mayoría de clase se ha reído de mí."
+				"tag": "You",
+				"msn": "Most of the class was laughing at me."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Cariño, tienes que mirar donde apoyas el culo."
+				"msn": "Oh honey, you need to look where you place your ass before sitting."
 			}]
 		},
 		"gumWhassed": {
 			"type": "dialog",
 			"next": "gumUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hoy he acabado con un chicle en el culo."
+				"tag": "You",
+				"msn": "Today i've ended up with a gum stuck on my ass."
 			},
 			{
-				"tag": "Tú",
-				"msn": "He intentado quitarlo con agua y jabón, pero ha sido peor."
+				"tag": "You",
+				"msn": "I've tried to remove it using water and soap, but it was even worse."
 			},
 			{
-				"tag": "Tú",
-				"msn": "La mayoria de clase se ha reido de mí."
+				"tag": "You",
+				"msn": "Most of the class was laughing at me."
 			}]
 		},
 		"noGum": {
 			"type": "dialog",
 			"next": "gumUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hoy había un chicle en mi silla."
+				"tag": "You",
+				"msn": "Today there was a gum in my chair."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Estoy seguro de que ha sido Álex."
+				"tag": "You",
+				"msn": "I'm sure it was Álex."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Seguro que no ha sido aposta."
+				"msn": "I'm sure it wasn't intended."
 			}]
 		},
 		"gumUpParentsFS": {
@@ -448,12 +448,12 @@
 			"type": "dialog",
 			"next": "mariaUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Con María me llevo bien."
+				"tag": "You",
+				"msn": "I get along with María."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Aunque parece que no habla con nadie más de clase."
+				"tag": "You",
+				"msn": "Although it seems she doesn't speak to anyone else."
 			}]
 		},
 		"mariaUpParentsFS": {
@@ -478,12 +478,12 @@
 			"next": "forkAlex",
 			"fragments": [
 			{
-				"tag": "Tú",
-				"msn": "Diria que la tiene tomada conmigo desde el primer día."
+				"tag": "You",
+				"msn": "I'll say he has it in for me since the first day."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Aunque no se muy bien el porqué."
+				"tag": "You",
+				"msn": "Although i don't know exactly why."
 			}]
 		},
 		"forkAlex": {
@@ -505,61 +505,61 @@
 			"type": "dialog",
 			"next": "alexUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Y hoy me ha querido gastar una broma."
+				"tag": "You",
+				"msn": "And today he wanted to play me a pranck."
 			}]
 		},
 		"alexZero": {
 			"type": "dialog",
 			"next": "alexUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Estaba enfadado por haberme sentado en su sitio."
+				"tag": "You",
+				"msn": "He was upset with me for having sat on his chair."
 			},
 			{
-				"tag": "Tú",
-				"msn": "He intentado hacer las paces con él."
+				"tag": "You",
+				"msn": "I tried to make peace with him."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Pero por como me ha hablado creo que va a seguir buscando pelea."
+				"tag": "You",
+				"msn": "But looking how he talked to me i think he's going to keep looking for trouble."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Si tienes algún problema con él, no dudes en decirmelo."
+				"msn": "If you have any problem with him, don't doubt to tell me."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Si hace falta hablaremos con tu profesor"
+				"msn": "We'll talk to your teacher if it's needed."
 			}]
 		},
 		"alexFight": {
 			"type": "dialog",
 			"next": "alexUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Va buscando pelea."
+				"tag": "You",
+				"msn": "He's looking for a fight."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Me dan ganas de darle dos hostias."
+				"tag": "You",
+				"msn": "He makes me want to kick his bloody ass."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "No busques pelea."
+				"msn": "Do not look for fights."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "si hace falta que vaya a hablar con él dimelo."
+				"msn": "If i need to go and talk to him let me know."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "O si tienes cualquier problema, habla con tu profesor."
+				"msn": "Or if you have any trouble, just talk to your teacher."
 			}]
 		},	
 		"alexUpParentsFS": {
@@ -583,8 +583,8 @@
 			"type": "dialog",
 			"next": "setterSchool",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Empiezo a no estar a gusto."
+				"tag": "You",
+				"msn": "I'm beginning to feel uncomfortable."
 			}]
 		},
 		"setterSchool":{
@@ -600,8 +600,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No tengo nada que hacer en la calle."
+				"tag": "You",
+				"msn": "I have nothing to do in the street."
 			}]
 		}
 	},
@@ -664,7 +664,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "<$ varObject('global', 'UserNameNonStatic') $> este es el chat k tenemos ls de clase",
+				"value": "<$ varObject('global', 'UserNameNonStatic') $> this is the chat we use all classm8s",
 				"key": "Alison",
 				"other": "thxClass",
 				"time": 0 
@@ -676,7 +676,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'Bienvenido', 'Bienvenida') $>",
+				"value": "Welcome",
 				"key": "Guille",
 				"time": 1 
 			}
@@ -698,7 +698,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "xq le invitas al grupo? no hablaste cn alex esta mañana?",
+				"value": "Why da invit8on? didnt u speak with Alex tday?",
 				"key": "Ana",
 				"time": 8 
 			}
@@ -709,7 +709,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Pff, no se ha ganado estar en el grupo. El k pueda k le eche YA!",
+				"value": "Hmm, hasnt earned 2be in this group. Someone kick <$ if(varObject('global', 'MaleSexNonStatic')==true, 'his', 'her') $> out NOW!",
 				"key": "Alex",
 				"time": 10 
 			}
@@ -720,7 +720,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Ya sólo falta que inviteis a la friki de María",
+				"value": "The only 1 left is that freak, María",
 				"key": "Alex",
 				"other": "kickClass",
 				"time": 12 
@@ -731,7 +731,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "Jose es el admin, habla con él mañana, q el chat no suele leerlo",
+				"value": "Jose is the admin, talk 2morrow with him, doesnt read this chat to often",
 				"key": "Ana",
 				"time": 14
 			}

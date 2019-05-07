@@ -14,8 +14,8 @@
 		"nodeRepeat": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Ya he hablado con Alison, debería ver quién más hay por el patio esperando a que suene la campana."
+				"tag": "You",
+				"msn": "I've already talked to Alison, i should look for people in the playground waiting the bell to ring."
 			}]
 		}, 
 		"setter":{
@@ -47,17 +47,17 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Buenos días, <$ varObject('global', 'UserNameNonStatic') $>."
+				"msn": "Good morning, <$ varObject('global', 'UserNameNonStatic') $>."
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Antes he escuchado a Álex hablar con Ana sobre gastarte una broma."
+				"msn": "I've heard Alex talking to Ana about playing you a joke."
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "No sé qué puede ser, pero ten cuidado, no suelen ser graciosas precisamente."
+				"msn": "I don't know what might be, but be careful, they aren't usually very funny."
 			}]
 		}, 
 		"notify2": {
@@ -65,15 +65,15 @@
 			"questionId": "MariaJokeAdvise",
 			"options": [{
 				"next": "notify3",
-				"msn": "Gracias por avisar"
+				"msn": "Thanks for the warning"
 			},
 			{
 				"next": "notify3",
-				"msn": "No le tengo miedo"
+				"msn": "I'm not afraid of him"
 			},
 			{
 				"next": "repeatedDay1",
-				"msn": "¿Otra vez?",
+				"msn": "Again?",
 				"condition": "varObject('global', 'RepeatedNonStatic') == true"
 			}]
 		},
@@ -83,15 +83,15 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "¿Como que otra vez?"
+				"msn": "Again what?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "(No parece acordarse de que ayer también me avisó)"
+				"tag": "You",
+				"msn": "(She does not seem to remember about yesterdays' warning)"
 			},
 			{
-				"tag": "Tú",
-				"msn": "Da igual, me voy, chao"
+				"tag": "You",
+				"msn": "It's okay, i'm leaving, bye."
 			}]
 		},
 		"notify3": {
@@ -118,7 +118,7 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Nos vemos después, hasta luego"
+				"msn": "See you later, bye."
 			}]
 		}, 
 		"ignore": {
@@ -127,12 +127,12 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Estoy leyendo"
+				"msn": "I'm reading"
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Si no te importa... (Te ignora y sigue leyendo)"
+				"msn": "If you don't mind...(She ignores you and keeps reading)"
 			}]
 		}, 
 		"normal1": {
@@ -141,7 +141,7 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "¿Querías algo?"
+				"msn": "Do you want something?"
 			}]
 		}, 
 		"normal2": {
@@ -149,11 +149,11 @@
 			"questionId": "MariaLonely",
 			"options": [{
 				"next": "setter",
-				"msn": "No nada, adiós."
+				"msn": "No, nothing, bye."
 			},
 			{
 				"next": "normal3b",
-				"msn": "Saludarte, siempre te veo sola y leyendo."
+				"msn": "Say hello, i always see you alone and reading."
 			}]
 		},
 		"normal3b": {
@@ -171,17 +171,17 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Muy amable."
+				"msn": "Very kind."
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "La gente no suele hablar conmigo."
+				"msn": "People don't use to talk with me."
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Que pases un buen día."
+				"msn": "Have a nice day."
 			}]
 		}, 
 		"bell": {
@@ -190,7 +190,7 @@
 			"fragments": [
 			{
 				"tag": "",
-				"msn": "<<La campana está sonando>>"
+				"msn": "<<The bell is ringing>>"
 			}]
 		},
 		"bellEvent": {
@@ -230,7 +230,7 @@
 			"fragments": [{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Nos vemos luego"
+				"msn": "See ya"
 			}]
 		},
 		"node0": {
@@ -239,22 +239,22 @@
 			"fragments": [{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "¿Has visto la aplicación de móvil que comprueba tu relación con la gente con la que más hablas?"
+				"msn": "Have you seen that mobile app that checks your relationship with the people to talk more?"
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Te dice con quién te llevas mejor o peor de los que también tienen instalada la aplicación."
+				"msn": "It tells you who you get along with or not of all the people that downloaded it."
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Dicen que es muy exacta, pero aún no se sabe como funciona."
+				"msn": "It's said it is really exact, but how it works isn't clear."
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Ya he visto que tú también la tienes."
+				"msn": "I've seen you already have it."
 			}]
 		},
 		"setter":{
@@ -309,7 +309,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Pierdete, no tengo nada que hablar contigo."
+				"msn": "Get lost, i don't have anything to talk with you."
 			}]
 		},
 		"bad1": {
@@ -318,18 +318,18 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "¿Qué estás mirando?¿Di algo o vete?"
+				"msn": "What are you looking at? Say something or leave"
 			}]
 		},
 		"badOptions": {
 			"type": "options",
 			"questionId": "AnaJokeAsk",
 			"options": [{
-				"msn": "Nada (te vas)."
+				"msn": "Nothing (you leave)."
 			},
 			{
 				"next": "bad2",
-				"msn": "Me han dicho que has hablado con Álex de hacerme una broma.",
+				"msn": "I've been told about you and Alex speaking of some prank.",
 				"condition": "varObject('state', 'JokeAdvise') == true"
 			}]
 		},
@@ -339,7 +339,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Sí, ¿Y?, venga, vete."
+				"msn": "Yeah, so? C'mon, get away."
 			}]
 		},
 		"checkGood": {
@@ -358,7 +358,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Pierdete, no tengo nada que hablar contigo."
+				"msn": "Get lost, i don't have anything to talk with you."
 			}]
 		},
 		"good1": {
@@ -367,23 +367,23 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Buenos días <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "Good morning <$ varObject('global', 'UserNameNonStatic') $>"
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "¿Querías algo?"
+				"msn": "¿Do you want something?"
 			}]
 		},
 		"goodOptions": {
 			"type": "options",
 			"questionId": "AnaJokeAsk",
 			"options": [{
-				"msn": "Nada (te vas)"
+				"msn": "Nothing (you leave)"
 			},
 			{
 				"next": "good2",
-				"msn": "Me han dicho que has hablado con Álex de hacerme una broma",
+				"msn": "I've been told about you and Alex speaking of some prank.",
 				"condition": "varObject('state', 'JokeAdvise') == true"
 			}]
 		},
@@ -393,12 +393,12 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Vaya, nos has pillado, era una tonteria."
+				"msn": "Damn, you caught us, it was silliness."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Pero ya no tiene gracia, no la haremos."
+				"msn": "But it's not funny anymore, we won't do it."
 			}]
 		}
 	},
@@ -425,7 +425,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "",
-				"msn": "Parece que he llegado pronto y aún no se puede pasar. Será mejor que haga algo de tiempo."
+				"msn": "Looks like i've arrived sooner and entrance is not allowed. I'll better kill some time"
 			}]
 		}
 	},
@@ -433,8 +433,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Acabo de llegar, no puedo irme aún."
+				"tag": "You",
+				"msn": "I've just arrived, i cannot leave yet."
 			}]
 		}
 	}

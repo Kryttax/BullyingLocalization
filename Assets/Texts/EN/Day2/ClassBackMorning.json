@@ -18,13 +18,13 @@
 			"type": "dialog",
 			"next": "node2",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $> llegas tarde."
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $> yor're late."
 			},{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Por favor, sientate para que podamos continuar la clase."
+				"msn": "Please, have a seat and let's continue the class."
 			}]
 		},
 		"node2": {
@@ -34,7 +34,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Te diriges entre todas las miradas y te sientas en el primer sitio que ves libre."
+				"value": "You go and sit in a empty desk of the first row while everyone is looking at you."
 			}
 		},
 		"node3": {
@@ -51,8 +51,8 @@
 			"type": "dialog",
 			"next": "options",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Este sitio está libre, ¿me siento aquí?"
+				"tag": "You",
+				"msn": "This place is available, do i sit here?"
 			}]
 		},
 		"options": {
@@ -60,14 +60,14 @@
 			"questionId": "sitDownClass",
 			"options": [{
 				"next": "node2",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"msn": "No"
 			},
 			{
 				"next": "gum",
-				"msn": "Mirar antes la silla",
+				"msn": "Look at the chair",
 				"condition": "varObject('global', 'RepeatedNonStatic') == true"
 			}]
 		},
@@ -76,19 +76,19 @@
 			"next": "node3",
 			"fragments": [{
 				"tag": "",
-				"msn": "(Ruidos de fondo, el profesor ha llegado)"
+				"msn": "(Knocks in the background, the teacher is here)"
 			}]
 		},
 		"gum": {
 			"type": "dialog",
 			"next": "noGum",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hay un chicle pegado."
+				"tag": "You",
+				"msn": "There's a gum stucked on it."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Ayer debió pasar lo mismo, será mejor que lo quite y me siente."
+				"tag": "You",
+				"msn": "Yesterday probably happened likewise, i'll better remove it and sit."
 			}]
 		},
 		"noGum": {
@@ -107,7 +107,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Os sentáis todos, para cuando te das cuenta es la hora del recreo."
+				"value": "You all sit down, when you realize it's already break time."
 			}
 		},
 		"changeHour": {

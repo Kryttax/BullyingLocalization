@@ -30,12 +30,12 @@
 		"nodeRepeat": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Ya he quitado el chicle, pero ahora la mancha es peor."
+				"tag": "You",
+				"msn": "I've already removed the gum, but the stain is worse."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Se van a reír aún más de mí."
+				"tag": "You",
+				"msn": "They will laught at me even more."
 			}]
 		}, 
 		"setter":{
@@ -50,8 +50,8 @@
 			"type": "dialog",
 			"next": "options",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Igual con agua y jabón consigo quitarlo."
+				"tag": "You",
+				"msn": "Maybe water and soap are all i need."
 			}]
 		}, 
 		"options": {
@@ -59,10 +59,10 @@
 			"questionId": "bathroomGum",
 			"options": [{
 				"next": "quest",
-				"msn": "(Probar con agua y jabón)"
+				"msn": "(Try water and soap)"
 			},
 			{
-				"msn": "(Dejarlo como está)"
+				"msn": "(Leave as it is)"
 			}]
 		},
 		"quest": {
