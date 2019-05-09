@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GetStringName : MonoBehaviour
 {
-    
+    bool done;
     //void Awake()
     //{
     //    if(GlobalState.Language != "NULL")
@@ -14,7 +14,21 @@ public class GetStringName : MonoBehaviour
 
     private void Update()
     {
-        if (GlobalState.Language != "NULL")
+        if (!done && GlobalState.Language != "NULL" )
+            FillName();
+    }
+
+    void FillName()
+    {
+        if(gameObject.GetComponent<Text>() != null)
+        {
+            gameObject.GetComponent<Text>().text = MenuLanguageSelector.Instance.GetName(gameObject.name);
+        }
+        else
+        {
             gameObject.GetComponentInChildren<Text>().text = MenuLanguageSelector.Instance.GetName(gameObject.name);
+        }
+
+        done = true;
     }
 }

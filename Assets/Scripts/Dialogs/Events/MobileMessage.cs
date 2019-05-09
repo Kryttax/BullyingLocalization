@@ -10,7 +10,7 @@ public class MobileMessage : EventManager {
 
 	public MobileChat mobile;
 	private JSONObject jsonObj;
-	public TextAsset jsonFile;
+	TextAsset jsonFile;
 
 	public override void ReceiveEvent(IGameEvent ev)
 	{
@@ -48,7 +48,10 @@ public class MobileMessage : EventManager {
 
 	// Use this for initialization
 	void Start () {
-		if (jsonFile != null)
+
+        jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" + GlobalState.Language + "/Devices/MobileMessages.json", typeof(TextAsset));
+
+        if (jsonFile != null)
 		{
 			string fileContents = jsonFile.text;
 			jsonObj = JSONObject.Create(fileContents);
