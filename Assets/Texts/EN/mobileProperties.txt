@@ -1,1 +1,10 @@
-﻿Monday,Tuesday,Wednesday,Thursday,Friday,Day,Alarm,You are unable to sleep more. You should wake up now
+﻿{
+    "0":"Monday",
+    "1":"Tuesday",
+    "2":"Wednesday",
+    "3":"Thursday",
+    "4":"Friday",
+    "day":"Day",
+    "alarm":"Alarm",
+    "sleepMsn":"You are unable to sleep more. You should wake up now"
+}

@@ -489,7 +489,8 @@ public class MobileChat : MonoBehaviour
 
     private void UpdateDay()
     {
-        dayText.text = days[GlobalState.Day] + " , " + days[5] + " " + (GlobalState.Day + 1);
+        dayText.text = MenuLanguageSelector.Instance.GetName(GlobalState.Day.ToString()) +
+            ", " + MenuLanguageSelector.Instance.GetName("day") + " " + (GlobalState.Day + 1).ToString();
     }
 
     public void takeMobile(float seconds)

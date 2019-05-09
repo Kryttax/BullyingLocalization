@@ -11,7 +11,6 @@ public class MenuLanguageSelector : MonoBehaviour
 
     public GameObject backGround;
 
-    private Dictionary<string, string> menuDictionary;
 
     public static string _playButton;
     public static string _exitButton;
@@ -30,18 +29,28 @@ public class MenuLanguageSelector : MonoBehaviour
     public static string _beginButton;
     public static string _introText;
 
-    TextAsset menutxt;
-    string[] menuProperties;
+    //TextAsset menutxt;
+    ////string[] menuProperties;
+    static string[] jsonFiles;
 
-    TextAsset jsonFile;
-
+    private static Dictionary<string, string> myDictionary;
+    static JSONObject json;
+    static TextAsset jsonFile;
+    int cont = 0;
 
     private void Awake()
     {
 
         DontDestroyOnLoad(gameObject);
         GlobalState.Language = "NULL";
-        menuDictionary = new Dictionary<string, string>();
+
+        jsonFiles = new string[3];
+
+        jsonFiles[0] = "menuProperties.json";
+        jsonFiles[1] = "cutscenes.json";
+        jsonFiles[2] = "mobileProperties.json";
+
+        myDictionary = new Dictionary<string, string>();
     }
 
     public void SpanishLanguage()
@@ -67,67 +76,45 @@ public class MenuLanguageSelector : MonoBehaviour
 
     void OnClickCallback()
     {
-        //menutxt = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" +
-        //GlobalState.Language + "/menuProperties.txt", typeof(TextAsset));
-        //menuProperties = menutxt.text.Split(',');
-
         FillDictionary();
-        //menuDictionary.Add("playButton", _playButton);
-        //menuDictionary.Add("creditsButton", _creditsButton);
-        //menuDictionary.Add("exitButton", _exitButton);
         //Cerrar menu de idioma
         backGround.SetActive(false);
     }
 
-    string fileName = "menuProperties.json";
-    static JSONObject json;
-
     void FillDictionary()
     {
-        jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" + GlobalState.Language + "/" + fileName, typeof(TextAsset));
+        jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" + GlobalState.Language + "/" + jsonFiles[cont], typeof(TextAsset));
         string fileContents = jsonFile.text;
 
         json = JSONObject.Create(fileContents);
 
-        menuDictionary = json.ToDictionary();
-
-
-        //foreach (string i in menuProperties)
-        //{
-           
-        //    if (!menuDictionary.ContainsKey(i))
-        //    {
-        //        try
-        //        {
-        //            if (json.HasField(i))
-        //            {
-        //                menu
-        //                menuDictionary.Add(i, );
-        //            }
-        //            else if (json.HasField(i.ToLower()))
-        //            {
-        //                menuDictionary.Add(i, SequenceGenerator.createSimplyDialog(i.ToLower(), json, null));
-        //            }
-        //            else
-        //            {
-        //                Debug.LogWarning("Dialog with key " + i + " doesn't exist in file " + fileName);
-        //            }
-        //        }
-        //        catch (Exception e)
-        //        {
-        //            Debug.LogError("Error in " + jsonFile.name + " file. The error is: " + e.Message);
-        //        }
-        //    }
-        //}
+        myDictionary = json.ToDictionary();
 
     }
 
     public string GetName(string objectName)
     {
-        if (!json.ToDictionary().ContainsKey(objectName))
+        cont = 0;
+
+        if (!myDictionary.ContainsKey(objectName))
         {
-            Debug.LogError("The sequence with key " + objectName + " doesn't exit (Object " + this.gameObject.name + ")");
-            return null;
+            ++cont;
+            FillDictionary();
+            while (!myDictionary.ContainsKey(objectName))
+            {
+                //fileName = jsonFiles[cont];
+                ++cont;
+                if(cont < jsonFiles.Length)
+                    FillDictionary();
+            }
+
+
+            if (cont >= jsonFiles.Length)
+            {
+                Debug.LogError("The sequence with key " + objectName + " doesn't exit (Object " + this.gameObject.name + ")");
+                return null;
+            }
+
         }
 
         return json.ToDictionary()[objectName];
