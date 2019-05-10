@@ -37,12 +37,12 @@
 			"type": "dialog",
 			"next": "deactive",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hay una foto de mí, y la han retocado para que parezca que cago chicles."
+				"tag": "You",
+				"msn": "There's a picture of me and it has been modified so it looks like i'm shitting chewing gums."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Quién quiere ridiculizarme de esta manera?"
+				"tag": "You",
+				"msn": "Who wants to mock me this way?"
 			}]
 		},
 		"deactive": {
@@ -65,12 +65,12 @@
 			"type": "dialog",
 			"next": "deactive",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hay una foto mía de ayer después de haberme quitado el chicle."
+				"tag": "You",
+				"msn": "It's a picture of me yesterday right after i removed the gum."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Con una frase muy original... \"Un bebé ha llegado a clase\". "
+				"tag": "You",
+				"msn": "With a very original sentence... \"A baby arrived to class\". "
 			}]
 		},
 		"nogum": {
@@ -86,12 +86,12 @@
 			"type": "dialog",
 			"next": "deactive",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Es una foto de mi cara sobre el cuerpo de un perro y con la lengua fuera."
+				"tag": "You",
+				"msn": "It's a picture of a dog with my face on it and sticking out the tongue."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Por qué? ¿Quién la ha puesto?"
+				"tag": "You",
+				"msn": "Why? Who put it there?"
 			}]
 		},
 	},
@@ -116,11 +116,11 @@
 			"fragments": [{
 				"tag": "Profesor",
 				"character": "Teacher",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $> llegas tarde."
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $> you're late."
 			},{
 				"tag": "Profesor",
 				"character": "Teacher",
-				"msn": "Por favor, sientate para que podamos continuar la clase."
+				"msn": "Please, have a seat so we can continue the class."
 			}]
 		},
 		"node2": {
@@ -130,7 +130,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Ha sido un día aburrido, las clases han terminado y la mayoria lleva ignorandote todo el día. Una notita de papel en tu mesa dice que alguien te espera en los baños."
+				"value": "It has been boring day, classes are over and most of the people have been ignoring me the whole day. There's a paper note en your desk telling you to go to the toilet, there's somebody waiting there."
 			}
 		},
 		"node3": {
@@ -156,8 +156,8 @@
 			"type": "dialog",
 			"next": "options",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Este sitio está libre, ¿me siento aquí?"
+				"tag": "You",
+				"msn": "This spot is free, may i sit here?"
 			}]
 		},
 		"options": {
@@ -165,7 +165,7 @@
 			"questionId": "sitDownClass",
 			"options": [{
 				"next": "node2",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"msn": "No"
@@ -176,7 +176,7 @@
 			"next": "node3",
 			"fragments": [{
 				"tag": "",
-				"msn": "(Ruidos de fondo, el profesor ha llegado)."
+				"msn": "(Knocks on the back, the teacher has arrived)."
 			}]
 		},
 		"node3": {
@@ -186,7 +186,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Ha sido un día aburrido, las clases han terminado y la mayoria lleva ignorandote todo el día. Una notita de papel en tu mesa dice que alguien te espera en los baños."
+				"value": "It has been boring day, classes are over and most of the people have been ignoring me the whole day. There's a paper note en your desk telling you to go to the toilet, there's somebody waiting there."
 			}
 		},
 		"changeHour": {

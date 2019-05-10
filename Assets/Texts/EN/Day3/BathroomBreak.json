@@ -25,7 +25,7 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Lo siento mucho, de verdad, pero mis padres no pueden enterarse."
+				"msn": "I'm truly sorry, for real, but my parents cannot know about it."
 			}]
 		}, 
 		"setter":{
@@ -51,41 +51,41 @@
 			"type": "dialog",
 			"next": "nodeUnisex",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Así que eras tú el de la nota, Guille"
+				"tag": "You",
+				"msn": "So the guy of the note it was you, Guille."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Ahora si me hablas?"
+				"tag": "You",
+				"msn": "Now do you talk to me?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿A qué viene esto de que más de media clase me ignore?"
+				"tag": "You",
+				"msn": "What about half of the class ignores me?"
 			}]
 		},
 		"nodeFemale": {
 			"type": "dialog",
 			"next": "nodeUnisex",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Qué haces en el baño de chicas, Guille?"
+				"tag": "You",
+				"msn": "What are you doing in the girls' toilet, Guille?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "No puedes estar aquí, vete."
+				"tag": "You",
+				"msn": "You can't be here, go away."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "Tenía que hablar contigo, yo te pasé la notita."
+				"msn": "I need to talk to you, i'm the one who left the note."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Ahora sí me hablas?"
+				"tag": "You",
+				"msn": "Now do you talk to me?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿A qué viene esto de que más de media clase me ignore?"
+				"tag": "You",
+				"msn": "What about half of the class ignores me?"
 			}]
 		},
 		"nodeUnisex": {
@@ -94,61 +94,61 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "De eso te quería hablar."
+				"msn": "That's what i want to talk to you."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "No puedo hablar contigo mientras Álex o alguno de sus amigos pueda verme."
+				"msn": "I can't talk to you while Alex or any of his friends see us."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "Me ha amenazado con mandarle a mis padres una foto mía del año pasado en la que salgo con una cerveza y un cigarrillo."
+				"msn": "He's threatened me to send a picture of me smoking and drinking of last year to my parents."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "Mis padres son muy estrictos y si la ven no se que puede pasar, igual me mandan a otro instituto."
+				"msn": "My parents are very strict and if they discover it i don't know what could happen...they might even send me to another high school."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Pero por qué Álex no quiere que nadie hable conmigo?."
-			},
-			{
-				"tag": "Guille",
-				"character" : "Guille",
-				"msn": "No lo sabemos, la tiene tomada contigo desde el primer día."
+				"tag": "You",
+				"msn": "But why Alex doesn't want anybody to talk me?."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "Mucha gente le hace caso porque quiere, pero somos unos cuantos a los que nos ha amenazado."
+				"msn": "We don't know, he has it in for you since the first day."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "A María le paso algo parecido a lo tuyo el año pasado, aunque fue cosa de Ana."
+				"msn": "Too many people does what he wants, but there're a few of us who have been threatened by him."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "Desde entonces no tiene amigos y cuando alguno de nosotros intentamos hablar con ella... nos ignora."
+				"msn": "It happened something similar last year to Maria, although it was Ana's thing."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "No nos ha perdonado."
+				"msn": "She doesn't have friends since then and when someone tries to talk to her...she ignores us."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "Bueno... sólo quería decirte que lo siento, pero hasta que a Álex se le pase el mosqueo no podré hablar contigo."
+				"msn": "She hasn't forgiven us yet."
 			},
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "Lo siento mucho <$ varObject('global', 'UserNameNonStatic') $>."
+				"msn": "Well...i just wanted to say sorry, but until Alex stops being upset i won't be able to talk to you."
+			},
+			{
+				"tag": "Guille",
+				"character" : "Guille",
+				"msn": "I'm really sorry <$ varObject('global', 'UserNameNonStatic') $>."
 			}]
 		},
 		"changeVariable": {
@@ -172,11 +172,11 @@
 			"questionId": "GuilleBathroomDialog",
 			"options": [{
 				"next": "nodeAlex",
-				"msn": "¿Y ya está? ¿Álex se sale con la suya?"
+				"msn": "And that's it? Alex gets what he wants?"
 			},
 			{
 				"next": "nodeBoard",
-				"msn": "¿Y mi foto en el tablón? ¿Ha sido Álex?"
+				"msn": "What about my picture on the board? Was it Alex?"
 			}]
 		},
 		"nodeAlex": {
@@ -184,12 +184,12 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "De verdad que lo siento."
+				"msn": "I'm deeply sorry, for real."
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Pero no quiero que me haga también la vida imposible a mí."
+				"msn": "But i don't want him to make my life miserable too."
 			}]
 		},
 		"nodeBoard": {
@@ -198,22 +198,22 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Eso fue cosa de Ana."
+				"msn": "That was Ana's way."
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Está muy pillada por Álex y si él te putea, ella va a hacer lo mismo."
+				"msn": "She's really into Alex and if he mess with you, she's going to do the same."
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Y José es su perrito faldero, no sabe pensar por sí mismo."
+				"msn": "And Jose is his lap dog, unable to think by himself."
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Evita a los tres."
+				"msn": "Avoid the three of them."
 			}]
 		},
 		"guilleQuest": {

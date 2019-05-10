@@ -3,12 +3,12 @@
 		"root":{
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Antes de irme a casa debería pasar por el baño."
+				"tag": "You",
+				"msn": "I should go to the toilet before i go home."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Igual la nota era importante."
+				"tag": "You",
+				"msn": "Maybe the note was important."
 			}]
 		}
 	},

@@ -19,8 +19,8 @@
 				"msn": "..."
 			},
 			{
-				"tag": "Tú",
-				"msn": "También me está ignorando... ¿Qué les he hecho?"
+				"tag": "You",
+				"msn": "Again ignoring me... What did i do to?"
 			}]
 		}, 
 		"alisonBoard": {
@@ -48,7 +48,7 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Ignora lo del tablón."
+				"msn": "Ignore the board."
 			}]
 		}, 
 		"node1": {
@@ -57,12 +57,12 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Estaba mirando el tablón."
+				"msn": "I was llooking at the board."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Y... Será mejor que no lo mires, ignóralo hoy."
+				"msn": "And... it'll be better if you ignore it today."
 			}]
 		},
 		"options": {
@@ -70,11 +70,11 @@
 			"questionId": "AlisonNoticeBoard",
 			"options": [{
 				"next": "node1A",
-				"msn": "Ya lo he visto"
+				"msn": "I've already seen it."
 			},
 			{
 				"next": "node1B",
-				"msn": "¿Por qué? ¿Qué hay?"
+				"msn": "Why? What is it?"
 			}]
 		},
 		"node1A": {
@@ -83,12 +83,12 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Lo siento, Álex está llegando demasiado lejos."
+				"msn": "I'm sorry, Álex went too far with this."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Igual deberias hablar con el profesor o a la directora."
+				"msn": "Maybe you should talk with the teacher or the pricipal."
 			}]
 		},
 		"node1B": {
@@ -97,17 +97,17 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Alguien ha puesto una foto tuya en los tablones de todo el colegio."
+				"msn": "Someone has posted a picture of yours in every school board."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "En el patio también estaba."
+				"msn": "It was also in the playground."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Creo que deberías hablar con algún profesor."
+				"msn": "I think you should go talk to any teacher available."
 			}]
 		},
 		"setter":{
@@ -156,12 +156,12 @@
 			"type": "dialog",
 			"next": "deactive",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hay una foto de mí, y la han retocado para que parezca que cago chicles."
+				"tag": "You",
+				"msn": "It's a picture of me and it has been modified so it looks like i'm shitting chewing gums."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Quién quiere ridiculizarme de esta manera?"
+				"tag": "You",
+				"msn": "Who wants to mock me this way?"
 			}]
 		},
 		"deactive": {
@@ -184,12 +184,12 @@
 			"type": "dialog",
 			"next": "deactive",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hay una foto mía de ayer después de haberme quitado el chicle."
+				"tag": "You",
+				"msn": "It's a picture of me of yesterday right after i removed the gum."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Con una frase muy original... \"Un bebé ha llegado a clase\" "
+				"tag": "You",
+				"msn": "With a very original sentence... \"A baby arrived to class\"."
 			}]
 		},
 		"nogum": {
@@ -205,12 +205,12 @@
 			"type": "dialog",
 			"next": "deactive",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Es una foto de mi cara sobre el cuerpo de un perro y con la lengua fuera."
+				"tag": "You",
+				"msn": "It's a picture of my face in a dog's body sticking out the tongue."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Por qué? ¿Quién la ha puesto?"
+				"tag": "You",
+				"msn": "Why? Who put this?"
 			}]
 		},
 	},
@@ -236,8 +236,8 @@
 		"female": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicos."
+				"tag": "You",
+				"msn": "I cannot go there, it's the boys' toilet."
 			}]
 		}
 	},
@@ -263,8 +263,8 @@
 		"male": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicas."
+				"tag": "You",
+				"msn": "I cannot go there, it's the girls' toilet."
 			}]
 		}
 	},
@@ -299,8 +299,8 @@
 		"speak": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Debería hablar con Alison antes de entrar en clase, está rara."
+				"tag": "You",
+				"msn": "I should go talk to Alison before getting in, she's been acting odd."
 			}]
 		}
 	}

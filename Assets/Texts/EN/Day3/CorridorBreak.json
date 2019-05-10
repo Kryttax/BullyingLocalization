@@ -14,12 +14,12 @@
 		"bathroom": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Antes de irme debería pasar por el baño."
+				"tag": "You",
+				"msn": "I should go to the toilet before i go home."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Igual la nota era importante."
+				"tag": "You",
+				"msn": "Maybe the note was important."
 			}]
 		},
 		"move": {
@@ -60,8 +60,8 @@
 		"female": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicos"
+				"tag": "You",
+				"msn": "I cannot go there, it's the boys' toilet"
 			}]
 		}
 	},
@@ -87,8 +87,8 @@
 		"male": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicas."
+				"tag": "You",
+				"msn": "I cannot go there, it's the girls' toilet"
 			}]
 		}
 	},
@@ -96,8 +96,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No tengo nada que hacer dentro de clase."
+				"tag": "You",
+				"msn": "I have nothing to do in class."
 			}]
 		}
 	}

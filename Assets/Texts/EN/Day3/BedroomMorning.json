@@ -3,8 +3,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "He de irme."
+				"tag": "You",
+				"msn": "I have to go."
 			}]
 		}		
 	},
@@ -19,20 +19,20 @@
 		"node0": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hoy el móvil marca bien el día."
+				"tag": "You",
+			"msn": "Today the mobile's date is shown correctly."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Qué fue lo de ayer?"
+				"tag": "You",
+				"msn": "What was yesterday about?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Ayer fue un sueño? ¿Lo fue el día anterior?"
+				"tag": "You",
+				"msn": "Was it a dream? Was it the day before?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Me estoy volviendo <$ if(varObject('global', 'MaleSexNonStatic')==true, 'loco', 'loca') $>?"
+				"tag": "You",
+				"msn": "Am I turning crazy?"
 			}]
 		}
 	},
@@ -40,8 +40,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Por ahora no necesito nada que pueda estar ahí dentro."
+				"tag": "You",
+				"msn": "I don't need anything from here right now."
 			}]
 		}		
 	},
@@ -49,8 +49,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No tengo ganas de ordenar ahora."
+				"tag": "You",
+				"msn": "Now i'm not in the mood for organizing ."
 			}]
 		}		
 	},
@@ -59,8 +59,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Cogeré todo para marcharme."
+				"tag": "You",
+				"msn": "I'll get everything and leave."
 			}]
 		},
 		"node1": {
@@ -77,16 +77,16 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Si lo enciendo ahora seguro que se me hace tarde."
+				"tag": "You",
+				"msn": "If i turn it on now, i will be late for sure."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Será mejor que me espere a por la tarde."
+				"tag": "You",
+				"msn": "Better to wait for the afternoon."
 			},
 			{
 				"tag": "PC",
-				"msn": "¿Quieres encender el ordenador?"
+				"msn": "Do you want to turn on the computer?"
 			}]
 		},		
 		"node1": {
@@ -94,7 +94,7 @@
 			"questionId": "turnOnPC",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes	"
 			},
 			{
 				"next": "node1b",
@@ -127,8 +127,8 @@
 		"node1b": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Lo mejor será que me vaya."
+				"tag": "You",
+				"msn": "I'd better leave now."
 			}]
 		}		
 	},
@@ -137,8 +137,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Dejo el móvil cargando?"
+				"tag": "You",
+				"msn": "Do i leave the mobile charging?"
 			}]
 		},		
 		"node1": {
@@ -146,7 +146,7 @@
 			"questionId": "plugInMobile",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",

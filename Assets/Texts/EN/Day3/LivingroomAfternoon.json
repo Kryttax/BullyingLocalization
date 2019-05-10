@@ -57,12 +57,12 @@
 			"fragments": [{
 				"tag": "Mamá",
 				"character": "Mother",
-				"msn": "Buenas tardes, cariño"
+				"msn": "Good afternoon, darling."
 			}, 
 			{
 				"tag": "Mamá",
 				"character": "Mother",
-				"msn": "¿Qué habéis hecho hoy?"
+				"msn": "What have you done today?"
 			}]
 		},
 		"node2": {
@@ -71,7 +71,7 @@
 			"fragments": [{
 				"tag": "Mamá",
 				"character": "Mother",
-				"msn": "¿Quieres hablar de algo más?"
+				"msn": "Do you want to talk about anything else?"
 			}]
 		},
 		"parentsFS": {
@@ -95,41 +95,41 @@
 			"type": "options",
 			"questionId": "parentsAfternoonThirdDay",
 			"options": [{
-				"msn": "Nada a destacar",
+				"msn": "Nothing to note really.",
 				"condition": "page == 1"
 			},
 			{
 				"next": "maria",
-				"msn": "María no ha venido",
+				"msn": "María didn't come.",
 				"condition": "page == 1 && aboutMaria == true"
 			},
 			{
 				"next": "page2",
-				"msn": "(Hablar de otra cosa)",
+				"msn": "(Talk about other topic.)",
 				"condition": "page == 1"
 			},
 			{
 				"next": "school",
-				"msn": "La clase",
+				"msn": "The class",
 				"condition": "page == 2 && aboutSchool == true"
 			},
 			{
 				"next": "board",
-				"msn": "(Contarle lo de la foto en los tablones)",
+				"msn": "(Tell about the picture on the board.)",
 				"condition": "page == 2 && aboutBoard == true && varObject('global', 'BoardQuestNonStatic') > 0"
 			},
 			{
 				"next": "page3",
-				"msn": "(Hablar de otros compañeros)",
+				"msn": "(Talk about other classmates.)",
 				"condition": "page == 2"
 			},
 			{
 				"next": "guille",
-				"msn": "He hablado con Guille",
+				"msn": "I've spoken to Guille",
 				"condition": "page == 3 && aboutGuille == true"
 			},
 			{
-				"msn": "Me voy a la habitación, tengo cosas que hacer.",
+				"msn": "I'm going to my room, i have stuff to do.",
 				"condition": "page == 3"
 			}]
 		},
@@ -153,16 +153,16 @@
 			"type": "dialog",
 			"next": "guilleFork",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Guille me ha contado que Álex me odia."
+				"tag": "You",
+				"msn": "Guille told me that Alex hates me."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Álex me está haciendo la vida imposible."
+				"tag": "You",
+				"msn": "Álex is making my life miserable."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Y tiene amenazada a media clase para que me ignoren."
+				"tag": "You",
+				"msn": "And he's threatening half the class to ignore me."
 			}]
 		},
 		"guilleFork": {
@@ -180,16 +180,16 @@
 			"type": "dialog",
 			"next": "guilleUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Y me ha contado que Ana es la primera en seguirle el juego a Álex."
+				"tag": "You",
+				"msn": "And he told me Ana is the first one following his game."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Está mañana ha llegado la primera..."
+				"tag": "You",
+				"msn": "She arrived the first this morning..."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Y se ha dedicado a poner fotos mías en todos los tablones."
+				"tag": "You",
+				"msn": "And decided to post pictures of me all over the school boards."
 			}]
 		},
 		"guilleUpParentsFS": {
@@ -213,8 +213,8 @@
 			"type": "dialog",
 			"next": "mariaUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "A María hoy no la he visto."
+				"tag": "You",
+				"msn": "I haven't seen María today."
 			}]
 		},
 		"mariaUpParentsFS": {
@@ -238,22 +238,22 @@
 			"type": "dialog",
 			"next": "boardUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Se han dedicado a poner fotos mías en todos los tablones."
+				"tag": "You",
+				"msn": "They decided to post pictures of me in every school board."
 			},
 			{
-				"tag": "Tú",
-				"msn": "No se qué he hecho mal para que se porten así conmigo."
-			},
-			{
-				"tag": "Mamá",
-				"character": "Mother",
-				"msn": "Luego hablaré con tu padre."
+				"tag": "You",
+				"msn": "I don't know what i've done wrong to be treated like this."
 			},
 			{
 				"tag": "Mamá",
 				"character": "Mother",
-				"msn": "Igual deberíamos ir a hablar con tu tutor a ver qué está pasando."
+				"msn": "I'll speak with your father later about it."
+			},
+			{
+				"tag": "Mamá",
+				"character": "Mother",
+				"msn": "Perhaps we should go talk to your tutor and see what's going on."
 			}]
 		},
 		"boardUpParentsFS": {
@@ -277,12 +277,12 @@
 			"type": "dialog",
 			"next": "schoolUpParentsFS",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Casi todos me han ignorado, pocos hablaban conmigo."
+				"tag": "You",
+				"msn": "Almost everyone have ignored me, they barely talked to me."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Es como si todo el mundo me evitara o me hiciera el vacío."
+				"tag": "You",
+				"msn": "It's like everyone was avoiding me or gave me the silent treatment."
 			}]
 		},
 		"schoolUpParentsFS": {
@@ -307,8 +307,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No tengo nada que hacer en la calle."
+				"tag": "You",
+				"msn": "I have nothing to do in the street."
 			}]
 		}
 	},
@@ -363,7 +363,7 @@
 			"event": {
 				"name": "computer publication",
 				"var": "insult",
-				"value": "Buscando un mote para <$ varObject('global', 'UserNameNonStatic') $>",
+				"value": "looking 4 a nickname 4 <$ varObject('global', 'UserNameNonStatic') $>",
 				"key": "Ana",
 				"other": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'photoForeheadBoy', 'photoForeheadGirl') $>",
 				"time": 1
@@ -375,7 +375,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "mirad la frente k tiene... Cabezabuque",
+				"value": "look at that forehead...Shiphead",
 				"key": "Ana",
 				"time": 1.2 
 			}
@@ -386,7 +386,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "jajaja, parece una pared de frontón. Pongamosle FRONTON",
+				"value": "LOL, looks like a big wall. Why not TRUMP?",
 				"key": "Jose",
 				"time": 1.4
 			}
@@ -397,7 +397,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "Aire, k es lo k producen sus orejas en movimiento jaajaj",
+				"value": "Air, what your ears make when they move LOL",
 				"key": "Alex",
 				"time": 1.6
 			}
@@ -408,7 +408,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "jajaj, Álex, viento, no aire",
+				"value": "hahaha, Álex, it's WIND, not air",
 				"key": "Ana",
 				"time": 1.7
 			}
@@ -419,7 +419,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "no os compliqueís, podemos llamarle margi... total, ninguno le vamos a hablar...",
+				"value": "dont get complicated, we can call <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> outkast ... anyway, no more speaking to the outkast...",
 				"key": "Ester",
 				"time": 2
 			}
@@ -429,7 +429,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "insult",
-				"value": "margi es poco original... ¿Qué tal gremlin?",
+				"value": "outkast is not very original... what'bout gremlin?",
 				"key": "Ana",
 				"other": "insultPost",
 				"time": 2.5
