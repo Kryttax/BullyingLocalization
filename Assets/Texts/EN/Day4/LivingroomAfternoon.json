@@ -17,7 +17,7 @@
 			"event": {
 				"name": "computer publication",
 				"var": "troll",
-				"value": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'Este', 'Esta') $> soy yo, llamadme al 543-654-54-31",
+				"value": "This is me, call me 543-654-54-31",
 				"key": "Tú",
 				"other": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'photoNumberBoy', 'photoNumberGirl') $>",
 				"time": 0 
@@ -29,7 +29,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "troll",
-				"value": "espero vuestras llamadas",
+				"value": "waiting 4 your calls",
 				"key": "Tú",
 				"time": 0.2
 			}
@@ -40,7 +40,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "troll",
-				"value": "cuando quieras quedamos ;)",
+				"value": "we can meet when you want ;)",
 				"key": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'Ana', 'Alex') $>",
 				"time": 0.2
 			}
@@ -51,7 +51,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "troll",
-				"value": "jajaja mira que culo, q no pase hambre",
+				"value": "r u butt dialing? cuz I swear dat ass is calling me HAHAHA",
 				"key": "Jose",
 				"time": 0.4
 			}
@@ -62,7 +62,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "troll",
-				"value": "esto va como foto al tablon que hay en clase jajaja",
+				"value": "this goes straight to the class board hahaha",
 				"key": "Ana",
 				"time": 0.8
 			}
@@ -72,7 +72,7 @@
 			"event": {
 				"name": "computer comment",
 				"var": "troll",
-				"value": "pero cobras?",
+				"value": "but do u get paid?",
 				"key": "Alex",
 				"other": "trollPost",
 				"time": 1.2
@@ -82,20 +82,20 @@
 			"type": "dialog",
 			"next": "mobileMessage0",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Voy a cambiarle la bateria al móvil..."
+				"tag": "You",
+				"msn": "I'm changing the phone's battery."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Creo que tenia una en el mueble de la entrada... tercer cajón..."
+				"tag": "You",
+				"msn": "I think i had one in the entrance's table...third drawer..."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Aquí está... ¿enciende?... sí, menos mal"
+				"tag": "You",
+				"msn": "Here it is...does it work?... Yeaaaah, goodness."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Y tanto mensaje?"
+				"tag": "You",
+				"msn": "What's all these messages?"
 			}]
 		},
 		"mobileMessage0": {
@@ -104,7 +104,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "veo k al final no me habéis echado, gracias. Como regalo saber k me gusta comer penes :)",
+				"value": "looks like u didnt kickme out, cheers. as a gift ill tell you i love sucking penises :)",
 				"key": "",
 				"other": "empty",
 				"time": 0
@@ -116,7 +116,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "en verdad le doy a todo, si alguien s anima k me avise",
+				"value": "actually im into everything, if anyone wants lemme know",
 				"key": "",
 				"time": 0.1
 			}
@@ -127,7 +127,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "gracias por confesar, aunk ya lo sabiamos, tienes cara de ello",
+				"value": "thanks 4 confessing, but we already knew, it's written all over your face",
 				"key": "Alex",
 				"time": 0.2
 			}
@@ -138,7 +138,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "ya tenemos el mote perfecto, CARATRA, xk tiene cara de tragarlas jajaja",
+				"value": "we got the perfect name, SUFACE, the face who sucks LOL",
 				"key": "Ana",
 				"time": 0.3
 			}
@@ -149,7 +149,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "y esto? a q viene? por q dices estas cosas?",
+				"value": "whats this? why r u saying these things?",
 				"key": "Alison",
 				"time": 0.3
 			}
@@ -160,7 +160,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "justo el mejor dia no voy... q m e perdido?",
+				"value": "the best day and i missed it...what did i loose?",
 				"key": "Jose",
 				"time": 0.4
 			}
@@ -171,7 +171,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "os estais pasando ya, quien <$ if(varObject('global', 'MaleSexNonStatic')==true, 'le', 'la') $> ha troleado",
+				"value": "youre crossing a line already, who trolled <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> ?",
 				"key": "Guille",
 				"time": 0.5
 			}
@@ -182,7 +182,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "nadie, que pasa guille? t la ha chupado y no queires que se sepa? jajaja",
+				"value": "none, whats up guille? u got sucked & dont want it to be known? hahaha",
 				"key": "Ana",
 				"other": "trollClass",
 				"time": 0.6
@@ -194,7 +194,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Maria",
-				"value": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'ests muy buena', 'soy bollera y se k tu tambn') $>, mañana en los bañs ya tu sabs ;)",
+				"value": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'youre hot', 'imma femme & i know u 2') $>, 2morrow in the toilet ya know ;)",
 				"key": "",
 				"other": "empty",
 				"time": 0.1
@@ -205,7 +205,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Maria",
-				"value": "esto no es propio de ti <$ varObject('global', 'UserNameNonStatic') $>, te han troleado verdad?",
+				"value": "this is so unlike you <$ varObject('global', 'UserNameNonStatic') $>, u got trolled right?",
 				"key": "Maria",
 				"other": "trollMaria",
 				"time": 0.3
@@ -252,28 +252,28 @@
 			"type": "dialog",
 			"next": "setter",
 			"fragments": [{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "Ya has vuelto, <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "You're back, <$ varObject('global', 'UserNameNonStatic') $>"
 			}, 
 			{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "¿Qué tal te ha ido el día?"
+				"msn": "How was your day?"
 			}]
 		},
 		"node2": {
 			"type": "dialog",
 			"next": "parentsFS",
 			"fragments": [{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "¿Quieres que hablemos un rato?"
+				"msn": "Do you want to talk for a while?"
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "¿Qué tal el día?"
+				"msn": "How was your day?"
 			}]
 		},
 		"parentsFS": {
@@ -297,41 +297,41 @@
 			"type": "options",
 			"questionId": "parentsAfternoonFouthDay",
 			"options": [{
-				"msn": "Bien, normal, me voy a mi cuarto",
+				"msn": "Good, the usual, i'm going to my room.",
 				"condition": "page == 1"
 			},
 			{
 				"next": "maria1",
-				"msn": "Hoy Álex y Ana me han intentado chantajear.",
+				"msn": "Today Alex and Ana tried to blackmail me.",
 				"condition": "page == 1 && aboutMaria == true && varObject('global', 'MariaQuestNonStatic') == 1"
 			},
 			{
 				"next": "maria2",
-				"msn": "Hoy Álex y Ana me han chantajeado.",
+				"msn": "Today Alex and Ana have blackmailed me",
 				"condition": "page == 1 && aboutMaria == true && varObject('global', 'MariaQuestNonStatic') == 2"
 			},
 			{
 				"next": "page2",
-				"msn": "(Hablar de otra cosa)",
+				"msn": "(Change the topic)",
 				"condition": "page == 1"
 			},
 			{
 				"next": "mobile0",
-				"msn": "Hoy he perdido el móvil.",
+				"msn": "I've lost the mobile phone today.",
 				"condition": "page == 2 && aboutMobile == true && varObject('global', 'SharedPassQuestNonStatic') == 0"
 			},
 			{
 				"next": "mobile1",
-				"msn": "Alison, puedo confiar en ella.",
+				"msn": "Alison, i can trust her.",
 				"condition": "page == 2 && aboutMobile == true && varObject('global', 'SharedPassQuestNonStatic') == 1"
 			},
 			{
 				"next": "mobile2",
-				"msn": "Alguien me ha quitado el móvil.",
+				"msn": "Someone took my mobile phone.",
 				"condition": "page == 2 && aboutMobile == true && varObject('global', 'SharedPassQuestNonStatic') == 2"
 			},
 			{
-				"msn": "Me voy a la habitación, ya hemos hablado suficiente.",
+				"msn": "I'm going to my room, we've talked enough.",
 				"condition": "page == 2"
 			}]
 		},
@@ -347,24 +347,24 @@
 			"type": "dialog",
 			"next": "mariaSetter",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Han intentado que le ponga un cartel a María."
+				"tag": "You",
+				"msn": "They've tried me to stick a poster of Maria."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Se creen los reyes del colegio o algo."
+				"tag": "You",
+				"msn": "Called themselves school kings or something."
 			}]
 		},
 		"maria2": {
 			"type": "dialog",
 			"next": "mariaSetter",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Han hecho que le ponga un cartel a María."
+				"tag": "You",
+				"msn": "They've made me stick a poster of Maria..."
 			},
 			{
-				"tag": "Tú",
-				"msn": "No me han dado otra opción para recuperar el móvil que me habían quitado."
+				"tag": "You",
+				"msn": "I had no other chance if i wanted my mobile back."
 			}]
 		},
 		"mariaSetter":{
@@ -379,78 +379,78 @@
 			"type": "dialog",
 			"next": "mobileSetter",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hoy me han quitado el móvil y no he podido recuperarlo."
+				"tag": "You",
+				"msn": "They took my phone away and i couldn't get it back."
 			},
 			{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "Pués te has quedado sin móvil, tienes que tener más cuidado con las cosas."
+				"msn": "Well you won't have a mobile phone then, you have to be more careful with your belongings."
 			},
 			{
-				"tag": "Tú",
-				"msn": "No ha sido culpa mía."
+				"tag": "You",
+				"msn": "It wasn't my fault."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Eso no quita que debas vigilar tus cosas. De todas formas..."
+				"msn": "That's no reason to leave your stuff unwatched. Anyway..."
 			}]
 		},
 		"mobile1": {
 			"type": "dialog",
 			"next": "mobileSetter2",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Alison me ha sorprendido. De verdad puedo confiar en ella."
+				"tag": "You",
+				"msn": "Alison has surprised me. I can really trust her."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Hoy hemos intercambiado nuestras contraseñas."
+				"tag": "You",
+				"msn": "Today we've exchanged out passwords."
 			},
 			{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "¿¡Cómo se te ocurre!?. Y si las comparte o se hace pasar por tí."
+				"msn": "How dare you!? What if she shares them or passes herself off as you."
 			},
 			{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "¿Es que no piensas en lo que haces?."
+				"msn": "Don't you think what you do?."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Pero yo tengo sus contraseñas también, confio en ella."
+				"tag": "You",
+				"msn": "But i have her passwords too, i trust her."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Es la única que quiere ser mi amiga"
+				"tag": "You",
+				"msn": "She's the only one who wants to be my friend."
 			}]
 		},
 		"mobile2": {
 			"type": "dialog",
 			"next": "mobileSetter",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hoy me han quitado el móvil."
+				"tag": "You",
+				"msn": "Today they've taken away my phone."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Y alguien lo ha dejado tirado en el baño de <$ if(varObject('global', 'MaleSexNonStatic')==true, 'chicas', 'chicos') $>."
+				"tag": "You",
+				"msn": "And someone left it on the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls'', 'boys'') $> toilet."
 			},
 			{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "Tienes que tener más cuidado con las cosas. No puedes dejarlas en cualquier sitio."
+				"msn": "You have to be more careful about your belongings. You can't leave them anywhere."
 			},
 			{
-				"tag": "Tú",
-				"msn": "No ha sido culpa mía."
+				"tag": "You",
+				"msn": "It wasn't my fault."
 			},
 			{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Eso no quita que debas vigilar tus cosas. De todas formas..."
+				"msn": "That's no reason to leave your stuff unwatched. Anyway..."
 			}]
 		},
 		"mobileSetter":{
@@ -485,9 +485,9 @@
 			"type": "dialog",
 			"next": "meetOptions",
 			"fragments": [{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Creo que deberíamos hablar con el colegio sobre todo lo que está pasando."
+				"msn": "I think we should speak with the school about what's happening."
 			}]
 		},
 		"meetOptions": {
@@ -495,34 +495,34 @@
 			"questionId": "parentsMeetingAfternoonOption",
 			"options": [{
 				"next": "yesMeeting",
-				"msn": "Si, por favor, no puedo más"
+				"msn": "Yes, please, i can't take it any longer."
 			},
 			{
 				"next": "noMeeting",
-				"msn": "No, la tomarán aún más conmigo"
+				"msn": "No, it'll be even worse."
 			}]
 		},
 		"yesMeeting": {
 			"type": "dialog",
 			"next": "meetingVariable",
 			"fragments": [{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "No te preocupes cariño, vamos a solucionar todo."
+				"msn": "Don't worry honey, we will fix it all."
 			}]
 		},
 		"noMeeting": {
 			"type": "dialog",
 			"next": "upParentsFS",
 			"fragments": [{
-				"tag": "Papá",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "De acuerdo, por ahora no iremos al colegio."
+				"msn": "Alright, we won't go for now."
 			},
 			{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "Pero en cuanto pase algo más grave... no nos vamos a quedar sentados."
+				"msn": "But if anything serious happens...we won't get stopped."
 			}]
 		},
 		"meetingVariable": {
@@ -538,9 +538,9 @@
 			"type": "dialog",
 			"next": "upParentsFS",
 			"fragments": [{
-				"tag": "Papa",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Más motivos para que nos reunamos con el colegio mañana y solucionemos esto."
+				"msn": "More reason to go tomorrow to the principal's office and fix all this."
 			}]
 		},
 		"upParentsFS": {
@@ -556,14 +556,14 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Papa",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Habla con tu madre"
+				"msn": "Talk to your mother."
 			},
 			{
-				"tag": "Papa",
+				"tag": "Dad",
 				"character": "Father",
-				"msn": "Quiere saber qué tal te ha ido el día."
+				"msn": "She wants to know how your day was ."
 			}]
 		}
 	},
@@ -571,8 +571,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No tengo nada que hacer en la calle."
+				"tag": "You",
+				"msn": "I have nothing to do in the street."
 			}]
 		}
 	},

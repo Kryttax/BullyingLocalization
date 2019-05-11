@@ -13,35 +13,35 @@
 		"node1":{
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Hay una nota en mi abrigo..."
+				"tag": "You",
+				"msn": "There's a note in my jacket..."
 			},
 			{
-				"tag": "Tú",
-				"msn": "\"Alison te quitó el móvil y se lo dió a Álex y Ana. (continua por la otra cara).\""
+				"tag": "You",
+				"msn": "\"Alison took your phone and gave it to Alex and Ana. (continues on the backside).\""
 			},
 			{
-				"tag": "Tú",
-				"msn": "\"Tenia que darles tus contraseñas o tu móvil\" (fin de la nota)."
+				"tag": "You",
+				"msn": "\"She had to give'em your password or the mobile\" (end of the note)."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Ahora entiendo lo de esta mañana. ¿La habrán amenazado también?"
+				"tag": "You",
+				"msn": "Now i get about this morning. Was she threatened too?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "Mierda, lo tengo sin patrón o PIN de desbloqueo. ¿Qué habrán hecho con él?"
+				"tag": "You",
+				"msn": "Shit, i don't have any unlocking code or pattern. What will they have done with it?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "Y ya hasta mañana no veré a Álex, Ana o Alison."
+				"tag": "You",
+				"msn": "And i won't be able to see Alex, Ana or Alison until tomorrow."
 			}]
 		},
 		"node2":{
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Ya han acabado las clases. Es hora de volver a casa."
+				"tag": "You",
+				"msn": "Classes are over. Time to go back home."
 			}]
 		}
 	},
@@ -49,12 +49,12 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Ya no tengo más clases por hoy y no queda nadie."
+				"tag": "You",
+				"msn": "There are no more classes today and there is nobody left."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Será mejor que me vaya a casa."
+				"tag": "You",
+				"msn": "I'll better go home."
 			}]
 		}
 	},

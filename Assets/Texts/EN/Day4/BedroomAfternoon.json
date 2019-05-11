@@ -4,8 +4,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿mmm, debería irme ya a dormir?"
+				"tag": "You",
+				"msn": ""Mmm, should i go to sleep now?"
 			}]
 		},
 		"node1": {
@@ -13,7 +13,7 @@
 			"questionId": "goToSleep",
 			"options": [{
 				"next": "sleepfork",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"msn": "No"
@@ -33,16 +33,16 @@
 			"type": "dialog",
 			"next": "scene",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Pero no tengo móvil para ponerme el despertador."
+				"tag": "You",
+				"msn": "But i can't use the mobile's alarm clock."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Mmmm, usaré mi móvil viejo, pero al estar sin SIM y no tener nada sólo me servirá como despertador."
+				"tag": "You",
+				"msn": "Mmmm, i'll use my old mobile, but it doesn't have a SIM card so it only works as an alarm clock."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Vale, despertador listo... Hora de dormir."
+				"tag": "You",
+				"msn": "Alright, alarm clock set... Time to sleep."
 			}]
 		},
 		"scene": {
@@ -59,8 +59,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No hay nada útil dentro."
+				"tag": "You",
+				"msn": "There is nothing usefull."
 			}]
 		}		
 	},
@@ -68,8 +68,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No necesito buscar nada de aquí dentro."
+				"tag": "You",
+				"msn": "I don't need anything from here."
 			}]
 		}		
 	},
@@ -77,12 +77,12 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Acabo de volver."
+				"tag": "You",
+				"msn": "I've just come back."
 			},
 			{
-				"tag": "Tú",
-				"msn": "No necesito la mochila para nada.",
+				"tag": "You",
+				"msn": "I don't need the backpack at all.",
 			}]
 		}
 	},
@@ -92,7 +92,7 @@
 			"next": "node1",
 			"fragments": [{
 				"tag": "PC",
-				"msn": "¿Quieres encender el ordenador?"
+				"msn": "Do you want to turn on the computer?"
 			}]
 		},		
 		"node1": {
@@ -100,7 +100,7 @@
 			"questionId": "turnOnPC",
 			"options": [{
 				"next": "node1a",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
@@ -124,8 +124,8 @@
 		"node1b": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Lo mejor será que me vaya."
+				"tag": "You",
+				"msn": "I'll better leave now.."
 			}]
 		}		
 	},
@@ -134,8 +134,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Dejo el móvil cargando?"
+				"tag": "You",
+				"msn": "Do i leave the mobile charging?"
 			}]
 		},		
 		"node1": {
@@ -143,7 +143,7 @@
 			"questionId": "plugInMobile",
 			"options": [{
 				"next": "node1a",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",

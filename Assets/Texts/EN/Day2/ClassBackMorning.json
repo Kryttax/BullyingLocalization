@@ -52,7 +52,7 @@
 			"next": "options",
 			"fragments": [{
 				"tag": "You",
-				"msn": "This place is available, do i sit here?"
+				"msn": "This place is available, may i sit here?"
 			}]
 		},
 		"options": {
@@ -76,7 +76,7 @@
 			"next": "node3",
 			"fragments": [{
 				"tag": "",
-				"msn": "(Knocks in the background, the teacher is here)"
+				"msn": "(Knocks in the back, the teacher is here)"
 			}]
 		},
 		"gum": {

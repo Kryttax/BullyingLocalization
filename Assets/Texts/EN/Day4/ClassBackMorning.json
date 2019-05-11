@@ -3,8 +3,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Parece que alguien ha arrancado ya la foto de ayer."
+				"tag": "You",
+				"msn": "Looks like someone has taken yesterday's picture."
 			}]
 		}
 	},
@@ -27,13 +27,13 @@
 			"type": "dialog",
 			"next": "node2",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $> llegas tarde."
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $> you're late."
 			},{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Por favor, sientate para que podamos continuar la clase."
+				"msn": "Please, have a seat and let's continue the class"
 			}]
 		},
 		"node2": {
@@ -54,7 +54,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "La campana que marca el recreo ha sonado..."
+				"value": "The bell is ringing, it's break time..."
 			}
 		},
 		"breakHour": {
@@ -81,7 +81,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Cada vez se te hacen más largas las horas de clase. Por suerte ya es hora de volver a casa."
+				"value": "It seems like classes are lasting longer and longer... Luckly it's time to go home."
 			}
 		},
 		"endDayHour": {
@@ -99,8 +99,8 @@
 			"type": "dialog",
 			"next": "options",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Este sitio está libre, ¿me siento aquí?"
+				"tag": "You",
+				"msn": "This place is available, may i sit here?"
 			}]
 		},
 		"options": {
@@ -108,7 +108,7 @@
 			"questionId": "sitDownClass",
 			"options": [{
 				"next": "node2",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"msn": "No"
@@ -119,7 +119,7 @@
 			"next": "nodeFork",
 			"fragments": [{
 				"tag": "",
-				"msn": "(Ruidos de fondo, el profesor ha llegado)"
+				"msn": "(Knocks in the back, the teacher is here)"
 			}]
 		},
 		"nodeFork": {
@@ -140,7 +140,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "La campana que marca el recreo ha sonado..."
+				"value": "The bell indicates it's break time..."
 			}
 		},
 		"breakHour": {
@@ -159,7 +159,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Cada vez se te hacen más largas las horas de clase. Por suerte ya es hora de volver a casa."
+				"value": "It seems like classes are lasting longer and longer... Luckly it's time to go home."
 			}
 		},
 		"changeHour": {

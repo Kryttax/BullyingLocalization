@@ -10,16 +10,16 @@
 		"mobile": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No encuentro mi móvil."
+				"tag": "You",
+				"msn": "I can't find my mobile phone."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Lo había dejado encima de la mesa al empezar la clase."
+				"tag": "You",
+				"msn": "I had left it on my table when the class started."
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Alguien me lo ha quitado? Será mejor que pregunte."
+				"tag": "You",
+				"msn": "Did anybody take it? I'll beter ask around."
 			}]
 		},
 	},

@@ -23,37 +23,37 @@
 		"mobileFound": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Has visto si ha entrado alguien a los baños recientemente?"
+				"tag": "You",
+				"msn": "Have you seen anybody entering the toilets recently?"
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "No me he fijado, lo siento."
+				"msn": "I haven't noticed, sorry."
 			}]
 		},
 		"node0": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Me alegro de que hoy hayas venido."
+				"tag": "You",
+				"msn": "I'm glad you came today."
 			}]
 		},
 		"mobileLost": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Has visto mi móvil?"
+				"tag": "You",
+				"msn": "Have you seen my mobile phone?"
 			},
 			{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "No, ni idea, revisa bien la clase por si acaso."
+				"msn": "Nope, no idea, check again the rest of the class just in case."
 			},
 			{
 				"tag": "María",
 				"character": "María",
-				"msn": "Si veo algo te aviso."
+				"msn": "If i see something i'll let you know."
 			}]
 		},
 		"jokeOtions": {
@@ -61,11 +61,11 @@
 			"questionId": "JokeMariaOptions",
 			"options": [{
 				"next": "node0",
-				"msn": "Buenas, María."
+				"msn": "Hey, María."
 			},
 			{
 				"next": "jokeSuccess",
-				"msn": "(Pegar el cartel con cuidado e irte sin decir nada)"
+				"msn": "(Stick the poster carefully and leave wordless)"
 			}]
 		},
 		"jokeSuccess":{
@@ -98,12 +98,12 @@
 		"dialogJoke": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "(Bien, parece que no se ha dado cuenta)"
+				"tag": "You",
+				"msn": "(Good, it seems she hasn't noticed)"
 			},
 			{
-				"tag": "Tú",
-				"msn": "(Espero que ahora me digan dónde está mi móvil)"
+				"tag": "You",
+				"msn": "(I hope they tell me now where my phone is)"
 			}]
 		}
 	},
@@ -148,8 +148,8 @@
 			"type": "dialog",
 			"next": "femaleOptions",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicos."
+				"tag": "You",
+				"msn": "I cannot go there, it's the boys' toilet."
 			}]
 		},
 		"femaleOptions": {
@@ -157,10 +157,10 @@
 			"questionId": "opposedBathroom",
 			"options": [{
 				"next": "female2",
-				"msn": "(Entrar de todas formas)"
+				"msn": "(Get in anyway)"
 			},
 			{
-				"msn": "(Marcharse)"
+				"msn": "(Leave)"
 			}]
 		},
 		"female2": {
@@ -194,8 +194,8 @@
 			"type": "dialog",
 			"next": "maleOptions",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicas."
+				"tag": "You",
+				"msn": "I cannot go there, it's the girls' toilet."
 			}]
 		},
 		"maleOptions": {
@@ -203,10 +203,10 @@
 			"questionId": "opposedBathroom",
 			"options": [{
 				"next": "male2",
-				"msn": "(Entrar de todas formas)"
+				"msn": "(Get in anyways)"
 			},
 			{
-				"msn": "(Marcharse)"
+				"msn": "(Leave)"
 			}]
 		},
 		"male2": {
@@ -222,8 +222,8 @@
 			"type": "dialog",
 			"next": "options",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Si entro y aparece el profesor ya no podré salir."
+				"tag": "You",
+				"msn": "If i get in and the teacher shows up i won't be able to come out."
 			}]
 		},
 		"options": {
@@ -231,10 +231,10 @@
 			"questionId": "endBreak",
 			"options": [{
 				"next": "black",
-				"msn": "(Entrar de todas formas)"
+				"msn": "(Get in anyway)"
 			},
 			{
-				"msn": "Mejor, voy a dar otra vuelta por el edificio."
+				"msn": "I'll have another walk instead."
 			}]
 		},
 		"black": {
@@ -244,7 +244,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Al entrar suena la campana y aparece el profesor. La mañana termina sin darte cuenta, es hora de volver a casa..."
+				"value": "As soon as you get in, the bell rings and the teacher appears. You did not notice but the morning is over, it's time to go home..."
 			}
 		},
 		"changeHour": {

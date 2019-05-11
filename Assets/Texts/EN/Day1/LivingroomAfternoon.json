@@ -173,7 +173,7 @@
 				"condition": "page == 4 && aboutSchool == true "
 			},
 			{
-				"msn": "I'm goint to my room, we've talked enough.",
+				"msn": "I'm going to my room, we've talked enough.",
 				"condition": "page == 4"
 			}]
 		},
@@ -585,7 +585,7 @@
 			"fragments": [{
 				"tag": "Dad",
 				"character": "Father",
-				"msn": "Talk to your mother"
+				"msn": "Talk to your mother."
 			},
 			{
 				"tag": "Dad",
@@ -599,7 +599,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I don't have anything to do in the street."
+				"msn": "I have nothing to do in the street."
 			}]
 		}
 	},

@@ -6,22 +6,22 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $>, quiero hablar contigo."
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $>, i'd like to talk to you."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "No sé si lo sabes, pero Alex nos ha dicho a todos que no te hablemos."
+				"msn": "I don't know if you are aware, but Alex's told us all not to talk to you."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Y a los que no queremos hacerle caso nos amenaza con algo."
+				"msn": "And he's threatening everyone who does not follow him."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "¿Puedo confiar en tí? No quiero dejar de ser tu amiga."
+				"msn": "Can i trust you? I don't want us to stop being friends."
 			}]
 		},		
 		"options": {
@@ -29,11 +29,11 @@
 			"questionId": "AlisonTrustAsk",
 			"options": [{
 				"next": "friend",
-				"msn": "Muchas gracias por ser mi amiga."
+				"msn": "Thank you very much for being my friend."
 			},
 			{
 				"next": "noFriend",
-				"msn": "No y no tengo interés en ganarme tu confianza."
+				"msn": No and i have no interest in gaining your trust."
 			}]
 		},
 		"noFriend": {
@@ -42,12 +42,12 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Entonces no me queda otra que hacer caso a Alex y dejarte de hablar."
+				"msn": "I don't have a choice then so i'll stop talking to you."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "No quiero correr ningún riesgo."
+				"msn": "I don't want to take any risks."
 			}]
 		},		
 		"friend": {
@@ -56,27 +56,27 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Me alegra oír eso."
+				"msn": "I'm glad to hear that."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Intercambiemos contraseñas de redes sociales y del móvil."
+				"msn": "Let's exchange our mobile phone and social media passwords."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Como muestra de amistad y confianza."
+				"msn": "As a gesture of friendship and trust."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Antiguamente para gestos así se daban la mano con una herida abierta para intercambiar sangre."
+				"msn": "In the past, they shook hands with an open wound for sharing blood to each other."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Pero eso es asqueroso y puedes coger cualquier cosa."
+				"msn": "But that's gross and unhealthy."
 			}]
 		},		
 		"passChange": {
@@ -84,11 +84,11 @@
 			"questionId": "AlisonSharePass",
 			"options": [{
 				"next": "change",
-				"msn": "(Aceptar el intercambio de contraseñas)"
+				"msn": "(Accept the passwords exchange)"
 			},
 			{
 				"next": "noChange",
-				"msn": "(Rechazar el intercambio de contraseñas)"
+				"msn": "(Reject the passwords exchange)"
 			}]
 		},
 		"noChange": {
@@ -97,17 +97,17 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Si no confias en mí yo támpoco puedo confiar en tí."
+				"msn": "If you don't trust me i can't trust you either."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Lo siento, pero entonces no puedo hablarte más."
+				"msn": "I'm sorry, but i can't talk to you then."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "No quiero que Álex la tome conmigo."
+				"msn": "I don't want Alex to have it in for me."
 			}]
 		},		
 		"change": {
@@ -115,11 +115,11 @@
 			"next": "changeVariable",
 			"fragments": [{
 				"tag": "Alison",
-				"msn": "Os escribís las contraseñas a través del móvil"
+				"msn": "You write the passwords through the mobile."
 			},{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Perfecto. \"Best Friends\" (sonríe de oreja a oreja)"
+				"msn": "Perfect. \"Best Friends\" (smiles ear to ear)"
 			}]
 		},	
 		"changeVariable": {
@@ -157,7 +157,7 @@
 			"fragments": [
 			{
 				"tag": "",
-				"msn": "<<La campana está sonando>>"
+				"msn": "<<The bell is ringing>>"
 			}]
 		},
 		"hour": {
@@ -199,12 +199,12 @@
 			"fragments": [{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "(Con una sonrisa en su cara te mira fijamente y empieza a reir)"
+				"msn": "(With a smile on his face he looks at you and starts laughing)"
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "JAJAJA!!"
+				"msn": "HAHAHA!!"
 			}]
 		}
 	},
@@ -214,7 +214,7 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "(El gesto de su cara cambia al verte, gira la cabeza y mira a otro lado)"
+				"msn": "(His face gesture changes once he sees you, turns his head and looks other way)"
 			}]
 		}
 	},
@@ -241,7 +241,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "",
-				"msn": "Parece que he llegado pronto y aún no se puede pasar. Será mejor que haga algo de tiempo."
+				"msn": "Looks like i've arrived sooner and entrance is not allowed. I'll better kill some time."
 			}]
 		}
 	},
@@ -249,8 +249,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Parece que alguien ha arrancado ya la foto de ayer."
+				"tag": "You",
+				"msn": "Looks like someone has taken yesterday's picture,"
 			}]
 		}
 	},
@@ -258,8 +258,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Acabo de llegar, no puedo irme aún."
+				"tag": "You",
+				"msn": "I've just arrived, i cannot leave yet."
 			}]
 		}
 	}

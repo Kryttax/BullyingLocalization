@@ -37,7 +37,7 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "¿Ya has pegado el cartel a María sin que se dé cuenta?"
+				"msn": "Have you stuck the poster in María without noticing it yet?"
 			}]
 		},
 		"askOptions": {
@@ -45,7 +45,7 @@
 			"questionId": "AnaAlexMariaJokeAskSuccess",
 			"options": [{
 				"next": "taskSuccess",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"next": "noTime",
@@ -66,7 +66,7 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "¿A qué esperas? Venga, ve a pegar ese cartel a María."
+				"msn": "What are you waiting for? C'mon, go stick that poster in María."
 			}]
 		},
 		"mobile": {
@@ -74,12 +74,12 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Jajajaja, muy bien hecho."
+				"msn": "Hahahaha, well done."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Jajaja, tu móvil está en el baño de <$ if(varObject('global', 'MaleSexNonStatic')==true, 'chicas', 'chicos') $>."
+				"msn": "Hahaha, your mobile is the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls'', 'boys'') $> toilet."
 			}]
 		},
 		"repeat": {
@@ -87,12 +87,12 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Jajajaja."
+				"msn": "Hahahaha."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Jajajaja."
+				"msn": "Hahahaha."
 			}]
 		},
 		"lost": {
@@ -100,17 +100,17 @@
 			"questionId": "AnaAlexAskMobileLost",
 			"options": [{
 				"next": "node1a",
-				"msn": "¿Habéis sido vosotros? ¿Habéis escondido mi móvil en el baño de <$ if(varObject('global', 'MaleSexNonStatic')==true, 'chicas', 'chicos') $>?",
+				"msn": "Was it you? Have you hidden my mobile phone in the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls'', 'boys'') $> toilet?",
 				"condition": "varObject('global', 'SharedPassQuestNonStatic') == 2"
 			},
 			{
 				"next": "node1b",
-				"msn": "¿Alguno de vosotros sabe dónde está mi móvil? No tiene gracia.",
+				"msn": "Does anyone know where my phone is? It's not funny.",
 				"condition": "varObject('global', 'SharedPassQuestNonStatic') == 0"
 			},
 			{
 				"next": "setter",
-				"msn": "Sé que habéis sido vosotros, no tiene gracia.",
+				"msn": "I know it was you, it's not funny.",
 			}]
 		},
 		"node1a": {
@@ -119,17 +119,17 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "¿Y qué si hemos sido nosotros? ¿Vas a ir llorando a hablar con nuestro tutor, con tus padres...?"
+				"msn": "What if we were the ones? Are you going to go crying to speak with our tutor, with your parents...?"
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Jajaja, seguro que sí."
+				"msn": "Hahaha, i'm sure he will."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Venga, pierdete, vete a llorar a otro sitio."
+				"msn": "C'mon, get lost, go cry elsewhere."
 			}]
 		},
 		"node1b": {
@@ -138,22 +138,22 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Quizá"
+				"msn": "Maybe"
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Te diremos dónde está si vas con María y le pegas este cartel en la espalda."
+				"msn": "We'll let you know where it is if you go and stick this poster in María's back."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "(Te da un papel con celo donde se puede lee \"Soy masoca, si lees esto insúltame\")."
+				"msn": "(She gives you a paper with tape on it and the sentence \"<i'm masochist, insult me if you read this\")."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Vuelve cuando lo hayas hecho, sino no te molestes en volver."
+				"msn": "Come back when you've done it... otherwise, don't bother."
 			}]
 		},
 		"jokeAccepted": {
@@ -205,8 +205,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Es la hora del recreo, aún me quedan clases antes de poder irme."
+				"tag": "You",
+				"msn": "It is break time, there are still some classes before i can go home.."
 			}]
 		}
 	}

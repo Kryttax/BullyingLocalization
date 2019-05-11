@@ -10,16 +10,16 @@
 		"node0": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Otra vez, otro día repetido. ¿Sigo soñando?"
+				"tag": "You",
+				"msn": "Again, another repeated day...am i still dreaming?"
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿De quién es la voz que sale del portal? "
+				"tag": "You",
+				"msn": "Who's that voice coming from that portal? "
 			},
 			{
-				"tag": "Tú",
-				"msn": "¿Por qué las dos veces que he pasado el portal he repetido el día?"
+				"tag": "You",
+				"msn": "Why is the day repeated both times i crossed that portal?"
 			}]
 		}
 	},
@@ -27,8 +27,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Otro día más, tengo que irme, espero que se pase rápido."
+				"tag": "You",
+				"msn": "Another day, i have to go, hope it finishes fast."
 			}]
 		}		
 	},
@@ -36,8 +36,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No hay nada útil dentro."
+				"tag": "You",
+				"msn": "There is nothing usefull."
 			}]
 		}		
 	},
@@ -45,8 +45,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Igual puedo ordenar ahora en vez de ir a clase... Mamá se enfadaría"
+				"tag": "You",
+				"msn": "Perhaps i could organize this now instead of going to school... Mom would get mad."
 			}]
 		}		
 	},
@@ -55,8 +55,8 @@
 			"type": "dialog",
 			"next": "node2",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Habrá que irse... "
+				"tag": "You",
+				"msn": "Gotta go... "
 			}]
 		},
 		"node2": {
@@ -73,16 +73,16 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Si enciendo el ordenador seguro que se me hace tarde."
+				"tag": "You",
+				"msn": "If i turn it on now, i will be late for sure."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Siempre me pasa igual, será mejor que me espere a por la tarde."
+				"tag": "You",
+				"msn": "Always the same, better to wait for the afternoon."
 			},
 			{
 				"tag": "PC",
-				"msn": "¿Quieres encender el ordenador?"
+				"msn": "Do you want to turn on the computer?"
 			}]
 		},		
 		"node1": {
@@ -90,7 +90,7 @@
 			"questionId": "turnOnPC",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
@@ -123,8 +123,8 @@
 		"node1b": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Lo mejor será que me vaya."
+				"tag": "You",
+				"msn": "I'll better leave now."
 			}]
 		}		
 	},
@@ -133,8 +133,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Dejo el móvil cargando?"
+				"tag": "You",
+				"msn": "Do i leave the mobile charging?"
 			}]
 		},		
 		"node1": {
@@ -142,7 +142,7 @@
 			"questionId": "plugInMobile",
 			"options": [{
 				"next": "node1a",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
