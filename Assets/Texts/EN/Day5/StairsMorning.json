@@ -18,7 +18,7 @@
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Jajaja..."
+				"msn": "Hahaha..."
 			}]
 		},
 		"sh0": {
@@ -28,12 +28,12 @@
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Te tengo que dar las gracias, Álex se metía conmigo por mi peso..."
+				"msn": "I wanted to thank you, Alex was picking on me because of my weight..."
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Hasta que tú llegaste, me alegro mucho de que estés aquí <$ if(varObject('global', 'MaleSexNonStatic')==true, 'pequeño', 'pequeña') $> gremlin."
+				"msn": "Until you arrived, i'm really glad that you're here, little gremlin."
 			}]
 		},
 		"setter":{
@@ -48,8 +48,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Nota",
-				"msn": "Despacho del Director."
+				"tag": "Note",
+				"msn": "Principal's office."
 			}]
 		}
 	},
@@ -57,8 +57,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Parece que no hay nadie dentro."
+				"tag": "You",
+				"msn": "Looks like nobody's there."
 			}]
 		}
 	},
@@ -75,8 +75,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Debería ir <$ if(varObject('global', 'MaleSexNonStatic')==true, 'directo', 'directa')$> a clase."
+				"tag": "You",
+				"msn": "I should go straight to class."
 			}]
 		}
 	}

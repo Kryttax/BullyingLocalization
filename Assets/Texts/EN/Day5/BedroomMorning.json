@@ -3,8 +3,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "He de irme."
+				"tag": "You",
+				"msn": "Gotta go."
 			}]
 		}		
 	},
@@ -12,8 +12,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Por ahora no necesito nada que pueda estar ahí dentro."
+				"tag": "You",
+				"msn": "I don't need anything from here right now."
 			}]
 		}		
 	},
@@ -21,7 +21,7 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "..."
 			}]
 		}		
@@ -31,8 +31,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Cogeré todo para marcharme."
+				"tag": "You",
+				"msn": "I'll take everything and leave."
 			}]
 		},
 		"node1": {
@@ -50,7 +50,7 @@
 			"next": "node1",
 			"fragments": [{
 				"tag": "PC",
-				"msn": "¿Quieres encender el ordenador?"
+				"msn": "Do you want to turn on the PC?"
 			}]
 		},		
 		"node1": {
@@ -58,7 +58,7 @@
 			"questionId": "turnOnPC",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
@@ -68,15 +68,15 @@
 		"node1a": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No enciende, ¿se habrá estropeado?"
+				"tag": "You",
+				"msn": "It's not working, is it broken?"
 			}]
 		},	
 		"node1b": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Mejor no, es hora de irse a clase."
+				"tag": "You",
+				"msn": "Better not and go to class."
 			}]
 		}		
 	},
@@ -85,8 +85,8 @@
 			"type": "dialog",
 			"next": "node1",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "¿Dejo el móvil cargando?"
+				"tag": "You",
+				"msn": "Do i leave the mobile charging?"
 			}]
 		},		
 		"node1": {
@@ -94,7 +94,7 @@
 			"questionId": "plugInMobile",
 			"options": [{
 				"next": "node1a",
-				"msn": "Sí"
+				"msn": "Yes"
 			},
 			{
 				"next": "node1b",
@@ -140,8 +140,8 @@
 			"type": "dialog",
 			"next": "setter",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Papá y mamá ya se han ido, les veré esta tarde"
+				"tag": "You",
+				"msn": "Mom and Dad are already gone, i'll see them this afternoon."
 			}]
 		},	
 		"setter":{

@@ -25,12 +25,12 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "En los baños, al final de la clase, tú ven, acuerdate."
+				"msn": "When the class is over, remember to come to the toilets."
 			},
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'estaré allí', 'Ana te esperará allí') $>."
+				"msn": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'I'll be there', 'Ana will be waiting there') $>."
 			}]
 		},
 		"sh0": {
@@ -40,12 +40,12 @@
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Parece que te vas a tener que comprar un móvil nuevo, ¿no?."
+				"msn": "Looks like you going to need a new mobile phone, right?."
 			},
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Espero que ese no lo pierdas... o te lo quiten."
+				"msn": "I hope you don't loose that too... or get taken from you."
 			}]
 		},
 		"sh1": {
@@ -55,12 +55,12 @@
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Vaya cosas publicas en \"Conectado\" ¿no?."
+				"msn": "Look at your posts in \"Conectado\", right?."
 			},
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "No me esperaba esto de tí, es como si no lo hubieras posteado tú XD."
+				"msn": "I didn't expect that from you, it's like it wasn't you writing XD."
 			}]
 		},
 		"sh2": {
@@ -70,12 +70,12 @@
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Vaya cosas dices por el chat ¿no?. Caratra, nos has sorprendido a todos."
+				"msn": "Look at your comments in the chat. Suface, you surprised us all."
 			},
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "No me esperaba esto de tí, es como si no lo hubieras escrito tú jajaja."
+				"msn": "I didn't expect that from you, it's like it wasn't you writing hahaha."
 			}]
 		},
 		"setter":{
@@ -93,22 +93,22 @@
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Bueno, creo que es suficiente."
+				"msn": "Well, i think it's enough."
 			},
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Hagamos una cosa. Hablemos donde nadie nos escuche, al terminar las clases."
+				"msn": "Let's do something. When the classes are over, let's talk where none can hear us."
 			},
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Hablemoslo, te disculpas y entonces te dejamos en paz."
+				"msn": "We talk about it, you apologize and we leave you in peace."
 			},
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Ana y yo pasaremos de tí y los demás que hagan lo que quieran."
+				"msn": "Ana and i will leave you alone and the rest can do what they want."
 			}]
 		},
 	},
@@ -140,7 +140,7 @@
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "No tengo nada que hablar contigo."
+				"msn": "I have nothing to talk to you."
 			}]
 		},
 		"setter":{
@@ -173,8 +173,8 @@
 		"female": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicos."
+				"tag": "You",
+				"msn": "I cannot go there, it's the boys' toilet"
 			}]
 		}
 	},
@@ -200,8 +200,8 @@
 		"male": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicas"
+				"tag": "You",
+				"msn": "I cannot go there, it's the girls' toilet"
 			}]
 		}
 	},

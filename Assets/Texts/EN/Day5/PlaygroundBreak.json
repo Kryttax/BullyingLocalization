@@ -15,8 +15,8 @@
 			"type": "dialog",
 			"next": "FadeOutAna",
 			"fragments": [{
-				"tag": "susurro",
-				"msn": "Mmm, no parece que lleve ningún chicle pegado."
+				"tag": "whisper",
+				"msn": "Mmm, looks like he doesn't have any gum stucked on him."
 			},
 			{
 				"tag": "Ana",
@@ -26,22 +26,22 @@
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Hola <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "Hey <$ varObject('global', 'UserNameNonStatic') $>"
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Buenas"
+				"msn": "Hello"
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "¿Has visto a Alex?"
+				"msn": "Have you seen Alex?"
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Tenemos que hablar con él"
+				"msn": "We need to talk to him."
 			}]
 		},
 		"FadeOutAna": {
@@ -64,32 +64,32 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "A ver si lavas la ropa, menudo desastre llevas en el pantalón."
+				"msn": You should wash your clothes, your trousers are a real mess."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "¿No teneís lavadora en casa?"
+				"msn": "Don't you have a washer machine at home?"
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Jajajaja, ¡nueva moda! chicles pegados al pantalón"
+				"msn": "Hahahaha, new trend! Chewing gums stucked on the trousers."
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Con lo horrorosa que es su ropa, no merece la pena que la lave"
+				"msn": "That awful clothing does not worth washing."
 			},
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Debería tirarla a la basura directamente"
+				"msn": "He should throw it straight to the trash can."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Jajajaja"
+				"msn": "Hahahaha"
 			}]
 		}
 	},
@@ -121,7 +121,7 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Prueba a quitarte el chicle en el baño"
+				"msn": "Try to take off that gum in the toilet."
 			}]
 		}, 
 		"setter":{
@@ -136,17 +136,17 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Buenas  <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "Hey  <$ varObject('global', 'UserNameNonStatic') $>"
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Estamos hablando de Alex"
+				"msn": "We were talking about Alex."
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Esta mañana estaba raro, incluso ha llegado el primero a clase"
+				"msn": "He was weird this morning and even got here in first place."
 			}]
 		}, 
 		"node0": {
@@ -154,22 +154,22 @@
 			"fragments": [{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "¿Dónde te has apoyado?Te has debido sentar encima de un chicle"
+				"msn": "Where have you sat?"
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "Te has debido sentar encima de un chicle"
+				"msn": "You probably have sat on a chewing gum."
 			},
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Menudo desastre, pasa por el baño antes de ir a clase"
+				"msn": "What a mess, go straight to the toilet before class."
 			},
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "si, igual consigues quitarlo"
+				"msn": "Yeah, maybe you are able to remove it"
 			}]
 		},
 		"guilleFS": {
@@ -204,8 +204,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Es la hora del recreo, aún me quedan clases antes de poder irme."
+				"tag": "You",
+				"msn": "It is break time, there are still some classes before i can go home."
 			}]
 		}
 	}

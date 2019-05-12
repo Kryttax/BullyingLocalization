@@ -16,7 +16,7 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Venga, pasa al baño."
+				"msn": "C'mon, get in the toilet."
 			}]
 		},
 		"move": {
@@ -57,8 +57,8 @@
 		"female": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicos."
+				"tag": "You",
+				"msn": "I cannot go there, it's the boys' toilet."
 			}]
 		}
 	},
@@ -84,8 +84,8 @@
 		"male": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No puedo entrar ahí, es el baño de chicas."
+				"tag": "You",
+				"msn": "I cannot go there, it's the girls' toilet."
 			}]
 		}
 	},
@@ -93,8 +93,8 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "No tengo nada que hacer dentro de clase."
+				"tag": "You",
+				"msn": "I have nothing to do in class."
 			}]
 		}
 	}

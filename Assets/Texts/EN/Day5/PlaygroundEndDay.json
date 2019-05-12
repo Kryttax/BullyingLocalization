@@ -3,12 +3,12 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Ya no tengo más clases por hoy y no queda nadie."
+				"tag": "You",
+				"msn": "There are no more classes today and there is nobody left."
 			},
 			{
-				"tag": "Tú",
-				"msn": "Será mejor que me vaya a casa."
+				"tag": "You",
+				"msn": "I'll better go home."
 			}]
 		}
 	},

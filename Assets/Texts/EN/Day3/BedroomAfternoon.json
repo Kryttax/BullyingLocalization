@@ -34,7 +34,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "There is nothing usefull	."
+				"msn": "There is nothing usefull."
 			}]
 		}		
 	},
@@ -99,7 +99,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I'd better leave now."
+				"msn": "I'll better leave now."
 			}]
 		}		
 	},

@@ -18,13 +18,13 @@
 			"type": "dialog",
 			"next": "node2",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $> llegas tarde."
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $> you're late."
 			},{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "Por favor, sientate para que podamos continuar la clase."
+				"msn": "Please, have a seat so we can continue the class."
 			}]
 		},
 		"node2": {
@@ -34,7 +34,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Ya han terminado las clases, notas como durante todo el día la gente ha estado mirandote y cuchicheando a tus espaldas."
+				"value": "Classes are over, but people have been looking at you and whispering at your back during the whole day."
 			}
 		},
 		"node3": {
@@ -60,8 +60,8 @@
 			"type": "dialog",
 			"next": "options",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "Este sitio está libre, ¿me siento aquí?"
+				"tag": "You",
+				"msn": "This spot is available, may i sit here?"
 			}]
 		},
 		"options": {
@@ -69,7 +69,7 @@
 			"questionId": "sitDownClass",
 			"options": [{
 				"next": "node2",
-				"msn": "Si"
+				"msn": "Yes"
 			},
 			{
 				"msn": "No"
@@ -80,7 +80,7 @@
 			"next": "node3",
 			"fragments": [{
 				"tag": "",
-				"msn": "(Ruidos de fondo, el profesor ha llegado)"
+				"msn": "(Knocks on the back, the teacher has arrived)"
 			}]
 		},
 		"node3": {
@@ -90,7 +90,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "Otro día más dónde todos cuchichean a tus espaldas, es hora de irse a casa."
+				"value": "Another day of whispers at your back, it's time to go home."
 			}
 		},
 		"changeHour": {
