@@ -128,6 +128,10 @@ public class MenuLanguageSelector : MonoBehaviour
 
         }
 
-        return myDictionary[objectName];
+        string newWord = myDictionary[objectName];
+        if(newWord.Contains("\\n"))
+            newWord = myDictionary[objectName].Replace("\\n", "\n");
+
+        return newWord;
     }
 }
