@@ -108,7 +108,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I'd better leave now"
+				"msn": "I'd better leave now."
 			}]
 		}		
 	},

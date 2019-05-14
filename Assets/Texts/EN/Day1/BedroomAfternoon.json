@@ -52,7 +52,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I've just come back"
+				"msn": "I've just come back."
 			},
 			{
 				"tag": "You",
@@ -66,7 +66,7 @@
 			"next": "node1",
 			"fragments": [{
 				"tag": "PC",
-				"msn": "Do you want to turn on the computer"
+				"msn": "Do you want to turn on the computer?"
 			}]
 		},		
 		"node1": {
