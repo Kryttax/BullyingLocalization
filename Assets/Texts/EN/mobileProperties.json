@@ -6,5 +6,14 @@
     "4":"Friday",
     "day":"Day",
     "alarm":"Alarm",
-    "sleepMsn":"You are unable to sleep more. You should wake up now"
+    "sleepMsn":"You are unable to sleep more. You should wake up now",
+
+    "chatTextTitle":"CHATS",
+    "riskTitle":"Social Risk",
+    "friendshipTitle":"Friendships",
+
+    "exitButton":"Exit Game",
+    "warningText":"Game will close. \n Are you sure?",
+    "YesText":"Yes",
+    "NoText":"No"
 }
