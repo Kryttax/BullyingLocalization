@@ -43,12 +43,13 @@ public class LanguageSelector : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         GlobalState.Language = "NULL";
 
-        jsonFiles = new string[4];
+        jsonFiles = new string[5];
 
         jsonFiles[0] = "menuProperties.json";
         jsonFiles[1] = "cutscenes.json";
         jsonFiles[2] = "mobileProperties.json";
         jsonFiles[3] = "computerProperties.json";
+        jsonFiles[4] = "credits.json";
         myDictionary = new Dictionary<string, string>();
 
         backGround = GameObject.Find("Canvas/Language");
@@ -74,6 +75,11 @@ public class LanguageSelector : MonoBehaviour
         jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" + GlobalState.Language + "/" +
             jsonFiles[cont], typeof(TextAsset));
 
+        if (jsonFile == null)
+        {
+            Debug.LogError("The sequence with key " + jsonFile.name + " doesn't exit (Object " + this.gameObject.name + ")");
+            return;
+        }
         string fileContents = jsonFile.text;
 
         json = JSONObject.Create(fileContents);
