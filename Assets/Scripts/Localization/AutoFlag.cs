@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+//using UnityEditor;
+
 [RequireComponent(typeof(Button))]
 public class AutoFlag : MonoBehaviour
 {
     Image img;
     Button button;
-    private void Start()
+
+    private void Awake()
     {
         img = GetComponent<Image>();
         button = GetComponent<Button>();
@@ -27,18 +29,20 @@ public class AutoFlag : MonoBehaviour
         }
 
         string path = "";
-        TextureImporter importer = null;
+        Texture2D test = null;
+        //TextureImporter importer = null;
 
         try
         {
             {
-                path = "Assets/Texts/" + gameObject.name + "/flag.png";
-                importer = (TextureImporter)TextureImporter.GetAtPath(path);
+                path = "Localization/" + gameObject.name + "/flag";
+                //importer = (TextureImporter)TextureImporter.GetAtPath(path);
+                test = Resources.Load(path) as Texture2D;
             }
-            if (importer == null)
+            if (test == null)
             {
-                path = "Assets/Texts/" + gameObject.name + "/flag.jpg";
-                importer = (TextureImporter)TextureImporter.GetAtPath(path);
+                path = "Localization/" + gameObject.name + "/flag";
+                test = Resources.Load<Texture2D>(path);
             }
             else
             {
@@ -50,14 +54,8 @@ public class AutoFlag : MonoBehaviour
             Debug.LogError("Error in " + path + " path. The error is: " + e.Message);
         }
 
-        importer.textureType = TextureImporterType.Sprite;
-
-        EditorUtility.SetDirty(importer);
-        importer.SaveAndReimport();
-        AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
-
-        GetComponent<Image>().sprite = (Sprite)AssetDatabase.LoadAssetAtPath(path, typeof(Sprite));
-
+        img.sprite = Sprite.Create(test, new Rect(0, 0, test.width, test.height), Vector2.zero);
+        
         button.onClick.AddListener(SelectLanguage);
 
     }

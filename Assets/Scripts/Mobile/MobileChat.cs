@@ -64,16 +64,18 @@ public class MobileChat : MonoBehaviour
     private float exitButtonTime = 0;
 
 
-    private TextAsset daysName;
+    //private TextAsset daysName;
 
-    private string[] days;
+    //private string[] days;
 
     // Use this for initialization
     void Start()
     {
-        daysName = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" +
-        GlobalState.Language + "/mobileProperties.txt", typeof(TextAsset));
-        days = daysName.text.Split(',');
+
+        //daysName = (TextAsset)Resources.Load("Localization/" +
+        //GlobalState.Language + "/mobileProperties.txt", typeof(TextAsset));
+
+        //days = daysName.text.Split(',');
 
         exitButton.SetActive(false);
 

@@ -19,14 +19,6 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
 	TextAsset jsonFile;
 	public IState variablesObject;
 
-	// Use this for initialization
-	void Start () {
-		/*
-		StreamReader sr = new StreamReader(Application.dataPath + "/Texts/" + fileName);
-
-		string fileContents = sr.ReadToEnd();
-		sr.Close();*/
-	}
 
 	private void Awake()
 	{
@@ -35,10 +27,13 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
 		gameEvent = new GameEvent();
 		this.gameEvent.Name = "start sequence";
 
-        jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Texts/" + "EN" + "/" + fileName);
-        string fileContents = jsonFile.text;
+        char[] MyChar = { '.', 'j', 's', 'o', 'n' };
+        string newName = fileName.TrimEnd(MyChar);
+        fileName = newName;
+        jsonFile = Resources.Load<TextAsset>("Localization/" + GlobalState.Language + "/" + fileName);
 
-		JSONObject json = JSONObject.Create(fileContents);
+        string fileContents = jsonFile.text;
+        JSONObject json = JSONObject.Create(fileContents);
 		foreach (Transform child in transform)
 		{
 			if (!child.GetComponent<ThrowDialog>())
@@ -97,7 +92,7 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
 #if UNITY_EDITOR
 		if (jsonFile == null && !string.IsNullOrEmpty(fileName))
 		{
-			jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Texts/" + fileName);
+			jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Texts/" + fileName + ".json");
 			Debug.Log("JSON FILE Setted: " + fileName);
 		}
 #endif

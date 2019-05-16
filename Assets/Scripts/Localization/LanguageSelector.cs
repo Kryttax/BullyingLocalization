@@ -45,11 +45,11 @@ public class LanguageSelector : MonoBehaviour
 
         jsonFiles = new string[5];
 
-        jsonFiles[0] = "menuProperties.json";
-        jsonFiles[1] = "cutscenes.json";
-        jsonFiles[2] = "mobileProperties.json";
-        jsonFiles[3] = "computerProperties.json";
-        jsonFiles[4] = "credits.json";
+        jsonFiles[0] = "menuProperties";
+        jsonFiles[1] = "cutscenes";
+        jsonFiles[2] = "mobileProperties";
+        jsonFiles[3] = "computerProperties";
+        jsonFiles[4] = "credits";
         myDictionary = new Dictionary<string, string>();
 
         backGround = GameObject.Find("Canvas/Language");
@@ -72,8 +72,10 @@ public class LanguageSelector : MonoBehaviour
     //Fills local myDictionary given a custom path 
     void FillDictionary()
     {
-        jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" + GlobalState.Language + "/" +
-            jsonFiles[cont], typeof(TextAsset));
+
+        jsonFile = (TextAsset)Resources.Load("Localization/" + GlobalState.Language + "/" +
+            jsonFiles[cont]);
+        //jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath(, typeof(TextAsset));
 
         if (jsonFile == null)
         {

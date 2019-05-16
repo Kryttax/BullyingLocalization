@@ -50,7 +50,7 @@ public class MobileMessage : EventManager {
 	// Use this for initialization
 	void Start () {
 
-        jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" + GlobalState.Language + "/Devices/MobileMessages.json", typeof(TextAsset));
+        jsonFile = (TextAsset)Resources.Load("Localization/" + GlobalState.Language + "/Devices/MobileMessages", typeof(TextAsset));
 
         if (jsonFile != null)
 		{

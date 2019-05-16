@@ -32,15 +32,17 @@ public class Mobile : MonoBehaviour {
 	private bool sound = true;
 	private bool delayed;
 
-    private TextAsset daysName;
-	private string[] days;
+ //   private TextAsset daysName;
+	//private string[] days;
 	// Use this for initialization
 	void Start()
 	{
-        daysName = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" +
-        GlobalState.Language + "/mobileProperties.txt", typeof(TextAsset));
-        days = daysName.text.Split(',');
 
+
+        //daysName = (TextAsset)Resources.Load("Assets/Texts/" +
+        //GlobalState.Language + "/mobileProperties.txt", typeof(TextAsset));
+
+        //days = daysName.text.Split(',');
         hidePosition = this.GetComponent<Transform>().localPosition;
 		wakeUpPanel.SetActive(false);
 
