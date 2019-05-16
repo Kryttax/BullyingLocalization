@@ -9,7 +9,7 @@ public class MenuLanguageSelector : MonoBehaviour
     protected static MenuLanguageSelector instance;
     public static MenuLanguageSelector Instance { get { return instance == null ? instance = new MenuLanguageSelector() : instance; } }
 
-    public GameObject backGround;
+    static GameObject backGround;
 
     public static string _playButton;
     public static string _exitButton;
@@ -50,6 +50,8 @@ public class MenuLanguageSelector : MonoBehaviour
         jsonFiles[2] = "mobileProperties.json";
         jsonFiles[3] = "computerProperties.json";
         myDictionary = new Dictionary<string, string>();
+
+        backGround = GameObject.Find("Canvas/Language");
     }
 
     public void SetLanguage(string lang)
@@ -58,27 +60,6 @@ public class MenuLanguageSelector : MonoBehaviour
 
         OnClickCallback();
     }
-
-    //public void SpanishLanguage()
-    //{
-    //    GlobalState.Language = "ES";
-
-    //    //PlayButton.GetComponent<Text>().text = "Empezar";
-    //    //ExitButton.GetComponent<Text>().text = "Salir";
-    //    //CreditsButton.GetComponent<Text>().text = "Créditos";
-    //    OnClickCallback();
-    //}
-
-    //public void EnglishLanguage()
-    //{
-    //    GlobalState.Language = "EN";
-
-
-    //    //PlayButton.GetComponent<Text>().text = "Start";
-    //    //ExitButton.GetComponent<Text>().text = "Exit";
-    //    //CreditsButton.GetComponent<Text>().text = "Credits";
-    //    OnClickCallback();
-    //}
 
     void OnClickCallback()
     {

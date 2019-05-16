@@ -33,7 +33,7 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
 		gameEvent = new GameEvent();
 		this.gameEvent.Name = "start sequence";
 
-        jsonFile = (TextAsset) UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Texts/" + GlobalState.Language + "/" + fileName, typeof(TextAsset));
+        jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Texts/" + "EN" + "/" + fileName);
         string fileContents = jsonFile.text;
 
 		JSONObject json = JSONObject.Create(fileContents);

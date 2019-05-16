@@ -545,7 +545,7 @@ public class MobileChat : MonoBehaviour
     {
         try
         {
-            Tracker.T.trackedGameObject.Interacted(id, GameObjectTracker.TrackedGameObject.Item);
+            Tracker.T.GameObject.Interacted(id, GameObjectTracker.TrackedGameObject.Item);
         }
         catch (Exception e)
         {
