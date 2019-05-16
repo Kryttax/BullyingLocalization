@@ -10,7 +10,7 @@
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "Pick the spot you like the most"
+				"msn": "Pick the spot you like the most."
 			}]
 		},
 		"fade": {
@@ -28,7 +28,7 @@
 			"fragments": [{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "I think you missed your spot"
+				"msn": "I think you missed your spot."
 			}, {
 				"tag": "Sombra",
 				"character": "Shadow",
@@ -90,12 +90,12 @@
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "That seat is mine, you will have to take another one"
+				"msn": "That seat is mine, you will have to take another one."
 			},
 			{
 				"tag": "Sombra",
 				"character": "Shadow",
-				"msn": "You can sit wherever you like but in that one"
+				"msn": "You can sit wherever you like but in that one."
 			}]
 		}
 	}

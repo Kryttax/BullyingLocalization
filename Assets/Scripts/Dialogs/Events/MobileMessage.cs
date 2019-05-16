@@ -5,6 +5,7 @@ using UnityEngine;
 using System;
 using Isometra.Sequences;
 using System.IO;
+using UnityEditor;
 
 public class MobileMessage : EventManager {
 
