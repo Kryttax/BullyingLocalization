@@ -92,7 +92,7 @@ public class Mobile : MonoBehaviour {
 	{
 		if(!stop && (GlobalState.Hour >= 8 || GlobalState.Day == 4))
 		{
-			wakeUpPanel.GetComponentInChildren<Text>().text = MenuLanguageSelector.Instance.GetName("sleepMsn");
+			wakeUpPanel.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName("sleepMsn");
 			wakeUpPanel.SetActive(true);
 		} else
 		{
@@ -129,10 +129,10 @@ public class Mobile : MonoBehaviour {
 
 	public void updateHour()
 	{
-        alarm.text = MenuLanguageSelector.Instance.GetName("alarm");
+        alarm.text = LanguageSelector.Instance.GetName("alarm");
 		setHour(GlobalState.Hour, GlobalState.Minute);
-		this.day.text = MenuLanguageSelector.Instance.GetName(GlobalState.Day.ToString()) +
-            ", " + MenuLanguageSelector.Instance.GetName("day") + " " + (GlobalState.Day+1).ToString();
+		this.day.text = LanguageSelector.Instance.GetName(GlobalState.Day.ToString()) +
+            ", " + LanguageSelector.Instance.GetName("day") + " " + (GlobalState.Day+1).ToString();
 	}
 
 	private void OnValidate()

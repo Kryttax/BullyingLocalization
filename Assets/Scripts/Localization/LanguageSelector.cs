@@ -4,10 +4,10 @@ using Isometra.Sequences;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
-public class MenuLanguageSelector : MonoBehaviour
+public class LanguageSelector : MonoBehaviour
 {
-    protected static MenuLanguageSelector instance;
-    public static MenuLanguageSelector Instance { get { return instance == null ? instance = new MenuLanguageSelector() : instance; } }
+    protected static LanguageSelector instance;
+    public static LanguageSelector Instance { get { return instance == null ? instance = new LanguageSelector() : instance; } }
 
     static GameObject backGround;
 

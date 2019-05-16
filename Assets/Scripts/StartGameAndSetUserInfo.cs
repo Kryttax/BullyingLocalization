@@ -73,49 +73,49 @@ public class StartGameAndSetUserInfo : MonoBehaviour {
 		{
 			if (userName.text.Length > 10)
 			{
-				error.text = MenuLanguageSelector.Instance.GetName("nameLengthError");  //"Tu nombre no puede tener más de 10 caracteres";
+				error.text = LanguageSelector.Instance.GetName("nameLengthError");  //"Tu nombre no puede tener más de 10 caracteres";
 				error.enabled = true;
 				return;
 			}
 
 			if (nick.text.Contains(" ") || userPass.text.Contains(" "))
 			{
-				error.text = MenuLanguageSelector.Instance.GetName("spaceError");  //"El Usuario y la Contraseña no pueden contener espacios";
+				error.text = LanguageSelector.Instance.GetName("spaceError");  //"El Usuario y la Contraseña no pueden contener espacios";
 				error.enabled = true;
 				return;
 			}
 
 			if (nick.text.Length > 16 || userPass.text.Length > 16)
 			{
-				error.text = MenuLanguageSelector.Instance.GetName("userpasswordLengthError");  //"Usuario y Contraseña no pueden contener más de 16 caracteres";
+				error.text = LanguageSelector.Instance.GetName("userpasswordLengthError");  //"Usuario y Contraseña no pueden contener más de 16 caracteres";
 				error.enabled = true;
 				return;
 			}
 
 			if (userName.text == "")
 			{
-				error.text = error.text = MenuLanguageSelector.Instance.GetName("nameError"); //"Hace falta tu nombre";
+				error.text = error.text = LanguageSelector.Instance.GetName("nameError"); //"Hace falta tu nombre";
 				error.enabled = true;
 				return;
 			}
 
 			if (nick.text == "")
 			{
-				error.text = error.text = MenuLanguageSelector.Instance.GetName("userError"); //"Hace falta un nombre de usuario";
+				error.text = error.text = LanguageSelector.Instance.GetName("userError"); //"Hace falta un nombre de usuario";
 				error.enabled = true;
 				return;
 			}
 
 			if (userPass.text == "")
 			{
-				error.text = error.text = MenuLanguageSelector.Instance.GetName("passwordError"); //"Hace falta una contraseña";
+				error.text = error.text = LanguageSelector.Instance.GetName("passwordError"); //"Hace falta una contraseña";
 				error.enabled = true;
 				return;
 			}
 
 			if (!male.isOn && !female.isOn)
 			{
-                error.text = MenuLanguageSelector.Instance.GetName("genderError");//"Hace falta que selecciones tu género";
+                error.text = LanguageSelector.Instance.GetName("genderError");//"Hace falta que selecciones tu género";
 				error.enabled = true;
 				return;
 			}

@@ -9,7 +9,7 @@ public class GetStringName : MonoBehaviour
     //void Awake()
     //{
     //    if(GlobalState.Language != "NULL")
-    //        gameObject.GetComponentInChildren<Text>().text = MenuLanguageSelector.Instance.GetName(gameObject.name);
+    //        gameObject.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName(gameObject.name);
     //}
 
     private void Update()
@@ -22,11 +22,11 @@ public class GetStringName : MonoBehaviour
     {
         if(gameObject.GetComponent<Text>() != null)
         {
-            gameObject.GetComponent<Text>().text = MenuLanguageSelector.Instance.GetName(gameObject.name);
+            gameObject.GetComponent<Text>().text = LanguageSelector.Instance.GetName(gameObject.name);
         }
         else
         {
-            gameObject.GetComponentInChildren<Text>().text = MenuLanguageSelector.Instance.GetName(gameObject.name);
+            gameObject.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName(gameObject.name);
         }
 
         done = true;
