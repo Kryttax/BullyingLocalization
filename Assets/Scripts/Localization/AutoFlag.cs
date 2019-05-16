@@ -29,32 +29,21 @@ public class AutoFlag : MonoBehaviour
         }
 
         string path = "";
-        Texture2D test = null;
+        Texture2D import = null;
         //TextureImporter importer = null;
 
-        try
+
+        path = "Localization/" + gameObject.name + "/flag";
+        import = Resources.Load(path) as Texture2D;
+
+
+        if (import == null)
         {
-            {
-                path = "Localization/" + gameObject.name + "/flag";
-                //importer = (TextureImporter)TextureImporter.GetAtPath(path);
-                test = Resources.Load(path) as Texture2D;
-            }
-            if (test == null)
-            {
-                path = "Localization/" + gameObject.name + "/flag";
-                test = Resources.Load<Texture2D>(path);
-            }
-            else
-            {
-               // Debug.LogWarning("Dialog with key " + name + " doesn't exist in file " + fileName);
-            }
-        }
-        catch (Exception e)
-        {
-            Debug.LogError("Error in " + path + " path. The error is: " + e.Message);
+            Debug.LogError("Error: " + path+ " doesn't exit (Object " + import.name + ")");
+            return;
         }
 
-        img.sprite = Sprite.Create(test, new Rect(0, 0, test.width, test.height), Vector2.zero);
+        img.sprite = Sprite.Create(import, new Rect(0, 0, import.width, import.height), Vector2.zero);
         
         button.onClick.AddListener(SelectLanguage);
 

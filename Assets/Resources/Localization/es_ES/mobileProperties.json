@@ -1,19 +1,19 @@
 ﻿{
-    "0":"Monday",
-    "1":"Tuesday",
-    "2":"Wednesday",
-    "3":"Thursday",
-    "4":"Friday",
-    "day":"Day",
-    "alarm":"Alarm",
-    "sleepMsn":"You are unable to sleep more. You should wake up now",
+    "0":"Lunes",
+    "1":"Martes",
+    "2":"Miércoles",
+    "3":"Jueves",
+    "4":"Viernes",
+    "day":"Día",
+    "alarm":"Alarma",
+    "sleepMsn":"No puedes dormir más. Deberías levantarte ya.",
 
-    "chatTextTitle":"CHATS",
-    "riskTitle":"Social Risk",
-    "friendshipTitle":"Friendships",
+    "chatTextTitle":"CONVERSACIONES",
+    "riskTitle":"Riesgo Social",
+    "friendshipTitle":"Amistades",
 
-    "exitButton":"Exit Game",
-    "warningText":"Game will close. \n Are you sure?",
-    "YesText":"Yes",
+    "exitButton":"Salir del Juego",
+    "warningText":"El juego se cerrará. \n ¿Estás seguro?",
+    "YesText":"Sí",
     "NoText":"No"
 }
