@@ -4,16 +4,16 @@
 			"type": "dialog",
 			"next": "fade",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "So... Have we worked this out?"
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Do you know where to sit?"
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",				
 				"msn": "Maybe you should avoid those gums to fall on the chairs by hitting them, or you'll have to sit on one of them."
 			}]
@@ -30,25 +30,25 @@
 		"root":{
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "You will have to sit on a gum."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Hahahaha, go on, sit down."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Come on, what are you waiting for?"
 			},{
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				"msn": "Come, I will help you."
 			}, {
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				"msn": "Go through the portal."
 			}, {
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				"msn": "Run, before you wake up."
 			}]
 		}
@@ -66,13 +66,13 @@
 			"type": "dialog",
 			"next": "variable",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "I will go."
 			}, {
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "It's a little bit scary."
 			}, {
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "But it's just a dream."
 			}]
 		},
@@ -125,15 +125,15 @@
 			"type": "dialog",
 			"next": "changeDay",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "You will have to sit on a gum."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Hahahaha, go on, sit down."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Come on, what are you waiting for?"
 			}]

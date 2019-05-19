@@ -41,7 +41,7 @@
 			{
 				"tag": "Mom",
 				"character": "Mother",
-				"msn": "<$ if(varObject('global', 'HourNonStatic')<8, 'go now or you'll be late', 'go now, you are late') $>"
+				"msn": "<$ if(varObject('global', 'HourNonStatic') < 8, 'go now or you will be late', 'go now, you are late') $>"
 			}]
 		},
 		"getBag": {
@@ -73,7 +73,7 @@
 			"fragments": [{
 				"tag": "Mom",
 				"character": "Mother",
-				"msn": "Looks like you're ready to go"
+				"msn": "Looks like you're ready to go."
 			}, 
 			{
 				"tag": "Mom",
@@ -150,7 +150,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I forgot the backpack. I'll better go to my room to take it before i leave"
+				"msn": "I forgot the backpack. I'll better go to my room to take it before i leave."
 			}]
 		}
 	},

@@ -3,7 +3,7 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				
 				"msn": "I don't have anything to post right now, I have better things to do."
 			}]
@@ -16,7 +16,7 @@
 				"name": "computer comment",
 				"var": "earing",
 				"value": "You're welcome, Allison",
-				"key": "Tú",
+				"key": "You",
 				"other" : "empty",
 				"time": 0
 			}
@@ -42,7 +42,7 @@
 		"node1a": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "I'm gonna report the message, see if they delete it because of its content."
 			}]
 		},
@@ -54,7 +54,7 @@
 				"var": "insult",
 				
 				"value": "You're all assholes, fuck off. You act like three year olds.",
-				"key": "Tú",
+				"key": "You",
 				"other" : "empty",
 				"time": 0
 			}
@@ -77,7 +77,7 @@
 				"var": "insult",
 				
 				"value": "I'm sick of them. Tomorrow I'll speak to the tutor.",
-				"key": "Tú",
+				"key": "You",
 				"other" : "empty",
 				"time": 0
 			}
@@ -115,7 +115,7 @@
 			"type": "dialog",
 			"next": "loadPub",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "I'm gonna delete the post"
 			}]
 		},
@@ -145,7 +145,7 @@
 				"name": "computer comment",
 				"var": "troll",
 				"value": "Alison... this is why you wanted to exchange passwords, you are the worst.",
-				"key": "Tú",
+				"key": "You",
 				"other" : "empty",
 				"time": 0
 			}

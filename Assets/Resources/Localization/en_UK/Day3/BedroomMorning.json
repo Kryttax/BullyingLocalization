@@ -20,7 +20,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-			"msn": "Today the mobile's date is shown correctly."
+				"msn": "Today the mobile's date is shown correctly."
 			},
 			{
 				"tag": "You",

@@ -117,7 +117,7 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "How do you do? <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "How do you do <$ varObject('global', 'UserNameNonStatic') $>?"
 			}]
 		},
 		"normal2": {
@@ -374,7 +374,7 @@
 			{
 				"tag": "Guille",
 				"character": "Guille",
-				"msn": "¿Do you want to come? Some classmates are coming."
+				"msn": "Do you want to come? Some classmates are coming."
 			},
 			{
 				"tag": "Guille",

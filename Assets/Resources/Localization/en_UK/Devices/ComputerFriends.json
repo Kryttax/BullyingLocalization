@@ -84,7 +84,7 @@
 			"type": "dialog",
 			"next": "resend",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "I cannot reject the invitation, she's the first person who seems interested in being my friend"
 			}]
 		},
@@ -139,8 +139,8 @@
 			"type": "dialog",
 			"next": "sure",
 			"fragments": [{
-				"tag": "Tú",
-				"msn": "I have no reason to reject his invitation, Do I really wanna reject it?"
+				"tag": "You",
+				"msn": "I have no reason to reject his invitation, do I really wanna reject it?"
 			}]
 		},
 		"sure": {

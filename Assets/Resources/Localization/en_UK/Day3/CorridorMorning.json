@@ -20,7 +20,7 @@
 			},
 			{
 				"tag": "You",
-				"msn": "Again ignoring me... What did i do to?"
+				"msn": "Again ignoring me... What did i do?"
 			}]
 		}, 
 		"alisonBoard": {
@@ -57,7 +57,7 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "I was llooking at the board."
+				"msn": "I was looking at the board."
 			},
 			{
 				"tag": "Alison",

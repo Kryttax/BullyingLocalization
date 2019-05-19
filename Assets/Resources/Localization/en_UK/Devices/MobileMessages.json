@@ -64,7 +64,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Alison Clase",
-				"value": "I'll look into it when I can, I'm <$ if(varObject('global', 'MaleSexNonStatic')==true, 'busy', 'busy') $> right know",
+				"value": "I'll look into it when I can, I'm busy right know",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -108,7 +108,7 @@
 				"name": "mobile message",
 				"var": "Clase",
 				
-				"value": "I just get to school and It really feels like awful that you guys treat me like shit.",
+				"value": "I just get to school and it really feels like awful that you guys treat me like shit.",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -144,7 +144,7 @@
 				"name": "mobile message",
 				"var": "Clase",
 				
-				"value": "I don't understand, What have I done to you to insult, ignore and make jokes about of me?",
+				"value": "I don't understand, what have I done to you to insult, ignore and make jokes about of me?",
 				"key": "",
 				"other": "empty",
 				"time": 0 
@@ -177,7 +177,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "No os metaís donde no os llaman, también puedo hacer que Jose os eche a vosotros",
+				"value": "This is not your bussiness, i can make Jose to kick you out too.",
 				"key": "Alex",
 				"other": "kickClass2",
 				"time": 8 

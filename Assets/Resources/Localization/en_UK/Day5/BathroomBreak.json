@@ -5,7 +5,7 @@
 			"next": "lightOff",
 			"fragments": [{
 				"tag": "You",
-				"msn": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'Mmm, what's going on Alex? Why don't you go in?', '¿Ana, are you here?') $>"
+				"msn": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'Mmm, what is going on Alex? Why are you still here?', 'Ana, are you here?') $>"
 			}]
 		},
 		"lightOff": {

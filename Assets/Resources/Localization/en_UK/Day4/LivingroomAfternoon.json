@@ -171,7 +171,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Clase",
-				"value": "youre crossing a line already, who trolled <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $> ?",
+				"value": "youre crossing a line already, who trolled <$ if(varObject('global', 'MaleSexNonStatic')==true, 'him', 'her') $>?",
 				"key": "Guille",
 				"time": 0.5
 			}
@@ -436,7 +436,7 @@
 			},
 			{
 				"tag": "You",
-				"msn": "And someone left it on the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls'', 'boys'') $> toilet."
+				"msn": "And someone left it on the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls', 'boys') $>' toilet."
 			},
 			{
 				"tag": "Mom",
@@ -563,7 +563,7 @@
 			{
 				"tag": "Dad",
 				"character": "Father",
-				"msn": "She wants to know how your day was ."
+				"msn": "She wants to know how your day was."
 			}]
 		}
 	},

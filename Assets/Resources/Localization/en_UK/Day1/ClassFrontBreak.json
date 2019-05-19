@@ -86,7 +86,7 @@
 			},
 			{
 				"tag": "You",
-				"msn": "(Le das el bocadillo)"
+				"msn": "(You give him your sandwich)"
 			},
 			{
 				"tag": "Alejandro",
@@ -434,7 +434,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Alison Clase",
-				"value": "De nuevo muchas gracias por ayudarme",
+				"value": "Thanks again for helping me",
 				"key": "Alison Clase",
 				"other": "alisonThx",
 				"time": 3

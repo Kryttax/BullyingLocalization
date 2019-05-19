@@ -30,7 +30,7 @@
 			{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'I'll be there', 'Ana will be waiting there') $>."
+				"msn": "<$ if(varObject('global', 'MaleSexNonStatic')==true, 'I will be there', 'Ana will be waiting there') $>."
 			}]
 		},
 		"sh0": {

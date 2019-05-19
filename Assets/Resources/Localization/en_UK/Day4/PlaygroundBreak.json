@@ -37,7 +37,7 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "Have you stuck the poster in María without noticing it yet?"
+				"msn": "Have you stuck the poster in María's back without her noticing it yet?"
 			}]
 		},
 		"askOptions": {
@@ -66,7 +66,7 @@
 			"fragments": [{
 				"tag": "Álex",
 				"character": "Alex",
-				"msn": "What are you waiting for? C'mon, go stick that poster in María."
+				"msn": "What are you waiting for? C'mon, go stick that poster in María's back."
 			}]
 		},
 		"mobile": {
@@ -79,7 +79,7 @@
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Hahaha, your mobile is the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls'', 'boys'') $> toilet."
+				"msn": "Hahaha, your mobile is the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls', 'boys') $>' toilet."
 			}]
 		},
 		"repeat": {
@@ -100,7 +100,7 @@
 			"questionId": "AnaAlexAskMobileLost",
 			"options": [{
 				"next": "node1a",
-				"msn": "Was it you? Have you hidden my mobile phone in the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls'', 'boys'') $> toilet?",
+				"msn": "Was it you? Have you hidden my mobile phone in the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls', 'boys') $>' toilet?",
 				"condition": "varObject('global', 'SharedPassQuestNonStatic') == 2"
 			},
 			{

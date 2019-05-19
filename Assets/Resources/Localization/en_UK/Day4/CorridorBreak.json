@@ -203,7 +203,7 @@
 			"questionId": "opposedBathroom",
 			"options": [{
 				"next": "male2",
-				"msn": "(Get in anyways)"
+				"msn": "(Get in anyway)"
 			},
 			{
 				"msn": "(Leave)"

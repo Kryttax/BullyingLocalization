@@ -14,11 +14,11 @@
 			"questionId": "GuillermoMeet",
 			"options": [{
 				"next": "node1a",
-				"msn": "Yeah, i'm <$ varObject('global', 'UserNameNonStatic') $>... and who you are?"
+				"msn": "Yeah, i'm <$ varObject('global', 'UserNameNonStatic') $>... and who are you?"
 			},
 			{
 				"next": "node1b",
-				"msn": "Excuse me, i'm in a hurry (You leave)."
+				"msn": "Excuse me, i'm in a hurry. (You leave)."
 			}]
 		},
 		"node1b": {
@@ -36,7 +36,7 @@
 			"fragments": [{
 				"tag": "Guillermo",
 				"character": "Guille",
-				"msn": "Call me Guille"
+				"msn": "Call me Guille."
 			},
 			{
 				"tag": "",
@@ -143,7 +143,7 @@
 			{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "Do you want something"
+				"msn": "Do you want something?"
 			}]
 		},
 		"setter":{
@@ -159,11 +159,11 @@
 			"questionId": "JoseMeet",
 			"options": [{
 				"next": "introduceFork",
-				"msn": "Hello, i'm <$ varObject('global', 'UserNameNonStatic') $>."
+				"msn": "Hello, i'm <$ varObject('global', 'UserNameNonStatic') $>.."
 			},
 			{
 				"next": "node2",
-				"msn": "(Ask where is my classroom)."
+				"msn": "(Ask where the classroom is)."
 			},
 			{
 				"next": "node3",
@@ -222,7 +222,7 @@
 			"fragments": [{
 				"tag": "Jose",
 				"character": "Jose",
-				"msn": "I'm Jose"
+				"msn": "I'm Jose."
 			},
 			{
 				"tag": "Jose",
@@ -273,7 +273,7 @@
 			"questionId": "AlisonMeet",
 			"options": [{
 				"next": "nodeFS",
-				"msn": "I'm <$ varObject('global', 'UserNameNonStatic') $> And you are?"
+				"msn": "I'm <$ varObject('global', 'UserNameNonStatic') $>, and you are...?"
 			},
 			{
 				"next": "node2",
@@ -309,7 +309,7 @@
 			{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "I hope you a feel good here, people are really nice."
+				"msn": "I hope you have a nice time here, people are really nice."
 			},
 			{
 				"tag": "Alison",
@@ -331,7 +331,7 @@
 			"fragments": [{
 				"tag": "Alison",
 				"character": "Alison",
-				"msn": "Don't be shy, i don't bite"
+				"msn": "Don't be shy, i don't bite."
 			},
 			{
 				"tag": "Alison",

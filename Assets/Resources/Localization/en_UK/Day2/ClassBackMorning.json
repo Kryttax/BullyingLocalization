@@ -20,7 +20,7 @@
 			"fragments": [{
 				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "<$ varObject('global', 'UserNameNonStatic') $> yor're late."
+				"msn": "<$ varObject('global', 'UserNameNonStatic') $> your're late."
 			},{
 				"tag": "Teacher",
 				"character": "Teacher",

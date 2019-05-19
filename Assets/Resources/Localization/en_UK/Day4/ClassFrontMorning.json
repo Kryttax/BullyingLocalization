@@ -47,7 +47,7 @@
 			{
 				"tag": "Teacher",
 				"character": "Teacher",
-				"msn": "The name is <$ varObject('global', 'UserNameNonStatic') $> Sientate por ahora en otro lugar, he pedido a Alison que le ayude en sus primeros días."
+				"msn": "The name is <$ varObject('global', 'UserNameNonStatic') $>."
 			},
 			{
 				"tag": "Teacher",

@@ -5,7 +5,7 @@
 			"next": "node1",
 			"fragments": [{
 				"tag": "You",
-				"msn": ""Mmm, should i go to sleep now?"
+				"msn": "Mmm, should i go to sleep now?"
 			}]
 		},
 		"node1": {

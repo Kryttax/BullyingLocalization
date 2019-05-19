@@ -4,16 +4,16 @@
 			"type": "dialog",
 			"next": "fade",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Voy a hacer que nadie te quiera hablar."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "You can do whatever you want, but you won't accomplish anything."
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Go on, talk to people in class, let's see if you get them to talk to you."
 			}]
@@ -39,21 +39,21 @@
 			"type": "dialog",
 			"next": "variable",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "I think you are alone."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "How does it feel to be ignored by everyone?"
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				
 				"msn": "Isn't it funny that no one pays attention to you?"
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Because I'm laughing my ass off by just looking at you."
 			}]
