@@ -34,14 +34,14 @@
 		"bye": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Mom",
+				"tag": "Mamá",
 				"character": "Mother",
-				"msn": "Looks like you have everything.",
+				"msn": "Looks like you have everything."
 			}, 
 			{
-				"tag": "Mom",
+				"tag": "Mamá",
 				"character": "Mother",
-				"msn": "<$ if(varObject('global', 'HourNonStatic') < 8, 'go now or you will be late', 'go now, you are late') $>"
+				"msn": "<$ if(varObject('global', 'HourNonStatic')<8, 'go now or you will be late', 'go now, you are late') $>"
 			}]
 		},
 		"getBag": {
@@ -126,7 +126,7 @@
 			"event":{
 				"name": "change variable",
 				"var": "hour",
-				"value": "8:40",
+				"value": "8:40"
 			}
 		},
 		"changeHourSoon": {
@@ -135,7 +135,7 @@
 			"event":{
 				"name": "change variable",
 				"var": "hour",
-				"value": "8:20",
+				"value": "8:20"
 			}
 		},
 		"exitNode": {

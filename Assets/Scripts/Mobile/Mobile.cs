@@ -19,7 +19,7 @@ public class Mobile : MonoBehaviour {
 	public BoxCollider2D selector;
 
 	public string fileName;
-	public TextAsset jsonFile;
+//	public TextAsset jsonFile;
 
 	private Vector2 goal;
 	private Vector2 start;
@@ -50,9 +50,9 @@ public class Mobile : MonoBehaviour {
 		StreamReader sr = new StreamReader(Application.dataPath + "/Texts/" + textFile);
 		string fileContents = sr.ReadToEnd();
 		sr.Close();*/
-		string fileContents = jsonFile.text;
+		//string fileContents = jsonFile.text;
 
-		wakeUpPanel.GetComponentInChildren<Text>().text = fileContents;
+		wakeUpPanel.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName("sleepMsn");
 	}
 
 	// Update is called once per frame
@@ -137,15 +137,15 @@ public class Mobile : MonoBehaviour {
             ", " + LanguageSelector.Instance.GetName("day") + " " + (GlobalState.Day+1).ToString();
 	}
 
-	private void OnValidate()
-	{
-#if UNITY_EDITOR
-		if (jsonFile == null && !string.IsNullOrEmpty(fileName))
-		{
-			jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Texts/" + fileName);
-			Debug.Log("JSON FILE Setted: " + fileName);
-		}
-#endif
-	}
+//	private void OnValidate()
+//	{
+//#if UNITY_EDITOR
+//		if (jsonFile == null && !string.IsNullOrEmpty(fileName))
+//		{
+//			jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Texts/" + fileName);
+//			Debug.Log("JSON FILE Setted: " + fileName);
+//		}
+//#endif
+//	}
 
 }

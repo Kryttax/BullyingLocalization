@@ -2,8 +2,8 @@
 host = https://www.transifex.com
 
 [i18n.enjson]
-file_filter = Assets/Resources/Localization/<lang>/menuProperties.json
-source_file = Assets/Resources/Localization/en_UK/menuProperties.json
-source_lang = en
+file_filter = Assets/Resources/Localization/<lang>/mobileProperties.json
+source_file = Assets/Resources/Localization/en_UK/mobileProperties.json
+source_lang = en_UK
 type = KEYVALUEJSON
 
