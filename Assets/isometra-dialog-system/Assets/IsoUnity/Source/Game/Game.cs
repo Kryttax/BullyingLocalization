@@ -72,8 +72,15 @@ namespace Isometra {
 			if(Application.isPlaying)
 				GameObject.DontDestroyOnLoad (this.gameObject);
 
-	        // Event Queue
-			events = new Queue<IGameEvent>();
+            //Language Instance
+            if (!GameObject.Find("LanguageScripting"))
+            {
+                GameObject lang = Resources.Load("Localization/LanguageScripting") as GameObject;
+                Instantiate(lang, new Vector3(0, 0, 0), Quaternion.identity);
+            }
+
+            // Event Queue
+            events = new Queue<IGameEvent>();
 	        
 			IsoSwitchesManager.getInstance().getIsoSwitches();
 

@@ -34,14 +34,14 @@
 		"bye": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
 				"msn": "Looks like you have everything."
 			}, 
 			{
-				"tag": "Mamá",
+				"tag": "Mom",
 				"character": "Mother",
-				"msn": "<$ if(varObject('global', 'HourNonStatic')<8, 'go now or you will be late', 'go now, you are late') $>"
+				"msn": "<$ if(varObject('global', 'HourNonStatic')<8, 'Go now or you will be late.', 'Go now, you are late.') $>"
 			}]
 		},
 		"getBag": {

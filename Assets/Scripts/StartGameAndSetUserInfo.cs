@@ -121,6 +121,7 @@ public class StartGameAndSetUserInfo : MonoBehaviour {
 			}
 
 			GlobalState.NotRepeatedDays = !repeatedDays.isOn;
+            //GlobalState.Language = "en_UK";
 
 			//Init day
 			GlobalState.Day = 0;

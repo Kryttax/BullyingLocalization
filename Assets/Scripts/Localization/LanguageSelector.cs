@@ -39,9 +39,10 @@ public class LanguageSelector : MonoBehaviour
 
     private void Awake()
     {
+        //if (GlobalState.Language == null)
+        //    GlobalState.Language = "en_UK";
 
         DontDestroyOnLoad(gameObject);
-        GlobalState.Language = "NULL";
 
         jsonFiles = new string[5];
 

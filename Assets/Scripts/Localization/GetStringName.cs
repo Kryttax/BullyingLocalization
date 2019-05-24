@@ -14,7 +14,7 @@ public class GetStringName : MonoBehaviour
 
     private void Update()
     {
-        if (!done && GlobalState.Language != "NULL" )
+        if (!done && GlobalState.Language != null )
             FillName();
     }
 

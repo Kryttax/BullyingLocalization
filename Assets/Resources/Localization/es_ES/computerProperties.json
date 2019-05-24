@@ -15,5 +15,8 @@
     
     "friendsText":"Amigos",
     "pendingFriendsText":"Peticiones Pendientes: ",
-    "logoText":"¡CONECTA CON TUS AMIGOS!"
+    "logoText":"¡CONECTA CON TUS AMIGOS!",
+
+    "acceptButton":"Aceptar Solicitud",
+    "denyButton":"Denegar Solicitud"
 }

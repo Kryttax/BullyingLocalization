@@ -28,7 +28,8 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
 		this.gameEvent.Name = "start sequence";
 
         char[] MyChar = { '.', 'j', 's', 'o', 'n' };
-        string newName = fileName.TrimEnd(MyChar);
+        string newName = fileName.Replace(".json", "");
+        //string newName = fileName.TrimEnd(MyChar);
         fileName = newName;
         jsonFile = Resources.Load<TextAsset>("Localization/" + GlobalState.Language + "/" + fileName);
 

@@ -2,7 +2,8 @@
 	"mother": {
 		"root": {
 			"type": "fork",
-			"options": [{
+			"options": [
+			{
 				"next": "node2",
 				"condition": "spoken == true"
 			},
