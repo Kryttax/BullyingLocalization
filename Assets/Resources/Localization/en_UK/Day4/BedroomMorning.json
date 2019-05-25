@@ -37,7 +37,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "There is nothing usefull."
+				"msn": "There is nothing useful."
 			}]
 		}		
 	},
