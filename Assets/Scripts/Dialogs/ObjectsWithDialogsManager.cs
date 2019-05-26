@@ -27,11 +27,19 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
 		gameEvent = new GameEvent();
 		this.gameEvent.Name = "start sequence";
 
-        char[] MyChar = { '.', 'j', 's', 'o', 'n' };
-        string newName = fileName.Replace(".json", "");
+        //char[] MyChar = { '.', 'j', 's', 'o', 'n' };
         //string newName = fileName.TrimEnd(MyChar);
+        string newName = fileName.Replace(".json", "");
         fileName = newName;
-        jsonFile = Resources.Load<TextAsset>("Localization/" + GlobalState.Language + "/" + fileName);
+        
+        if(GlobalState.Language == null)
+        {
+            Debug.LogError("ERROR: Global Language not set up propertly. Switching to en_UK.");
+            GlobalState.Language = "en_UK";
+            jsonFile = Resources.Load<TextAsset>("Localization/" + "en_UK" + "/" + fileName);
+        }
+        else
+            jsonFile = Resources.Load<TextAsset>("Localization/" + GlobalState.Language + "/" + fileName);
 
         string fileContents = jsonFile.text;
         JSONObject json = JSONObject.Create(fileContents);
@@ -93,7 +101,7 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
 #if UNITY_EDITOR
 		if (jsonFile == null && !string.IsNullOrEmpty(fileName))
 		{
-			jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Texts/" + fileName + ".json");
+			jsonFile = UnityEditor.AssetDatabase.LoadAssetAtPath<TextAsset>("Localization/" + GlobalState.Language + "/" + fileName);
 			Debug.Log("JSON FILE Setted: " + fileName);
 		}
 #endif
