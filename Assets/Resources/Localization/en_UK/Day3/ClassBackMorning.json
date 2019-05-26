@@ -114,11 +114,11 @@
 			"type": "dialog",
 			"next": "node2",
 			"fragments": [{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
 				"msn": "<$ varObject('global', 'UserNameNonStatic') $> you're late."
 			},{
-				"tag": "Profesor",
+				"tag": "Teacher",
 				"character": "Teacher",
 				"msn": "Please, have a seat so we can continue the class."
 			}]
@@ -130,7 +130,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "It has been boring day, classes are over and most of the people have been ignoring me the whole day. There's a paper note en your desk telling you to go to the toilet, there's somebody waiting there."
+				"value": "It has been boring day, classes are over and most of the people have been ignoring me the whole day. There's a paper note on your desk telling you to go to the toilet, there's somebody waiting there."
 			}
 		},
 		"node3": {
@@ -186,7 +186,7 @@
 				"name": "black",
 				"synchronous": true,
 				"var": "text",
-				"value": "It has been boring day, classes are over and most of the people have been ignoring me the whole day. There's a paper note en your desk telling you to go to the toilet, there's somebody waiting there."
+				"value": "It has been boring day, classes are over and most of the people have been ignoring me the whole day. There's a paper note on your desk telling you to go to the toilet, there's somebody waiting there."
 			}
 		},
 		"changeHour": {
