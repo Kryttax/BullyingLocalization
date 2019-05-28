@@ -33,7 +33,7 @@
 			},
 			{
 				"next": "noFriend",
-				"msn": No and i have no interest in gaining your trust."
+				"msn": "No and i have no interest in gaining your trust."
 			}]
 		},
 		"noFriend": {
@@ -250,7 +250,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "Looks like someone has taken yesterday's picture,"
+				"msn": "Looks like someone has taken yesterday's picture."
 			}]
 		}
 	},

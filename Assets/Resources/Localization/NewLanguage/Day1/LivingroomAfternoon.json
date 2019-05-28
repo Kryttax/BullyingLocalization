@@ -2,7 +2,8 @@
 	"mother": {
 		"root": {
 			"type": "fork",
-			"options": [{
+			"options": [
+			{
 				"next": "node2",
 				"condition": "spoken == true"
 			},
@@ -281,7 +282,7 @@
 			"next": "alisonUpParentsFS",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I think she finally couldn't find it"
+				"msn": "I think she finally couldn't find it."
 			}]
 		},
 		"alisonEaring": {
@@ -656,7 +657,7 @@
 			"event": {
 				"name": "computer friend",
 				"var": "Alison",
-				"value": "There's always a reason to move forward",
+				"value": "There's always a reason to move forward.",
 				"time": 0,
 				"other": "alisonAccept,alisonDeny"
 			}
@@ -677,7 +678,7 @@
 			"event": {
 				"name": "mobile message",
 				"var": "Alison Clase",
-				"value": "I've sent you a friend request",
+				"value": "I've sent you a friend request.",
 				"key": "Alison Clase",
 				"time": 2 
 			}

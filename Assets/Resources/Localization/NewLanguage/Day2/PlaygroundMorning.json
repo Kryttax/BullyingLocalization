@@ -141,7 +141,7 @@
 			"fragments": [{
 				"tag": "María",
 				"character": "Maria",
-				"msn": "Do you want something?"
+				"msn": "Do you want anything?"
 			}]
 		}, 
 		"normal2": {
@@ -339,7 +339,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Yeah, so? C'mon, get away."
+				"msn": "Yeah, so? C'mon, go away."
 			}]
 		},
 		"checkGood": {
@@ -367,12 +367,12 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Good morning <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "Good morning <$ varObject('global', 'UserNameNonStatic') $>."
 			},
 			{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "¿Do you want something?"
+				"msn": "Do you want something?"
 			}]
 		},
 		"goodOptions": {

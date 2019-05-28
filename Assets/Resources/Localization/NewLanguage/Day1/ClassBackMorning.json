@@ -94,7 +94,7 @@
 			"questionId": "meetAna",
 			"options": [{
 				"next": "node1a",
-				"msn": "No, it's just my first day, i am <$ varObject('global', 'UserNameNonStatic') $>"
+				"msn": "No, it's just my first day, i am <$ varObject('global', 'UserNameNonStatic') $>."
 			},
 			{
 				"next": "node1b",
@@ -107,7 +107,7 @@
 			"fragments": [{
 				"tag": "Ana",
 				"character": "Ana",
-				"msn": "Oh, so you are <$ if(varObject('global', 'MaleSexNonStatic')==true, 'the newcomer', 'the newcomer') $>."
+				"msn": "Oh, so you are the newcomer."
 			},
 			{
 				"tag": "Ana",

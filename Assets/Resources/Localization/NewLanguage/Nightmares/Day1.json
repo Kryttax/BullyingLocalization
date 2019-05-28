@@ -4,11 +4,11 @@
 			"type": "dialog",
 			"next": "fade",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Your first day of school. Why don't you take a seat?"			
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Pick the spot you like the most."
 			}]
@@ -26,20 +26,20 @@
 			"type": "dialog",
 			"next": "variable",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "I think you missed your spot."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Don't you even know how to sit?"
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Are you even worth anything?"
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "How do you expect making friends being like this?"
 			}]
@@ -83,17 +83,17 @@
 		"root": {
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "I can see you've found a seat, but... "
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "That seat is mine, you will have to take another one."
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "You can sit wherever you like but in that one."
 			}]

@@ -5,7 +5,7 @@
 			"next": "node1",
 			"fragments": [{
 				"tag": "You",
-				"msn": ""Mmm, should i go to sleep now?"
+				"msn": "Mmm, should i go to sleep now?"
 			}]
 		},
 		"node1": {
@@ -60,7 +60,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "There is nothing usefull."
+				"msn": "There is nothing useful."
 			}]
 		}		
 	},

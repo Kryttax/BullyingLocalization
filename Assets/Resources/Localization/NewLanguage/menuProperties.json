@@ -22,6 +22,7 @@
     "passwordError":"A password is required",
     "genderError":"You need to select your gender",
     "startButton":"Start",
+    "backButton":"Back",
     "adviseTitle":"IMPORTANT!",
     "adviseText":"Don't submit a password you already use. Make up a good one. It will only be used inside the game.",
 

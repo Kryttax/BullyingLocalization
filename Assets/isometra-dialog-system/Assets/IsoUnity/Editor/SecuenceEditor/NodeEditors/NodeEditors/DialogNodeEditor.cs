@@ -15,7 +15,7 @@ namespace Isometra.Sequences {
 
 	        editor.OnInspectorGUI();
 			
-			/*if (Event.current.type != EventType.layout)
+			/*if (Event.current.type != EventType.Layout)
 	        {
 	            myNode.ChildSlots = 1; Mathf.Max(1, dialog.Options.Count);
 	            var min = Mathf.Min(myNode.ChildSlots, dialog.Options.Count);

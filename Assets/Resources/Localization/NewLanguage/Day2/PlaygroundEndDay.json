@@ -4,7 +4,8 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "There are no more classes today and there is nobody left."			},
+				"msn": "There are no more classes today and there is nobody left."			
+			},
 			{
 				"tag": "You",
 				"msn": "I'll better go gome."

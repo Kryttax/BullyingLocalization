@@ -18,7 +18,7 @@
 				"msn": "It's my phone."
 			},{
 				"tag": "You",
-				"msn": "Who has taken it and left it on the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls'', 'boys'') $> toilet?"
+				"msn": "Who has taken it and left it on the <$ if(varObject('global', 'MaleSexNonStatic')==true, 'girls', 'boys') $>' toilet?"
 			},
 			{
 				"tag": "You",

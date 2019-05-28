@@ -36,12 +36,12 @@
 			"fragments": [{
 				"tag": "Mom",
 				"character": "Mother",
-				"msn": "Looks like you have everything.",
+				"msn": "Looks like you have everything."
 			}, 
 			{
 				"tag": "Mom",
 				"character": "Mother",
-				"msn": "<$ if(varObject('global', 'HourNonStatic')<8, 'go now or you'll be late', 'go now, you are late') $>"
+				"msn": "<$ if(varObject('global', 'HourNonStatic')<8, 'Go now or you will be late.', 'Go now, you are late.') $>"
 			}]
 		},
 		"getBag": {
@@ -73,7 +73,7 @@
 			"fragments": [{
 				"tag": "Mom",
 				"character": "Mother",
-				"msn": "Looks like you're ready to go"
+				"msn": "Looks like you're ready to go."
 			}, 
 			{
 				"tag": "Mom",
@@ -126,7 +126,7 @@
 			"event":{
 				"name": "change variable",
 				"var": "hour",
-				"value": "8:40",
+				"value": "8:40"
 			}
 		},
 		"changeHourSoon": {
@@ -135,7 +135,7 @@
 			"event":{
 				"name": "change variable",
 				"var": "hour",
-				"value": "8:20",
+				"value": "8:20"
 			}
 		},
 		"exitNode": {
@@ -150,7 +150,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I forgot the backpack. I'll better go to my room to take it before i leave"
+				"msn": "I forgot the backpack. I'll better go to my room to take it before i leave."
 			}]
 		}
 	},

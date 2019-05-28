@@ -4,7 +4,7 @@
 			"type": "dialog",
 			"fragments": [{
 				"tag": "You",
-				"msn": "I don't have any new photos to upload"
+				"msn": "I don't have any new photos to upload."
 			}]
 		}
 	}

@@ -56,11 +56,11 @@
 			},
 			{
 				"tag": "You",
-				"msn": "Now do you talk to me?"
+				"msn": "So now you talk to me."
 			},
 			{
 				"tag": "You",
-				"msn": "What about half of the class ignores me?"
+				"msn": "What about half of the class ignoring me?"
 			}]
 		},
 		"nodeFemale": {
@@ -104,7 +104,7 @@
 			{
 				"tag": "Guille",
 				"character" : "Guille",
-				"msn": "He's threatened me to send a picture of me smoking and drinking of last year to my parents."
+				"msn": "He's threatened me to send to my parents a picture of me smoking and drinking."
 			},
 			{
 				"tag": "Guille",
@@ -113,7 +113,7 @@
 			},
 			{
 				"tag": "You",
-				"msn": "But why Alex doesn't want anybody to talk me?."
+				"msn": "But why Alex doesn't want anybody to talk me?"
 			},
 			{
 				"tag": "Guille",

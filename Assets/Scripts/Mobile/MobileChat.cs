@@ -104,7 +104,7 @@ public class MobileChat : MonoBehaviour
         }
         else
         {
-            bubble = Instantiate(otherBubblePrefab, bubbleContent);
+            bubble = (GameObject) Instantiate(otherBubblePrefab, bubbleContent);
         }
         TextBubble script = bubble.GetComponent<TextBubble>();
         script.textPrefab = textTemplate;

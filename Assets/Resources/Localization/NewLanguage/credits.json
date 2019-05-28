@@ -12,5 +12,7 @@
     "Schools":" Educational Institutions \n <size=6> Have collaborated in game's validation </size>",
     "EspThanks":"Special Thanks \n",
     "Sponsors":"Sponsors",
-    "thankyouText":"THANK YOU!"
+    "thankyouText":"THANK YOU!",
+
+    "backButton":"Back to Homescreen"
 }

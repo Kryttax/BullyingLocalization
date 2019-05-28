@@ -721,7 +721,7 @@ namespace Isometra.Sequences {
 				//Event.current.Use();
 				if (Event.current.type == EventType.MouseUp)
 					EditorGUIUtility.hotControl = 0;
-				//if(Event.current.type != EventType.layout)*/
+				//if(Event.current.type != EventType.Layout)*/
 			}
 
 		}

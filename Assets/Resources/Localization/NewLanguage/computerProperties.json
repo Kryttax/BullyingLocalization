@@ -15,5 +15,9 @@
     
     "friendsText":"Friends",
     "pendingFriendsText":"Pending petitions: ",
-    "logoText":"CONNECT WITH YOUR FRIENDS!"
+    "logoText":"CONNECT WITH YOUR FRIENDS!",
+
+    "acceptButton":"Accept",
+    "denyButton":"Deny",
+    "commentsText":"Comments"
 }

@@ -4,23 +4,23 @@
 			"type": "dialog",
 			"next": "fade",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				
 				"msn": "Don't you love the new photos we just published?"
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "You can try deleting them..."
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				
 				"msn": "You're gonna have to do more than just deleting or reporting them."
 			},
 			{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				
 				"msn": "Go on, try... all of us have a copy already."
@@ -38,29 +38,29 @@
 		"root":{
 			"type": "dialog",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "You didn't accomplish anything."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Hahaha"
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Photos' still there."
 			},{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Once online everyone can make a copy."
 			},{
 				"tag": "",
 				"msn": "..."
 			}, {
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				"msn": "It's not your fault. Come, go trough the portal again."
 			}, {
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				"msn": "Try changing things."
 			}]
 		}
@@ -82,12 +82,12 @@
 			"type": "dialog",
 			"next": "variable",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				
 				"msn": "I don't know if this is alright, I don't wanna repeat any more bad days."
 			},
 			{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "I'm gonna trust the weird voice... yes... I'll go trough."
 			}]
 		},
@@ -95,22 +95,22 @@
 			"type": "dialog",
 			"next": "variable2",
 			"fragments": [{
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "I'm not gonna go across if you don't tell me who you are."
 			}, {
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				
 				"msn": "I can't, you have to trust me, I'm giving you the chance of changing things."
 			}, {
-				"tag": "Tú",
+				"tag": "You",
 				"msn": "Changing what?"
 			}, {
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				
 				"msn": "No! Time's running out, you're about to wake up..."
 			},
 			{
-				"tag": "Voz desde el portal",
+				"tag": "Voice from the portal",
 				"msn": "It's too late now... I wish you good luck."
 			}]
 		},
@@ -198,20 +198,20 @@
 			"type": "dialog",
 			"next": "variable",
 			"fragments": [{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				
 				"msn": "You didn't accomplish anything."
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Hahaha"
 			}, {
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Photos' still there."
 			},{
-				"tag": "Sombra",
+				"tag": "Shadow",
 				"character": "Shadow",
 				"msn": "Once online everyone can make a copy."
 			}]
