@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-//using UnityEditor;
 
 [RequireComponent(typeof(Button))]
 public class AutoFlag : MonoBehaviour
@@ -30,8 +26,6 @@ public class AutoFlag : MonoBehaviour
 
         string path = "";
         Texture2D import = null;
-        //TextureImporter importer = null;
-
 
         path = "Localization/" + gameObject.name + "/flag";
         import = Resources.Load(path) as Texture2D;
@@ -52,5 +46,17 @@ public class AutoFlag : MonoBehaviour
     void SelectLanguage()
     {
         LanguageSelector.Instance.SetLanguage(gameObject.name);
+    }
+
+
+    // VISUAL STYLES ONLY. DOES NOT AFFECT EXECUTION AND CAN BE DELETED.
+    public void Expand()
+    {
+        transform.localScale = new Vector2(1.2f, 1.2f);
+    }
+
+    public void Contract()
+    {
+        transform.localScale = new Vector2(1.0f, 1.0f);
     }
 }

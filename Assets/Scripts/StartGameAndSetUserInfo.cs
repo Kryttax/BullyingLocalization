@@ -166,7 +166,7 @@ public class StartGameAndSetUserInfo : MonoBehaviour {
 			GlobalState.SharedPassQuest = 0;
 
 			//Start game
-			SceneManager.LoadScene(2);
+			SceneManager.LoadScene("StartDay1");
 		}
 	}
 }

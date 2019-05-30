@@ -1,125 +1,92 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Isometra.Sequences;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using System;
+
 public class LanguageSelector : MonoBehaviour
 {
     protected static LanguageSelector instance;
     public static LanguageSelector Instance { get { return instance == null ? instance = new LanguageSelector() : instance; } }
 
-    static GameObject backGround;
-
-    public static string _playButton;
-    public static string _exitButton;
-    public static string _creditsButton;
-
-    public static string _adviceTitle;
-    public static string _adviceDescription;
-    public static string _title;
-    public static string _name;
-    public static string _nameField;
-    public static string _user;
-    public static string _userField;
-    public static string _password;
-    public static string _passwordField;
-    public static string _back;
-    public static string _beginButton;
-    public static string _introText;
-
-    //TextAsset menutxt;
-    ////string[] menuProperties;
-    static string[] jsonFiles;
-
+    private static List<TextAsset> jsonFiles;
     private static Dictionary<string, string> myDictionary;
-    static JSONObject json;
-    static TextAsset jsonFile;
-    int cont = 0;
 
     private void Awake()
     {
-        //if (GlobalState.Language == null)
-        //    GlobalState.Language = "en_UK";
-
-        DontDestroyOnLoad(gameObject);
-
-        jsonFiles = new string[5];
-
-        jsonFiles[0] = "menuProperties";
-        jsonFiles[1] = "cutscenes";
-        jsonFiles[2] = "mobileProperties";
-        jsonFiles[3] = "computerProperties";
-        jsonFiles[4] = "credits";
-        myDictionary = new Dictionary<string, string>();
-
-        backGround = GameObject.Find("Canvas/Language");
+        DontDestroyOnLoad(gameObject);    
     }
 
+    //Selects a language by flag button in Title scene
     public void SetLanguage(string lang)
     {
         GlobalState.Language = lang;
-
-        OnClickCallback();
-    }
-
-    void OnClickCallback()
-    {
+        SetUpJSONFiles();
         FillDictionary();
-        //Cerrar menu de idioma
-        backGround.SetActive(false);
+        
     }
 
-    //Fills local myDictionary given a custom path 
+    //Creates an initializes Json Files array to be used by myDictionary
+    void SetUpJSONFiles()
+    {
+        UnityEngine.Object[] filler = Resources.LoadAll("Localization/" + GlobalState.Language + "/" + "Dictionaries", typeof(TextAsset));
+
+        if (filler == null || filler.Length == 0)
+        {
+            Debug.LogError("No JSON Files in Dictionaries directory found!");
+        }
+
+        jsonFiles = new List<TextAsset>();
+        foreach (UnityEngine.Object file in filler)
+        {
+            TextAsset json = (TextAsset)file;
+            jsonFiles.Add(json);
+        }
+
+        // Unload - no longer needed
+        foreach (UnityEngine.Object file in filler)
+        {
+            Resources.UnloadAsset(file);
+        }
+
+#if UNITY_EDITOR
+        foreach (var t in jsonFiles)
+            Debug.Log("JSON File added: " + t);
+#endif
+
+    }
+
+    //Fills myDictionary with all JSON files
     void FillDictionary()
     {
+        myDictionary = new Dictionary<string, string>();
 
-        jsonFile = (TextAsset)Resources.Load("Localization/" + GlobalState.Language + "/" +
-            jsonFiles[cont]);
-        //jsonFile = (TextAsset)UnityEditor.AssetDatabase.LoadAssetAtPath(, typeof(TextAsset));
+        string fileContents;
+        Dictionary<string, string> auxDic;
 
-        if (jsonFile == null)
+        foreach (var jsonFile in jsonFiles)
         {
-            Debug.LogError("The sequence with key " + jsonFile.name + " doesn't exit (Object " + this.gameObject.name + ")");
-            return;
+            fileContents = jsonFile.text;
+
+            JSONObject jsonObj = JSONObject.Create(fileContents);
+
+            auxDic = jsonObj.ToDictionary();
+
+            foreach (var entry in auxDic)
+                myDictionary.Add(entry.Key, entry.Value);
         }
-        string fileContents = jsonFile.text;
-
-        json = JSONObject.Create(fileContents);
-
-        myDictionary = json.ToDictionary();
 
     }
 
-    //Checks if the given key "objectName" is in myDictionary, if it's not, fills myDictionary with the next
-    //json file and tries again. If it runs out of json files, logs error, otherwise returns the string of
-    //the given key.
+    //Checks if the given key "objectName" is in myDictionary, if it's not, logs error; 
+    //otherwise returns the string of the given key.
     public string GetName(string objectName)
     {
-        cont = 0;
-
         if (!myDictionary.ContainsKey(objectName))
         {
-            ++cont;
-            FillDictionary();
-            while (!myDictionary.ContainsKey(objectName))
-            {
-                //fileName = jsonFiles[cont];
-                ++cont;
-                if(cont < jsonFiles.Length)
-                    FillDictionary();
-            }
-
-            if (cont >= jsonFiles.Length)
-            {
-                Debug.LogError("The sequence with key " + objectName + " doesn't exit (Object " + this.gameObject.name + ")");
-                return null;
-            }
-
+            Debug.LogError("The sequence with key " + objectName + " doesn't exit (Object " + this.gameObject.name + ")");
+            return null;
         }
 
         string newWord = myDictionary[objectName];
-        if(newWord.Contains("\\n"))
+        if (newWord.Contains("\\n"))
             newWord = myDictionary[objectName].Replace("\\n", "\n");
 
         return newWord;

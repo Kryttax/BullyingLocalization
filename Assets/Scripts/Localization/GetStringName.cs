@@ -1,21 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class GetStringName : MonoBehaviour
 {
-    bool done;
-    //void Awake()
-    //{
-    //    if(GlobalState.Language != "NULL")
-    //        gameObject.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName(gameObject.name);
-    //}
 
-    private void Update()
+    private void Awake()
     {
-        if (!done && GlobalState.Language != null )
-            FillName();
+        FillName();
     }
 
     void FillName()
@@ -28,7 +19,5 @@ public class GetStringName : MonoBehaviour
         {
             gameObject.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName(gameObject.name);
         }
-
-        done = true;
     }
 }
