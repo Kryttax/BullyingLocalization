@@ -11,7 +11,7 @@ public class LanguageSelector : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);    
+        DontDestroyOnLoad(gameObject);
     }
 
     //Selects a language by flag button in Title scene
@@ -20,13 +20,13 @@ public class LanguageSelector : MonoBehaviour
         GlobalState.Language = lang;
         SetUpJSONFiles();
         FillDictionary();
-        
+
     }
 
     //Creates an initializes Json Files array to be used by myDictionary
     void SetUpJSONFiles()
     {
-        UnityEngine.Object[] filler = Resources.LoadAll("Localization/" + GlobalState.Language + "/" + "Dictionaries", typeof(TextAsset));
+        Object[] filler = Resources.LoadAll("Localization/" + GlobalState.Language + "/" + "Dictionaries", typeof(TextAsset));
 
         if (filler == null || filler.Length == 0)
         {
@@ -34,16 +34,9 @@ public class LanguageSelector : MonoBehaviour
         }
 
         jsonFiles = new List<TextAsset>();
-        foreach (UnityEngine.Object file in filler)
+        foreach (Object file in filler)
         {
-            TextAsset json = (TextAsset)file;
-            jsonFiles.Add(json);
-        }
-
-        // Unload - no longer needed
-        foreach (UnityEngine.Object file in filler)
-        {
-            Resources.UnloadAsset(file);
+            jsonFiles.Add((TextAsset)file);
         }
 
 #if UNITY_EDITOR

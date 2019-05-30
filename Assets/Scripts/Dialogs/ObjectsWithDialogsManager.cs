@@ -36,7 +36,7 @@ public class ObjectsWithDialogsManager : MonoBehaviour {
         {
             Debug.LogError("ERROR: Global Language not set up propertly. Switching to en_UK.");
             GlobalState.Language = "en_UK";
-            jsonFile = Resources.Load<TextAsset>("Localization/" + "en_UK" + "/" + fileName);
+            jsonFile = Resources.Load<TextAsset>("Localization/" + "en_UK" + "/Dictionaries" + fileName);
         }
         else
             jsonFile = Resources.Load<TextAsset>("Localization/" + GlobalState.Language + "/" + fileName);
