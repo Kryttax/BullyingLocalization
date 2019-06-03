@@ -40,7 +40,7 @@ public class Mobile : MonoBehaviour {
 
 
         //daysName = (TextAsset)Resources.Load("Assets/Texts/" +
-        //GlobalState.Language + "/mobileProperties.txt", typeof(TextAsset));
+        //LanguageSelector.instance.GetCurrentLanguage() + "/mobileProperties.txt", typeof(TextAsset));
 
         //days = daysName.text.Split(',');
         hidePosition = this.GetComponent<Transform>().localPosition;
@@ -52,7 +52,7 @@ public class Mobile : MonoBehaviour {
 		sr.Close();*/
 		//string fileContents = jsonFile.text;
 
-		wakeUpPanel.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName("sleepMsn");
+		wakeUpPanel.GetComponentInChildren<Text>().text = LanguageSelector.instance.GetName("sleepMsn");
 	}
 
 	// Update is called once per frame
@@ -94,7 +94,7 @@ public class Mobile : MonoBehaviour {
 	{
 		if(!stop && (GlobalState.Hour >= 8 || GlobalState.Day == 4))
 		{
-			wakeUpPanel.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName("sleepMsn");
+			wakeUpPanel.GetComponentInChildren<Text>().text = LanguageSelector.instance.GetName("sleepMsn");
 			wakeUpPanel.SetActive(true);
 		} else
 		{
@@ -131,10 +131,10 @@ public class Mobile : MonoBehaviour {
 
 	public void updateHour()
 	{
-        alarm.text = LanguageSelector.Instance.GetName("alarm");
+        alarm.text = LanguageSelector.instance.GetName("alarm");
 		setHour(GlobalState.Hour, GlobalState.Minute);
-		this.day.text = LanguageSelector.Instance.GetName(GlobalState.Day.ToString()) +
-            ", " + LanguageSelector.Instance.GetName("day") + " " + (GlobalState.Day+1).ToString();
+		this.day.text = LanguageSelector.instance.GetName(GlobalState.Day.ToString()) +
+            ", " + LanguageSelector.instance.GetName("day") + " " + (GlobalState.Day+1).ToString();
 	}
 
 //	private void OnValidate()

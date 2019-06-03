@@ -13,11 +13,11 @@ public class GetStringName : MonoBehaviour
     {
         if(gameObject.GetComponent<Text>() != null)
         {
-            gameObject.GetComponent<Text>().text = LanguageSelector.Instance.GetName(gameObject.name);
+            gameObject.GetComponent<Text>().text = LanguageSelector.instance.GetName(gameObject.name);
         }
         else
         {
-            gameObject.GetComponentInChildren<Text>().text = LanguageSelector.Instance.GetName(gameObject.name);
+            gameObject.GetComponentInChildren<Text>().text = LanguageSelector.instance.GetName(gameObject.name);
         }
     }
 }

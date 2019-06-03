@@ -47,7 +47,7 @@ public class Cheats : MonoBehaviour {
 		GlobalState.Nick = nick.text;
 		GlobalState.UserPass = pass.text;
 
-        GlobalState.Language = laguage.text;
+        LanguageSelector.instance.SetLanguage(laguage.text);
 
 		SceneManager.LoadScene(2);
 	}

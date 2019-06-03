@@ -45,7 +45,7 @@ public class AutoFlag : MonoBehaviour
 
     void SelectLanguage()
     {
-        LanguageSelector.Instance.SetLanguage(gameObject.name);
+        LanguageSelector.instance.SetLanguage(gameObject.name);
     }
 
 

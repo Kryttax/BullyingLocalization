@@ -38,7 +38,7 @@ public class ComputerSocialComment : EventManager
 	// Use this for initialization
 	void Start()
 	{
-        jsonFile = Resources.Load<TextAsset>("Localization/" + GlobalState.Language + "/" + fileName);
+        jsonFile = Resources.Load<TextAsset>("Localization/" + LanguageSelector.instance.GetCurrentLanguage() + "/" + fileName);
 
         if (jsonFile != null)
 		{

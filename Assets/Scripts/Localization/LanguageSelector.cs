@@ -3,30 +3,36 @@ using UnityEngine;
 
 public class LanguageSelector : MonoBehaviour
 {
-    protected static LanguageSelector instance;
-    public static LanguageSelector Instance { get { return instance == null ? instance = new LanguageSelector() : instance; } }
+    public static LanguageSelector instance;
 
     private static List<TextAsset> jsonFiles;
     private static Dictionary<string, string> myDictionary;
+    private static string Language;
 
     private void Awake()
     {
+        if (instance == null)
+            instance = this;
+        else if (instance != this)
+            Destroy(gameObject);
+
         DontDestroyOnLoad(gameObject);
     }
 
     //Selects a language by flag button in Title scene
     public void SetLanguage(string lang)
     {
-        GlobalState.Language = lang;
+        Language = lang;
         SetUpJSONFiles();
         FillDictionary();
-
     }
+
+    public string GetCurrentLanguage() { return Language; }
 
     //Creates an initializes Json Files array to be used by myDictionary
     void SetUpJSONFiles()
     {
-        Object[] filler = Resources.LoadAll("Localization/" + GlobalState.Language + "/" + "Dictionaries", typeof(TextAsset));
+        Object[] filler = Resources.LoadAll("Localization/" + Language + "/" + "Dictionaries", typeof(TextAsset));
 
         if (filler == null || filler.Length == 0)
         {

@@ -73,7 +73,7 @@ public class MobileChat : MonoBehaviour
     {
 
         //daysName = (TextAsset)Resources.Load("Localization/" +
-        //GlobalState.Language + "/mobileProperties.txt", typeof(TextAsset));
+        //LanguageSelector.instance.GetCurrentLanguage() + "/mobileProperties.txt", typeof(TextAsset));
 
         //days = daysName.text.Split(',');
 
@@ -492,8 +492,8 @@ public class MobileChat : MonoBehaviour
 
     private void UpdateDay()
     {
-        dayText.text = LanguageSelector.Instance.GetName(GlobalState.Day.ToString()) +
-            ", " + LanguageSelector.Instance.GetName("day") + " " + (GlobalState.Day + 1).ToString();
+        dayText.text = LanguageSelector.instance.GetName(GlobalState.Day.ToString()) +
+            ", " + LanguageSelector.instance.GetName("day") + " " + (GlobalState.Day + 1).ToString();
     }
 
     public void takeMobile(float seconds)

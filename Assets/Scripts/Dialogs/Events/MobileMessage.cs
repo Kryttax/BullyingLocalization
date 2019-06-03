@@ -50,7 +50,7 @@ public class MobileMessage : EventManager {
 	// Use this for initialization
 	void Start () {
 
-        jsonFile = (TextAsset)Resources.Load("Localization/" + GlobalState.Language + "/Devices/MobileMessages", typeof(TextAsset));
+        jsonFile = (TextAsset)Resources.Load("Localization/" + LanguageSelector.instance.GetCurrentLanguage() + "/Devices/MobileMessages", typeof(TextAsset));
 
         if (jsonFile != null)
 		{
