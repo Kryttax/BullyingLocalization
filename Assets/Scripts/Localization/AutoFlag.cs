@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+// Rebuilds a path given the gameobject's name.
+// Imports the image that we need.
+// Creates a Sprite and adds this image.
+// Gives the button a listener to assign the game's language.
+[RequireComponent(typeof(Image))]
 [RequireComponent(typeof(Button))]
 public class AutoFlag : MonoBehaviour
 {
@@ -49,7 +54,7 @@ public class AutoFlag : MonoBehaviour
     }
 
 
-    // VISUAL STYLES ONLY. DOES NOT AFFECT EXECUTION AND CAN BE DELETED.
+    // VISUAL EFFECT ONLY. DOES NOT AFFECT EXECUTION AND CAN BE DELETED.
     public void Expand()
     {
         transform.localScale = new Vector2(1.2f, 1.2f);
